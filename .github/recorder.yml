@@ -1,0 +1,46 @@
+name: Kurt Side Recorder
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kurt-side-recorder
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo al
+        uses: actions/checkout@v4
+
+      - name: Goaloo Bet365 verisini kaydet
+        run: |
+          mkdir -p data
+
+          curl -fsSL \
+            --retry 2 \
+            -A "Kurt-Side-GitHub/1.0" \
+            "https://avci-recorder-goaloo.veyselduman754.workers.dev/api/goaloo-probe?t=$(date +%s)" \
+            -o data/latest.json
+
+          jq -c . data/latest.json >> data/archive.jsonl
+
+          echo "Goaloo Bet365 snapshot kaydedildi"
+
+      - name: Arsivi GitHub'a yaz
+        run: |
+          git config user.name "kurt-side-bot"
+          git config user.email "kurt-side-bot@users.noreply.github.com"
+
+          git add data/
+          git diff --cached --quiet || git commit -m "Kurt Side otomatik oran kaydi"
+
+          git pull --rebase origin main
+          git push origin main
