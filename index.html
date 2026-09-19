@@ -1,0 +1,4681 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#06100a">
+<title>KURT SIDE V3</title>
+
+<style>
+:root{
+  --bg:#050907;
+  --card:#0d1b13;
+  --card2:#101f16;
+  --line:#20382a;
+  --text:#edf7f0;
+  --muted:#829589;
+  --green:#3ae57a;
+  --yellow:#ffd34a;
+  --orange:#ff9d42;
+  --red:#ff6262;
+  --blue:#62aaff;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  background:
+    radial-gradient(circle at top,#12301f 0,#07110b 42%,#030604 100%);
+  color:var(--text);
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+button,input{font:inherit}
+button{color:inherit}
+
+.app{
+  width:min(1180px,100%);
+  margin:auto;
+  padding:8px;
+}
+
+header{
+  border:1px solid var(--line);
+  background:rgba(7,18,12,.96);
+  border-radius:18px;
+  padding:14px;
+}
+
+.head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.logo{
+  font-size:21px;
+  font-weight:950;
+}
+
+.logo span{color:var(--green)}
+
+.clock{
+  color:var(--muted);
+  font-size:12px;
+}
+
+.sub{
+  margin-top:5px;
+  font-size:10px;
+  color:var(--muted);
+}
+
+.liveLine{
+  margin-top:8px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:10px;
+  color:#c6d8cc;
+}
+
+.liveDot{
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background:#ff4040;
+  box-shadow:0 0 12px #ff4040;
+  animation:pulse 1.2s infinite;
+}
+
+@keyframes pulse{
+  0%,100%{opacity:1;transform:scale(1)}
+  50%{opacity:.45;transform:scale(.75)}
+}
+
+.kpis{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:6px;
+  margin-top:10px;
+}
+
+.kpi{
+  background:#08120c;
+  border:1px solid var(--line);
+  border-radius:11px;
+  padding:8px;
+}
+
+.kpi small{
+  display:block;
+  color:var(--muted);
+  font-size:8px;
+}
+
+.kpi b{
+  display:block;
+  margin-top:3px;
+  font-size:17px;
+}
+
+.searchBox{margin-top:9px}
+
+.searchBox input{
+  width:100%;
+  min-height:42px;
+  border-radius:11px;
+  border:1px solid var(--line);
+  background:#07100b;
+  color:var(--text);
+  padding:0 12px;
+  outline:none;
+}
+
+.toolbar{
+  display:flex;
+  gap:7px;
+  overflow:auto;
+  padding:10px 0;
+}
+
+.toolbar button{
+  flex:0 0 auto;
+  min-height:42px;
+  padding:0 13px;
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--card);
+  font-weight:850;
+}
+
+.toolbar button.active{
+  color:var(--green);
+  border-color:#39794f;
+}
+
+.info{
+  font-size:11px;
+  color:var(--muted);
+  margin:0 2px 10px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(285px,1fr));
+  gap:9px;
+}
+
+.match{
+  width:100%;
+  border:1px solid var(--line);
+  border-radius:15px;
+  background:linear-gradient(145deg,#102018,#08120d);
+  padding:12px;
+  text-align:left;
+  cursor:pointer;
+}
+
+.match.live{
+  box-shadow:inset 3px 0 #ef4a4a;
+}
+
+.match.strong{
+  border-color:#3d8b59;
+}
+
+.mtop{
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+  font-size:10px;
+  color:var(--muted);
+}
+
+.statusLive{
+  color:#ff8585;
+  font-weight:900;
+}
+
+.statusHT{
+  color:var(--yellow);
+  font-weight:900;
+}
+
+.teams{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:8px;
+  align-items:center;
+  margin-top:8px;
+}
+
+.names{
+  line-height:1.55;
+  font-weight:850;
+}
+
+.score{
+  font-size:23px;
+  font-weight:950;
+}
+
+.odds{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:5px;
+  margin-top:8px;
+}
+
+.odd{
+  background:#07100b;
+  border:1px solid var(--line);
+  border-radius:9px;
+  text-align:center;
+  padding:6px;
+}
+
+.odd small{
+  display:block;
+  color:var(--muted);
+  font-size:8px;
+}
+
+.odd b{font-size:16px}
+
+.micro{
+  display:flex;
+  gap:5px;
+  flex-wrap:wrap;
+  margin-top:7px;
+}
+
+.pill{
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:4px 7px;
+  font-size:9px;
+  color:var(--muted);
+}
+
+.pill.g{color:var(--green)}
+.pill.y{color:var(--yellow)}
+.pill.b{color:var(--blue)}
+.pill.r{color:var(--red)}
+
+.empty{
+  padding:30px;
+  text-align:center;
+  border:1px dashed var(--line);
+  border-radius:15px;
+  color:var(--muted);
+}
+
+.overlay{
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.80);
+  z-index:50;
+  overflow:auto;
+  padding:8px;
+}
+
+.overlay.open{display:block}
+
+.panel{
+  width:min(780px,100%);
+  margin:10px auto;
+  background:#06100a;
+  border:1px solid #294733;
+  border-radius:18px;
+  overflow:hidden;
+}
+
+.phead{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  padding:13px;
+  border-bottom:1px solid var(--line);
+}
+
+.ptitle{font-weight:900}
+
+.psub{
+  color:var(--muted);
+  font-size:10px;
+  margin-top:4px;
+  line-height:1.5;
+}
+
+.close{
+  width:42px;
+  height:42px;
+  border:0;
+  border-radius:10px;
+  background:#15261a;
+}
+
+.body{padding:12px}
+
+.statusStrip{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px;
+  background:#08120c;
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:9px;
+  margin-bottom:8px;
+  font-size:10px;
+}
+
+.hero{
+  text-align:center;
+  border:1px solid var(--line);
+  border-radius:14px;
+  background:var(--card);
+  padding:13px;
+}
+
+.hlabel{
+  font-size:10px;
+  font-weight:900;
+  letter-spacing:1px;
+}
+
+.hmain{
+  font-size:28px;
+  font-weight:950;
+  margin-top:4px;
+}
+
+.hsub{
+  font-size:12px;
+  margin-top:3px;
+  color:#c6d8cc;
+}
+
+.green{color:var(--green)}
+.yellow{color:var(--yellow)}
+.orange{color:var(--orange)}
+.red{color:var(--red)}
+.blue{color:var(--blue)}
+
+.metrics{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:6px;
+  margin-top:8px;
+}
+
+.metric{
+  border:1px solid var(--line);
+  border-radius:11px;
+  background:var(--card2);
+  padding:8px;
+}
+
+.metric small{
+  display:block;
+  color:var(--muted);
+  font-size:8px;
+}
+
+.metric b{
+  display:block;
+  margin-top:3px;
+  font-size:16px;
+}
+
+.section{
+  margin-top:9px;
+  border:1px solid var(--line);
+  border-radius:13px;
+  background:#0a1710;
+  padding:10px;
+}
+
+.stitle{
+  font-size:10px;
+  font-weight:900;
+  color:#b9cbbf;
+  margin-bottom:7px;
+}
+
+.probs{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:5px;
+}
+
+.prob{
+  background:#07100b;
+  border:1px solid var(--line);
+  border-radius:10px;
+  text-align:center;
+  padding:8px 4px;
+}
+
+.prob small{
+  display:block;
+  font-size:8px;
+  color:var(--muted);
+}
+
+.prob b{font-size:18px}
+
+.marketRow{
+  display:grid;
+  grid-template-columns:1.2fr .9fr .9fr;
+  gap:5px;
+  align-items:center;
+  padding:7px 0;
+  border-bottom:1px solid #17281e;
+  font-size:11px;
+}
+
+.marketRow:last-child{border-bottom:0}
+
+.muted{color:var(--muted)}
+
+.scores{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:5px;
+}
+
+.scoreItem{
+  display:flex;
+  justify-content:space-between;
+  border:1px solid var(--line);
+  background:#07100b;
+  border-radius:9px;
+  padding:7px;
+  font-size:11px;
+}
+
+.path{
+  font-family:ui-monospace,monospace;
+  font-size:10px;
+  line-height:1.8;
+  word-break:break-word;
+}
+
+.reason{
+  font-size:10px;
+  line-height:1.5;
+  padding:5px 0;
+  border-bottom:1px solid #17281e;
+}
+
+.warnBox{
+  border:1px solid #665922;
+  background:#181506;
+  color:#ffe28b;
+  border-radius:10px;
+  padding:8px;
+  font-size:10px;
+  margin-bottom:8px;
+}
+
+.note{
+  margin-top:9px;
+  color:var(--muted);
+  font-size:9px;
+  line-height:1.5;
+}
+
+.loading{
+  text-align:center;
+  padding:32px;
+  color:var(--green);
+  font-weight:900;
+}
+
+@media(max-width:520px){
+  .app{padding:7px}
+  .grid{grid-template-columns:1fr}
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+
+<body>
+
+<div class="app">
+
+<header>
+
+  <div class="head">
+    <div class="logo">🐺 KURT <span>SIDE V3</span></div>
+    <div class="clock" id="clock">--:--:--</div>
+  </div>
+
+  <div class="sub">
+    Goaloo • Bet365 • 1X2 • Asya Handikap • Ü/A • Oran Arşivi • Canlı
+  </div>
+
+  <div class="liveLine">
+    <span class="liveDot"></span>
+    <span>CANLI VERİ TAKİBİ AKTİF</span>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><small>MAÇ</small><b id="kAll">0</b></div>
+    <div class="kpi"><small>CANLI</small><b id="kLive">0</b></div>
+    <div class="kpi"><small>D.A</small><b id="kHT">0</b></div>
+    <div class="kpi"><small>BET365</small><b id="kBet">0</b></div>
+    <div class="kpi"><small>UYUMLU</small><b id="kStrong">0</b></div>
+  </div>
+
+  <div class="searchBox">
+    <input id="searchInput" placeholder="Takım / lig / ülke ara...">
+  </div>
+
+</header>
+
+<div class="toolbar">
+  <button class="active" data-filter="all">Tümü</button>
+  <button data-filter="live">🔴 Canlı</button>
+  <button data-filter="ht">D.A</button>
+  <button data-filter="prematch">Maç önü</button>
+  <button data-filter="strong">🐺 Uyumlu</button>
+  <button data-filter="bet365">Bet365</button>
+  <button id="refreshBtn">↻ Yenile</button>
+</div>
+
+<div class="info" id="info">Veri yükleniyor...</div>
+
+<div class="grid" id="matches"></div>
+
+</div>
+
+
+<div class="overlay" id="overlay">
+
+<div class="panel">
+
+  <div class="phead">
+    <div>
+      <div class="ptitle" id="ptitle">Maç</div>
+      <div class="psub" id="psub"></div>
+    </div>
+
+    <button class="close" id="closeBtn">✕</button>
+  </div>
+
+  <div class="body" id="pbody">
+    <div class="loading">Analiz hazırlanıyor...</div>
+  </div>
+
+</div>
+
+</div>
+
+
+<script>
+
+const LATEST_URL="./data/latest.json";
+const ARCHIVE_URL="./data/archive.jsonl";
+const LEAGUE_MAP_URL="./data/league-map.json";
+const TEAM_FORM_URL="./data/team-form.json";
+const H2H_URL="./data/h2h.json";
+
+let latest=null;
+let matches=[];
+let archiveCache=null;
+let leagueMapCache=null;
+let formCache=null;
+let h2hCache=null;
+let filter="all";
+let searchText="";
+
+const $=id=>document.getElementById(id);
+
+const matchesEl=$("matches");
+const infoEl=$("info");
+const overlay=$("overlay");
+const pbody=$("pbody");
+
+
+$("refreshBtn").onclick=loadLatest;
+
+$("closeBtn").onclick=()=>{
+  overlay.classList.remove("open");
+};
+
+$("searchInput").addEventListener("input",e=>{
+  searchText=norm(e.target.value);
+  render();
+});
+
+overlay.addEventListener("click",e=>{
+  if(e.target===overlay){
+    overlay.classList.remove("open");
+  }
+});
+
+
+document.querySelectorAll("[data-filter]").forEach(b=>{
+
+  b.onclick=()=>{
+
+    document
+    .querySelectorAll("[data-filter]")
+    .forEach(x=>x.classList.remove("active"));
+
+    b.classList.add("active");
+
+    filter=b.dataset.filter;
+
+    render();
+  };
+
+});
+
+
+setInterval(()=>{
+  $("clock").textContent=
+  new Date().toLocaleTimeString("tr-TR");
+},1000);
+
+
+loadLatest();
+
+setInterval(loadLatest,60000);
+
+
+
+async function loadLatest(){
+
+  try{
+
+    infoEl.textContent=
+    "Goaloo / Bet365 canlı verisi okunuyor...";
+
+    const [latestRes,leagueMap]=
+    await Promise.all([
+
+      fetch(
+        LATEST_URL+"?t="+Date.now(),
+        {cache:"no-store"}
+      ),
+
+      loadOptional(
+        LEAGUE_MAP_URL,
+        "league"
+      )
+
+    ]);
+
+
+    if(!latestRes.ok){
+      throw new Error(
+        "HTTP "+latestRes.status
+      );
+    }
+
+
+    latest=
+    await latestRes.json();
+
+
+    leagueMapCache=
+    leagueMap||{};
+
+
+    matches=
+    Array.isArray(latest.matches)
+    ? latest.matches
+    : [];
+
+
+    archiveCache=null;
+
+
+    const quick=
+    matches
+    .map(quickSignal)
+    .filter(Boolean);
+
+
+    $("kAll").textContent=
+    matches.length;
+
+
+    $("kLive").textContent=
+    matches.filter(
+      m=>
+      isLive(m)&&
+      !isHalfTime(m)
+    ).length;
+
+
+    $("kHT").textContent=
+    matches
+    .filter(isHalfTime)
+    .length;
+
+
+    $("kBet").textContent=
+    matches.filter(
+      m=>get1X2(m)
+    ).length;
+
+
+    $("kStrong").textContent=
+    quick.filter(
+      q=>q.level==="UYUMLU"
+    ).length;
+
+
+    infoEl.textContent=
+    `${matches.length} maç • Son kayıt ${fmtTime(latest.capturedAt)} • ${ageText(latest.capturedAt)} • ${matches.filter(isLive).length} canlı`;
+
+
+    render();
+
+
+  }catch(e){
+
+    console.error(e);
+
+    infoEl.textContent=
+    "Veri okunamadı: "+
+    e.message;
+
+    matchesEl.innerHTML=
+    `<div class="empty">
+      latest.json okunamadı.
+    </div>`;
+  }
+
+}
+
+
+
+async function loadArchive(){
+
+  if(archiveCache){
+    return archiveCache;
+  }
+
+
+  const r=
+  await fetch(
+    ARCHIVE_URL+"?t="+Date.now(),
+    {cache:"no-store"}
+  );
+
+
+  if(!r.ok){
+    throw new Error(
+      "archive HTTP "+
+      r.status
+    );
+  }
+
+
+  const text=
+  await r.text();
+
+
+  archiveCache=
+  text
+  .split(/\r?\n/)
+  .map(x=>x.trim())
+  .filter(Boolean)
+  .map(x=>{
+
+    try{
+      return JSON.parse(x);
+    }catch{
+      return null;
+    }
+
+  })
+  .filter(Boolean);
+
+
+  return archiveCache;
+}
+
+
+
+async function loadOptional(url,type){
+
+  if(
+    type==="league" &&
+    leagueMapCache!==null
+  ){
+    return leagueMapCache;
+  }
+
+
+  if(
+    type==="form" &&
+    formCache!==null
+  ){
+    return formCache;
+  }
+
+
+  if(
+    type==="h2h" &&
+    h2hCache!==null
+  ){
+    return h2hCache;
+  }
+
+
+  try{
+
+    const r=
+    await fetch(
+      url+"?t="+Date.now(),
+      {cache:"no-store"}
+    );
+
+
+    if(!r.ok){
+      throw 0;
+    }
+
+
+    const j=
+    await r.json();
+
+
+    if(type==="league"){
+      leagueMapCache=j;
+    }
+
+    if(type==="form"){
+      formCache=j;
+    }
+
+    if(type==="h2h"){
+      h2hCache=j;
+    }
+
+
+    return j;
+
+
+  }catch{
+
+    if(type==="league"){
+      leagueMapCache={};
+    }
+
+    if(type==="form"){
+      formCache={};
+    }
+
+    if(type==="h2h"){
+      h2hCache={};
+    }
+
+    return {};
+  }
+
+}
+
+
+
+function render(){
+
+  let list=
+  [...matches];
+
+
+  if(filter==="live"){
+    list=
+    list.filter(isLive);
+  }
+
+
+  if(filter==="ht"){
+    list=
+    list.filter(isHalfTime);
+  }
+
+
+  if(filter==="prematch"){
+
+    list=
+    list.filter(
+      m=>
+      !isLive(m) &&
+      !isFinished(m)
+    );
+
+  }
+
+
+  if(filter==="bet365"){
+
+    list=
+    list.filter(
+      m=>get1X2(m)
+    );
+
+  }
+
+
+  if(filter==="strong"){
+
+    list=
+    list.filter(
+      m=>
+      quickSignal(m)?.level
+      ===
+      "UYUMLU"
+    );
+
+  }
+
+
+  if(searchText){
+
+    list=
+    list.filter(m=>{
+
+      const blob=
+      norm(
+        [
+          m.home,
+          m.away,
+          competitionLabel(m),
+          m.countryName,
+          m.leagueName
+        ]
+        .filter(Boolean)
+        .join(" ")
+      );
+
+      return blob.includes(
+        searchText
+      );
+
+    });
+
+  }
+
+
+  list.sort((a,b)=>{
+
+    const liveA=
+    isLive(a)?0:1;
+
+    const liveB=
+    isLive(b)?0:1;
+
+
+    if(liveA!==liveB){
+      return liveA-liveB;
+    }
+
+
+    return(
+      new Date(a.start||0)-
+      new Date(b.start||0)
+    );
+
+  });
+
+
+  matchesEl.innerHTML="";
+
+
+  if(!list.length){
+
+    matchesEl.innerHTML=
+    `<div class="empty">
+      Bu filtrede maç yok.
+    </div>`;
+
+    return;
+  }
+
+
+  for(const m of list){
+
+    const one=
+    get1X2(m);
+
+    const ah=
+    getAH(m);
+
+    const ou=
+    getOU(m);
+
+    const q=
+    quickSignal(m);
+
+
+    const card=
+    document.createElement(
+      "button"
+    );
+
+
+    card.className=
+    "match "+
+    (isLive(m)?"live ":"")+
+    (
+      q?.level==="UYUMLU"
+      ? "strong"
+      : ""
+    );
+
+
+    const statusClass=
+    isHalfTime(m)
+    ? "statusHT"
+    : isLive(m)
+    ? "statusLive"
+    : "";
+
+
+    card.innerHTML=`
+
+      <div class="mtop">
+
+        <span>
+          ${escapeHtml(
+            competitionLabel(m)
+          )}
+        </span>
+
+        <span class="${statusClass}">
+          ${escapeHtml(
+            matchClockLabel(m)
+          )}
+        </span>
+
+      </div>
+
+
+      <div class="teams">
+
+        <div class="names">
+
+          <div>
+            ${escapeHtml(
+              m.home||"-"
+            )}
+          </div>
+
+          <div>
+            ${escapeHtml(
+              m.away||"-"
+            )}
+          </div>
+
+        </div>
+
+
+        <div class="score">
+          ${scoreText(m)}
+        </div>
+
+      </div>
+
+
+      ${
+        one
+        ?
+        `
+        <div class="odds">
+
+          <div class="odd">
+            <small>1</small>
+            <b>${f2(one.home)}</b>
+          </div>
+
+          <div class="odd">
+            <small>X</small>
+            <b>${f2(one.draw)}</b>
+          </div>
+
+          <div class="odd">
+            <small>2</small>
+            <b>${f2(one.away)}</b>
+          </div>
+
+        </div>
+        `
+        :
+        ""
+      }
+
+
+      <div class="micro">
+
+        <span class="pill ${one?"g":""}">
+          ${
+            one
+            ? "Bet365 ✓"
+            : "1X2 yok"
+          }
+        </span>
+
+        ${
+          ah
+          ?
+          `<span class="pill b">
+            AH ${escapeHtml(
+              ah.line??"-"
+            )}
+          </span>`
+          :
+          ""
+        }
+
+        ${
+          ou
+          ?
+          `<span class="pill y">
+            Ü/A ${escapeHtml(
+              ou.line??"-"
+            )}
+          </span>`
+          :
+          ""
+        }
+
+        ${
+          q
+          ?
+          `<span class="pill ${
+            q.level==="UYUMLU"
+            ?"g"
+            :""
+          }">
+            ${q.text}
+          </span>`
+          :
+          ""
+        }
+
+        ${liveStatsText(m)}
+
+      </div>
+
+    `;
+
+
+    card.onclick=
+    ()=>openMatch(m);
+
+
+    matchesEl.appendChild(
+      card
+    );
+
+  }
+
+}
+
+
+
+function quickSignal(m){
+
+  const o=
+  get1X2(m);
+
+
+  if(!o){
+    return null;
+  }
+
+
+  const p=
+  noVig1X2(o);
+
+
+  const arr=[
+    ["MS1",p.home],
+    ["X",p.draw],
+    ["MS2",p.away]
+  ]
+  .sort(
+    (a,b)=>
+    b[1]-a[1]
+  );
+
+
+  const gap=
+  (
+    arr[0][1]-
+    arr[1][1]
+  )*100;
+
+
+  return{
+
+    level:
+    gap>=12
+    ?"UYUMLU"
+    :"İZLE",
+
+    text:
+    `${arr[0][0]} ${
+      Math.round(
+        arr[0][1]*100
+      )
+    }%`
+
+  };
+
+}
+
+
+
+async function openMatch(m){
+
+  overlay.classList.add(
+    "open"
+  );
+
+
+  $("ptitle").textContent=
+  `${m.home} - ${m.away}`;
+
+
+  $("psub").textContent=
+  `${competitionLabel(m)} • ${matchClockLabel(m)} • ${scoreText(m)}`;
+
+
+  pbody.innerHTML=
+  `<div class="loading">
+    🐺 Canlı piyasa analiz ediliyor...
+  </div>`;
+
+
+  try{
+
+    const [
+      archive,
+      forms,
+      h2h
+    ]=
+    await Promise.all([
+
+      loadArchive(),
+
+      loadOptional(
+        TEAM_FORM_URL,
+        "form"
+      ),
+
+      loadOptional(
+        H2H_URL,
+        "h2h"
+      )
+
+    ]);
+
+
+    const result=
+    analyze(
+      m,
+      buildHistory(
+        m,
+        archive
+      ),
+      forms,
+      h2h
+    );
+
+
+    draw(
+      m,
+      result
+    );
+
+
+  }catch(e){
+
+    console.error(e);
+
+    pbody.innerHTML=
+    `<div class="section">
+      Analiz hatası:
+      ${escapeHtml(
+        e.message
+      )}
+    </div>`;
+
+  }
+
+}
+
+
+
+function buildHistory(
+  m,
+  archive
+){
+
+  const out=[];
+
+
+  for(const snap of archive){
+
+    const list=
+    Array.isArray(
+      snap.matches
+    )
+    ?snap.matches
+    :[];
+
+
+    const x=
+    list.find(
+      z=>sameMatch(m,z)
+    );
+
+
+    if(!x){
+      continue;
+    }
+
+
+    const one=
+    get1X2(x);
+
+    const ah=
+    getAH(x);
+
+    const ou=
+    getOU(x);
+
+
+    if(
+      !one &&
+      !ah &&
+      !ou
+    ){
+      continue;
+    }
+
+
+    out.push({
+
+      time:
+      new Date(
+        snap.capturedAt||0
+      ).getTime(),
+
+      capturedAt:
+      snap.capturedAt,
+
+      one,
+      ah,
+      ou,
+
+      score:
+      x.score||null,
+
+      halfScore:
+      x.halfScore||null,
+
+      corners:
+      x.corners||null,
+
+      red:
+      x.red||null,
+
+      yellow:
+      x.yellow||null,
+
+      status:
+      x.status,
+
+      minute:
+      x.minute
+
+    });
+
+  }
+
+
+  out.sort(
+    (a,b)=>
+    a.time-b.time
+  );
+
+
+  return dedupe(out);
+
+}
+
+
+
+function analyze(
+  m,
+  hist,
+  forms,
+  h2h
+){
+
+  const one=
+  get1X2(m);
+
+  const ah=
+  getAH(m);
+
+  const ou=
+  getOU(m);
+
+
+  if(!one){
+
+    return{
+      error:
+      "Bet365 1X2 verisi yok"
+    };
+
+  }
+
+
+  let rows=[
+
+    ...hist,
+
+    {
+
+      time:
+      Date.now(),
+
+      capturedAt:
+      new Date()
+      .toISOString(),
+
+      one,
+      ah,
+      ou,
+
+      score:
+      m.score||null,
+
+      halfScore:
+      m.halfScore||null,
+
+      corners:
+      m.corners||null,
+
+      red:
+      m.red||null,
+
+      yellow:
+      m.yellow||null,
+
+      status:
+      m.status,
+
+      minute:
+      m.minute
+
+    }
+
+  ];
+
+
+  rows=
+  dedupe(rows);
+
+
+  const scoreSegment=
+  stableScoreSegment(rows);
+
+
+  const segmentRows=
+  scoreSegment.rows.length
+  ?scoreSegment.rows
+  :rows;
+
+
+  const latestRow=
+  segmentRows.at(-1);
+
+
+  const r5=
+  before(
+    segmentRows,
+    latestRow.time-
+    5*60000
+  )||segmentRows[0];
+
+
+  const r10=
+  before(
+    segmentRows,
+    latestRow.time-
+    10*60000
+  )||segmentRows[0];
+
+
+  const pNow=
+  noVig1X2(
+    latestRow.one
+  );
+
+
+  const p5=
+  noVig1X2(
+    r5.one||
+    latestRow.one
+  );
+
+
+  const p10=
+  noVig1X2(
+    r10.one||
+    latestRow.one
+  );
+
+
+  const segmentMinutes=
+  (
+    latestRow.time-
+    segmentRows[0].time
+  )/60000;
+
+
+  const trendReady=
+  segmentRows.length>=3 &&
+  segmentMinutes>=2;
+
+
+  const moves={
+
+    home:
+    (pNow.home-p10.home)*100,
+
+    draw:
+    (pNow.draw-p10.draw)*100,
+
+    away:
+    (pNow.away-p10.away)*100,
+
+    home5:
+    (pNow.home-p5.home)*100,
+
+    away5:
+    (pNow.away-p5.away)*100
+
+  };
+
+
+  const side=
+  moves.home>=moves.away
+  ?"HOME"
+  :"AWAY";
+
+
+  const sideMove=
+  trendReady
+  ?
+  (
+    side==="HOME"
+    ?moves.home
+    :moves.away
+  )
+  :0;
+
+
+  const favorite=[
+
+    {
+      k:"HOME",
+      l:"MS 1",
+      v:pNow.home,
+      n:m.home
+    },
+
+    {
+      k:"DRAW",
+      l:"MS X",
+      v:pNow.draw,
+      n:"Beraberlik"
+    },
+
+    {
+      k:"AWAY",
+      l:"MS 2",
+      v:pNow.away,
+      n:m.away
+    }
+
+  ]
+  .sort(
+    (a,b)=>
+    b.v-a.v
+  )[0];
+
+
+  const ahNow=
+  ah
+  ?noVig2(
+    ah.home,
+    ah.away
+  )
+  :null;
+
+
+  const ah10=
+  r10.ah
+  ?noVig2(
+    r10.ah.home,
+    r10.ah.away
+  )
+  :null;
+
+
+  const ahMove=
+  (
+    trendReady &&
+    ahNow &&
+    ah10
+  )
+  ?
+  {
+    home:
+    (ahNow.a-ah10.a)*100,
+
+    away:
+    (ahNow.b-ah10.b)*100
+  }
+  :
+  null;
+
+
+  const ahSide=
+  ahMove
+  ?
+  (
+    ahMove.home>=ahMove.away
+    ?"HOME"
+    :"AWAY"
+  )
+  :
+  null;
+
+
+  const ouNow=
+  ou
+  ?noVig2(
+    ou.over,
+    ou.under
+  )
+  :null;
+
+
+  const ou10=
+  r10.ou
+  ?noVig2(
+    r10.ou.over,
+    r10.ou.under
+  )
+  :null;
+
+
+  const overMove=
+  (
+    trendReady &&
+    ouNow &&
+    ou10
+  )
+  ?
+  (
+    ouNow.a-
+    ou10.a
+  )*100
+  :
+  null;
+
+
+  const score=
+  scoreNums(m);
+
+
+  const minute=
+  estimateMinute(m);
+
+
+  const fit=
+  fitModel(
+    pNow,
+    ou,
+    score,
+    minute
+  );
+
+
+  const sim=
+  finalScoreSummary(
+    fit.lh,
+    fit.la,
+    score.h,
+    score.a
+  );
+
+
+  const ih=
+  firstHalfModel(
+    m,
+    fit
+  );
+
+
+  const formData=
+  getFormData(
+    m,
+    forms
+  );
+
+
+  const h2hData=
+  getH2HData(
+    m,
+    h2h
+  );
+
+
+  let num=0;
+  let den=0;
+
+
+  const add=
+  (v,w)=>{
+
+    if(
+      v!=null &&
+      Number.isFinite(v)
+    ){
+
+      num+=v*w;
+      den+=w;
+
+    }
+
+  };
+
+
+  const favDir=
+  favorite.k==="HOME"
+  ?1
+  :
+  favorite.k==="AWAY"
+  ?-1
+  :0;
+
+
+  const moveDir=
+  side==="HOME"
+  ?1
+  :-1;
+
+
+  if(trendReady){
+
+    add(
+      favDir===0
+      ?50
+      :
+      favDir===moveDir
+      ?85
+      :25,
+      35
+    );
+
+  }
+
+
+  if(ahSide){
+
+    add(
+      ahSide===favorite.k
+      ?85
+      :25,
+      25
+    );
+
+  }
+
+
+  const statsSupport=
+  liveSupport(
+    m,
+    favorite.k
+  );
+
+
+  if(statsSupport!=null){
+
+    add(
+      statsSupport,
+      15
+    );
+
+  }
+
+
+  const fs=
+  formSideSupport(
+    formData,
+    favorite.k
+  );
+
+
+  if(fs!=null){
+
+    add(
+      fs,
+      15
+    );
+
+  }
+
+
+  const hs=
+  h2hSideSupport(
+    h2hData,
+    favorite.k
+  );
+
+
+  if(hs!=null){
+
+    add(
+      hs,
+      10
+    );
+
+  }
+
+
+  const alignment=
+  Math.round(
+    den
+    ?num/den
+    :50
+  );
+
+
+  const same=
+  trendReady &&
+  favorite.k===side &&
+  favorite.k!=="DRAW";
+
+
+  let decision=
+  "BEKLE";
+
+  let cls=
+  "orange";
+
+  let decisionSub=
+  "Henüz yeterli bağımsız uyum yok";
+
+
+  if(isHalfTime(m)){
+
+    decision=
+    "D.A";
+
+    cls=
+    "yellow";
+
+    decisionSub=
+    "Devre arası • yeni canlı hareket bekleniyor";
+
+  }
+
+
+  else if(
+    scoreSegment.changedRecently &&
+    !trendReady
+  ){
+
+    decision=
+    "İZLE";
+
+    cls=
+    "blue";
+
+    decisionSub=
+    "Gol sonrası piyasa yeniden fiyatlanıyor";
+
+  }
+
+
+  else if(
+    same &&
+    alignment>=78 &&
+    sideMove>=1
+  ){
+
+    decision=
+    favorite.l;
+
+    cls=
+    "green";
+
+    decisionSub=
+    "GÜÇLÜ UYUM";
+
+  }
+
+
+  else if(
+    same &&
+    alignment>=66 &&
+    sideMove>=0.5
+  ){
+
+    decision=
+    favorite.l;
+
+    cls=
+    "yellow";
+
+    decisionSub=
+    "EĞİLİM";
+
+  }
+
+
+  else if(
+    !trendReady
+  ){
+
+    decision=
+    "İZLE";
+
+    cls=
+    "blue";
+
+    decisionSub=
+    "Sabit skor üzerinde yeni snapshot bekleniyor";
+
+  }
+
+
+  const confidence=
+  Math.round(
+
+    Math.min(
+      rows.length/8,
+      1
+    )*25
+
+    +
+
+    (
+      trendReady
+      ?15
+      :0
+    )
+
+    +
+
+    (
+      ah
+      ?15
+      :0
+    )
+
+    +
+
+    (
+      ou
+      ?15
+      :0
+    )
+
+    +
+
+    (
+      (
+        m.corners||
+        m.red||
+        m.yellow
+      )
+      ?10
+      :0
+    )
+
+    +
+
+    (
+      formData
+      ?10
+      :0
+    )
+
+    +
+
+    (
+      h2hData
+      ?10
+      :0
+    )
+
+  );
+
+
+  const reasons=[
+
+    `${rows.length} toplam snapshot; sabit skor segmentinde ${segmentRows.length} snapshot.`,
+
+    `1X2 piyasa favorisi ${favorite.l} • ${pct(favorite.v)}.`,
+
+    trendReady
+    ?
+    `${side==="HOME"?"MS1":"MS2"} sabit skor segmentinde ${signed(sideMove)} pp güçlendi.`
+    :
+    "Oran hareketi için sabit skor üzerinde yeterli örnek yok.",
+
+    scoreSegment.changedRecently
+    ?
+    "Skor değişimi tespit edildi; gol kaynaklı oran sıçraması piyasa trendinden ayrıldı."
+    :
+    "Son ölçüm bölümünde skor değişimi tespit edilmedi.",
+
+    ahMove
+    ?
+    `Asya yönü ${
+      ahSide==="HOME"
+      ?"ev"
+      :"deplasman"
+    } tarafında.`
+    :
+    "Asya handikap trendi henüz yeterli değil.",
+
+    ouNow
+    ?
+    `Ü/A ${ou.line??"-"} • normalize Üst ${pct(ouNow.a)}.`
+    :
+    "Ü/A verisi yok.",
+
+    formData
+    ?
+    "Son form verisi modele dahil edildi."
+    :
+    "Son 5 form verisi henüz yok; sıfır kabul edilmedi.",
+
+    h2hData
+    ?
+    "H2H verisi düşük ağırlıkla dahil edildi."
+    :
+    "H2H verisi henüz yok; sıfır kabul edilmedi."
+
+  ];
+
+
+  return{
+
+    rows,
+    segmentRows,
+    trendReady,
+    scoreSegment,
+
+    one,
+    ah,
+    ou,
+
+    pNow,
+    side,
+    sideMove,
+
+    favorite,
+
+    ahMove,
+    ahSide,
+
+    ouNow,
+    overMove,
+
+    sim,
+    ih,
+
+    formData,
+    h2hData,
+
+    alignment,
+    confidence,
+
+    decision,
+    decisionSub,
+    cls,
+
+    reasons,
+
+    minute,
+    score
+
+  };
+
+}
+
+
+
+function draw(m,r){
+
+  if(r.error){
+
+    pbody.innerHTML=`
+
+      <div class="hero">
+
+        <div class="hlabel red">
+          VERİ YOK
+        </div>
+
+        <div class="hmain red">
+          BEKLE
+        </div>
+
+        <div class="hsub">
+          ${escapeHtml(r.error)}
+        </div>
+
+      </div>
+
+    `;
+
+    return;
+  }
+
+
+  const path=
+  r.rows
+  .slice(-14)
+  .map(x=>{
+
+    if(!x.one){
+      return null;
+    }
+
+    return(
+      `${fmtTime(x.capturedAt)} | ${scoreText(x)} | 1:${f2(x.one.home)} X:${f2(x.one.draw)} 2:${f2(x.one.away)}`
+      +
+      (
+        x.ah
+        ?` AH:${x.ah.line??"-"}`
+        :""
+      )
+      +
+      (
+        x.ou
+        ?` ÜA:${x.ou.line??"-"}`
+        :""
+      )
+    );
+
+  })
+  .filter(Boolean)
+  .join(" • ");
+
+
+  const scoreWarning=
+  r.scoreSegment.changedRecently
+  ?
+  `
+  <div class="warnBox">
+    ⚠️ Skor değişimi tespit edildi.
+    Gol sonrası doğal oran sıçraması bağımsız piyasa hareketi olarak sayılmıyor.
+  </div>
+  `
+  :
+  "";
+
+
+  const trendText=
+  r.trendReady
+  ?
+  `${r.side==="HOME"?"MS1":"MS2"} ${signed(r.sideMove)} pp`
+  :
+  "BEKLE";
+
+
+  pbody.innerHTML=`
+
+    <div class="statusStrip">
+
+      <span>
+        <b>
+          ${escapeHtml(
+            competitionLabel(m)
+          )}
+        </b>
+      </span>
+
+      <span>
+        ${escapeHtml(
+          matchClockLabel(m)
+        )}
+        •
+        Skor ${escapeHtml(
+          scoreText(m)
+        )}
+      </span>
+
+    </div>
+
+
+    ${scoreWarning}
+
+
+    <div class="hero">
+
+      <div class="hlabel ${r.cls}">
+        KURT KARARI
+      </div>
+
+      <div class="hmain ${r.cls}">
+        ${r.decision}
+      </div>
+
+      <div class="hsub">
+        ${r.decisionSub}
+      </div>
+
+    </div>
+
+
+    <div class="metrics">
+
+      <div class="metric">
+        <small>PİYASA UYUMU</small>
+        <b>${r.alignment}/100</b>
+      </div>
+
+      <div class="metric">
+        <small>VERİ GÜVENİ</small>
+        <b>${r.confidence}/100</b>
+      </div>
+
+      <div class="metric">
+        <small>ORAN HAREKETİ</small>
+        <b>${trendText}</b>
+      </div>
+
+      <div class="metric">
+        <small>SABİT SKOR SNAPSHOT</small>
+        <b>${r.segmentRows.length}</b>
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        PİYASA FAVORİSİ
+      </div>
+
+      <div class="hero">
+
+        <div class="hmain green">
+          ${r.favorite.l}
+          •
+          ${pct(r.favorite.v)}
+        </div>
+
+        <div class="hsub">
+          ${escapeHtml(
+            r.favorite.n
+          )}
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        PİYASA UYUM TABLOSU
+      </div>
+
+      <div class="marketRow">
+        <b>1X2</b>
+        <span>${r.favorite.l}</span>
+        <span class="muted">
+          ${pct(r.favorite.v)}
+        </span>
+      </div>
+
+      <div class="marketRow">
+        <b>Oran trendi</b>
+        <span>
+          ${
+            r.trendReady
+            ?
+            r.side==="HOME"
+            ?"MS1 ↗"
+            :"MS2 ↗"
+            :
+            "bekleniyor"
+          }
+        </span>
+
+        <span class="muted">
+          ${
+            r.trendReady
+            ?signed(r.sideMove)+" pp"
+            :"-"
+          }
+        </span>
+      </div>
+
+      <div class="marketRow">
+        <b>Asya H.</b>
+        <span>
+          ${
+            r.ah
+            ?escapeHtml(
+              r.ah.line??"-"
+            )
+            :"-"
+          }
+        </span>
+
+        <span class="muted">
+          ${
+            r.ahSide
+            ?
+            r.ahSide==="HOME"
+            ?"Ev ↗"
+            :"Dep ↗"
+            :
+            "bekleniyor"
+          }
+        </span>
+      </div>
+
+      <div class="marketRow">
+        <b>Üst/Alt</b>
+
+        <span>
+          ${
+            r.ou
+            ?escapeHtml(
+              r.ou.line??"-"
+            )
+            :"-"
+          }
+        </span>
+
+        <span class="muted">
+          ${
+            r.overMove==null
+            ?"bekleniyor"
+            :
+            r.overMove>=0
+            ?"Üst ↗"
+            :"Alt ↗"
+          }
+        </span>
+      </div>
+
+      <div class="marketRow">
+        <b>Canlı saha</b>
+        <span>
+          ${liveStatsShort(m)}
+        </span>
+        <span class="muted">
+          ${
+            isLive(m)
+            ?matchClockLabel(m)
+            :"Maç önü"
+          }
+        </span>
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        MAÇ SONU SİMÜLASYONU
+      </div>
+
+      <div class="probs">
+
+        <div class="prob">
+          <small>MS 1</small>
+          <b>${pct(r.sim.home)}</b>
+        </div>
+
+        <div class="prob">
+          <small>MS X</small>
+          <b>${pct(r.sim.draw)}</b>
+        </div>
+
+        <div class="prob">
+          <small>MS 2</small>
+          <b>${pct(r.sim.away)}</b>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    ${renderHalfBlock(m,r)}
+
+
+    <div class="section">
+
+      <div class="stitle">
+        GOL PAZARLARI
+      </div>
+
+      <div class="probs">
+
+        <div class="prob">
+          <small>KG VAR</small>
+          <b>${pct(r.sim.btts)}</b>
+        </div>
+
+        <div class="prob">
+          <small>KG YOK</small>
+          <b>${pct(1-r.sim.btts)}</b>
+        </div>
+
+        <div class="prob">
+          <small>2.5 ÜST</small>
+          <b>${pct(r.sim.over25)}</b>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        EN OLASI FİNAL SKORLARI
+      </div>
+
+      <div class="scores">
+
+        ${
+          r.sim.topScores
+          .map(x=>`
+
+            <div class="scoreItem">
+              <b>${x.score}</b>
+              <span>${pct(x.p)}</span>
+            </div>
+
+          `)
+          .join("")
+        }
+
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        GÜNCEL BET365
+      </div>
+
+      <div class="probs">
+
+        <div class="prob">
+          <small>1</small>
+          <b>${f2(r.one.home)}</b>
+        </div>
+
+        <div class="prob">
+          <small>X</small>
+          <b>${f2(r.one.draw)}</b>
+        </div>
+
+        <div class="prob">
+          <small>2</small>
+          <b>${f2(r.one.away)}</b>
+        </div>
+
+      </div>
+
+      <div class="marketRow">
+        <b>AH</b>
+        <span>
+          ${
+            r.ah
+            ?escapeHtml(
+              r.ah.line??"-"
+            )
+            :"-"
+          }
+        </span>
+        <span>
+          ${
+            r.ah
+            ?`${f2(r.ah.home)} / ${f2(r.ah.away)}`
+            :"-"
+          }
+        </span>
+      </div>
+
+      <div class="marketRow">
+        <b>Ü/A</b>
+        <span>
+          ${
+            r.ou
+            ?escapeHtml(
+              r.ou.line??"-"
+            )
+            :"-"
+          }
+        </span>
+        <span>
+          ${
+            r.ou
+            ?`${f2(r.ou.over)} / ${f2(r.ou.under)}`
+            :"-"
+          }
+        </span>
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        ORAN İZİ • SKORLA BİRLİKTE
+      </div>
+
+      <div class="path">
+        ${escapeHtml(
+          path||
+          "Arşiv yeni; oran izi birikiyor."
+        )}
+      </div>
+
+    </div>
+
+
+    <div class="section">
+
+      <div class="stitle">
+        ANALİZ NEDENLERİ
+      </div>
+
+      ${
+        r.reasons
+        .map(x=>`
+          <div class="reason">
+            • ${escapeHtml(x)}
+          </div>
+        `)
+        .join("")
+      }
+
+    </div>
+
+
+    <div class="note">
+      Yüzdeler model/simülasyon çıktısıdır.
+      Gerçek başarı oranı olarak değerlendirilmez.
+      Gol sonrası oluşan oran sıçraması ayrı tutulur.
+      Eksik veri sıfır kabul edilmez.
+      "~" işaretli dakika yaklaşık dakikadır.
+    </div>
+
+  `;
+
+}
+
+
+
+function firstHalfModel(m,fit){
+
+  if(
+    isHalfTime(m)||
+    isSecondHalf(m)||
+    isFinished(m)
+  ){
+
+    return{
+      actual:true,
+      score:m.halfScore||null
+    };
+
+  }
+
+
+  const min=
+  estimateMinute(m);
+
+
+  const current=
+  scoreNums(m);
+
+
+  let remainingFraction=.5;
+
+
+  if(
+    isLive(m) &&
+    min>0 &&
+    min<=45
+  ){
+
+    remainingFraction=
+    Math.max(
+      0,
+      (45-min)/90
+    );
+
+  }
+
+
+  const lh=
+  fit.baseLh*
+  remainingFraction;
+
+
+  const la=
+  fit.baseLa*
+  remainingFraction;
+
+
+  const baseHome=
+  (
+    isLive(m)&&
+    min<=45
+  )
+  ?current.h
+  :0;
+
+
+  const baseAway=
+  (
+    isLive(m)&&
+    min<=45
+  )
+  ?current.a
+  :0;
+
+
+  return firstHalfSummary(
+    lh,
+    la,
+    baseHome,
+    baseAway
+  );
+
+}
+
+
+
+function renderHalfBlock(m,r){
+
+  if(r.ih?.actual){
+
+    const hs=
+    r.ih.score;
+
+
+    const text=
+    (
+      hs?.home!=null &&
+      hs?.away!=null
+    )
+    ?
+    `${hs.home}-${hs.away}`
+    :
+    "Veri bekleniyor";
+
+
+    return`
+
+      <div class="section">
+
+        <div class="stitle">
+          İLK YARI
+        </div>
+
+        <div class="hero">
+
+          <div class="hlabel yellow">
+            ${
+              isHalfTime(m)
+              ?"D.A"
+              :"İY SONUCU"
+            }
+          </div>
+
+          <div class="hmain">
+            ${escapeHtml(text)}
+          </div>
+
+        </div>
+
+      </div>
+
+    `;
+
+  }
+
+
+  return`
+
+    <div class="section">
+
+      <div class="stitle">
+        İLK YARI SİMÜLASYONU
+      </div>
+
+      <div class="probs">
+
+        <div class="prob">
+          <small>İY 1</small>
+          <b>${pct(r.ih.home)}</b>
+        </div>
+
+        <div class="prob">
+          <small>İY X</small>
+          <b>${pct(r.ih.draw)}</b>
+        </div>
+
+        <div class="prob">
+          <small>İY 2</small>
+          <b>${pct(r.ih.away)}</b>
+        </div>
+
+      </div>
+
+
+      <div class="probs"
+           style="margin-top:5px">
+
+        <div class="prob">
+          <small>İY 0.5 ÜST</small>
+          <b>${pct(r.ih.over05)}</b>
+        </div>
+
+        <div class="prob">
+          <small>İY 1.5 ÜST</small>
+          <b>${pct(r.ih.over15)}</b>
+        </div>
+
+        <div class="prob">
+          <small>İY KG VAR</small>
+          <b>${pct(r.ih.btts)}</b>
+        </div>
+
+      </div>
+
+    </div>
+
+  `;
+
+}
+
+
+
+function get1X2(m){
+
+  const o=
+  m?.bet365?.oneXTwo;
+
+
+  return(
+    validOdd(o?.home) &&
+    validOdd(o?.draw) &&
+    validOdd(o?.away)
+  )
+  ?
+  {
+    home:+o.home,
+    draw:+o.draw,
+    away:+o.away
+  }
+  :
+  null;
+
+}
+
+
+
+function getAH(m){
+
+  const o=
+  m?.bet365?.handicap;
+
+
+  return(
+    validOdd(o?.home) &&
+    validOdd(o?.away)
+  )
+  ?
+  {
+    line:o.line,
+    home:+o.home,
+    away:+o.away
+  }
+  :
+  null;
+
+}
+
+
+
+function getOU(m){
+
+  const o=
+  m?.bet365?.overUnder;
+
+
+  return(
+    validOdd(o?.over) &&
+    validOdd(o?.under)
+  )
+  ?
+  {
+    line:o.line,
+    over:+o.over,
+    under:+o.under
+  }
+  :
+  null;
+
+}
+
+
+
+function noVig1X2(o){
+
+  const a=1/o.home;
+  const b=1/o.draw;
+  const c=1/o.away;
+
+  const s=a+b+c;
+
+  return{
+    home:a/s,
+    draw:b/s,
+    away:c/s
+  };
+
+}
+
+
+
+function noVig2(a,b){
+
+  if(
+    !validOdd(a)||
+    !validOdd(b)
+  ){
+    return null;
+  }
+
+  const x=1/a;
+  const y=1/b;
+
+  const s=x+y;
+
+  return{
+    a:x/s,
+    b:y/s
+  };
+
+}
+
+
+
+function fitModel(
+  target,
+  ou,
+  score,
+  minute
+){
+
+  const live=
+  minute>0||
+  score.h>0||
+  score.a>0;
+
+
+  let ouTarget=null;
+  let line=null;
+
+
+  if(
+    ou &&
+    validOdd(ou.over) &&
+    validOdd(ou.under)
+  ){
+
+    ouTarget=
+    noVig2(
+      ou.over,
+      ou.under
+    )?.a;
+
+    line=
+    parseAsianLine(
+      ou.line
+    );
+
+  }
+
+
+  let best={
+    err:Infinity,
+    lh:1.2,
+    la:1,
+    baseLh:1.2,
+    baseLa:1
+  };
+
+
+  const max=
+  live
+  ?3.8
+  :4.5;
+
+
+  for(
+    let lh=.03;
+    lh<=max;
+    lh+=.09
+  ){
+
+    for(
+      let la=.03;
+      la<=max;
+      la+=.09
+    ){
+
+      const s=
+      finalScoreSummary(
+        lh,
+        la,
+        score.h,
+        score.a
+      );
+
+
+      let err=
+      sq(
+        s.home-
+        target.home
+      )
+      +
+      sq(
+        s.draw-
+        target.draw
+      )
+      +
+      sq(
+        s.away-
+        target.away
+      );
+
+
+      if(
+        ouTarget!=null &&
+        line!=null
+      ){
+
+        err+=
+        .45*
+        sq(
+          probFinalOver(
+            lh,
+            la,
+            score.h,
+            score.a,
+            line
+          )
+          -
+          ouTarget
+        );
+
+      }
+
+
+      if(err<best.err){
+
+        const remaining=
+        Math.max(
+          .08,
+          (
+            90-
+            Math.min(
+              minute||0,
+              90
+            )
+          )/90
+        );
+
+
+        best={
+
+          err,
+          lh,
+          la,
+
+          baseLh:
+          live
+          ?lh/remaining
+          :lh,
+
+          baseLa:
+          live
+          ?la/remaining
+          :la
+
+        };
+
+      }
+
+    }
+
+  }
+
+
+  return best;
+
+}
+
+
+
+function finalScoreSummary(
+  lh,
+  la,
+  ch=0,
+  ca=0
+){
+
+  let home=0;
+  let draw=0;
+  let away=0;
+  let btts=0;
+  let over25=0;
+  let total=0;
+
+  const scores=[];
+
+
+  for(let h=0;h<=7;h++){
+
+    for(let a=0;a<=7;a++){
+
+      const p=
+      pois(h,lh)*
+      pois(a,la);
+
+
+      const fh=
+      ch+h;
+
+      const fa=
+      ca+a;
+
+
+      total+=p;
+
+
+      if(fh>fa){
+        home+=p;
+      }
+      else if(fh===fa){
+        draw+=p;
+      }
+      else{
+        away+=p;
+      }
+
+
+      if(
+        fh>0 &&
+        fa>0
+      ){
+        btts+=p;
+      }
+
+
+      if(
+        fh+fa>=3
+      ){
+        over25+=p;
+      }
+
+
+      scores.push({
+        score:
+        `${fh}-${fa}`,
+        p
+      });
+
+    }
+
+  }
+
+
+  scores.sort(
+    (x,y)=>
+    y.p-x.p
+  );
+
+
+  return{
+
+    home:
+    home/total,
+
+    draw:
+    draw/total,
+
+    away:
+    away/total,
+
+    btts:
+    btts/total,
+
+    over25:
+    over25/total,
+
+    topScores:
+    scores
+    .slice(0,5)
+    .map(x=>({
+      score:x.score,
+      p:x.p/total
+    }))
+
+  };
+
+}
+
+
+
+function firstHalfSummary(
+  lh,
+  la,
+  ch=0,
+  ca=0
+){
+
+  let home=0;
+  let draw=0;
+  let away=0;
+  let btts=0;
+  let over05=0;
+  let over15=0;
+  let total=0;
+
+
+  for(let h=0;h<=5;h++){
+
+    for(let a=0;a<=5;a++){
+
+      const p=
+      pois(h,lh)*
+      pois(a,la);
+
+
+      const fh=
+      ch+h;
+
+      const fa=
+      ca+a;
+
+
+      total+=p;
+
+
+      if(fh>fa){
+        home+=p;
+      }
+      else if(fh===fa){
+        draw+=p;
+      }
+      else{
+        away+=p;
+      }
+
+
+      if(
+        fh>0 &&
+        fa>0
+      ){
+        btts+=p;
+      }
+
+
+      if(
+        fh+fa>=1
+      ){
+        over05+=p;
+      }
+
+
+      if(
+        fh+fa>=2
+      ){
+        over15+=p;
+      }
+
+    }
+
+  }
+
+
+  return{
+
+    actual:false,
+
+    home:
+    home/total,
+
+    draw:
+    draw/total,
+
+    away:
+    away/total,
+
+    btts:
+    btts/total,
+
+    over05:
+    over05/total,
+
+    over15:
+    over15/total
+
+  };
+
+}
+
+
+
+function probFinalOver(
+  lh,
+  la,
+  ch,
+  ca,
+  line
+){
+
+  let p=0;
+  let total=0;
+
+  const cut=
+  Math.floor(line)+1;
+
+
+  for(let h=0;h<=8;h++){
+
+    for(let a=0;a<=8;a++){
+
+      const x=
+      pois(h,lh)*
+      pois(a,la);
+
+      total+=x;
+
+
+      if(
+        ch+ca+h+a>=cut
+      ){
+        p+=x;
+      }
+
+    }
+
+  }
+
+
+  return p/total;
+
+}
+
+
+
+function pois(k,l){
+
+  return(
+    Math.exp(-l)*
+    Math.pow(l,k)/
+    fact(k)
+  );
+
+}
+
+
+
+function fact(n){
+
+  let r=1;
+
+  for(
+    let i=2;
+    i<=n;
+    i++
+  ){
+    r*=i;
+  }
+
+  return r;
+
+}
+
+
+
+function getFormData(m,f){
+
+  if(
+    !f||
+    !f.teams
+  ){
+    return null;
+  }
+
+
+  const h=
+  f.teams[
+    String(
+      m.homeTeamId
+    )
+  ]
+  ||
+  f.teams[
+    norm(m.home)
+  ]
+  ||
+  null;
+
+
+  const a=
+  f.teams[
+    String(
+      m.awayTeamId
+    )
+  ]
+  ||
+  f.teams[
+    norm(m.away)
+  ]
+  ||
+  null;
+
+
+  if(!h&&!a){
+    return null;
+  }
+
+
+  return{
+    home:h,
+    away:a
+  };
+
+}
+
+
+
+function getH2HData(m,h){
+
+  if(
+    !h||
+    !h.pairs
+  ){
+    return null;
+  }
+
+
+  const a=
+  String(
+    m.homeTeamId??
+    norm(m.home)
+  );
+
+
+  const b=
+  String(
+    m.awayTeamId??
+    norm(m.away)
+  );
+
+
+  return(
+    h.pairs[
+      `${a}-${b}`
+    ]
+    ||
+    h.pairs[
+      `${b}-${a}`
+    ]
+    ||
+    null
+  );
+
+}
+
+
+
+function formSideSupport(
+  x,
+  fav
+){
+
+  if(!x){
+    return null;
+  }
+
+
+  const direct=
+  Number(
+    x?.sideSupport
+  );
+
+
+  if(
+    Number.isFinite(direct)
+  ){
+
+    return clamp(
+      direct,
+      0,
+      100
+    );
+
+  }
+
+
+  return null;
+
+}
+
+
+
+function h2hSideSupport(
+  x,
+  fav
+){
+
+  if(!x){
+    return null;
+  }
+
+
+  const s=
+  Number(
+    x?.sideSupport
+  );
+
+
+  return(
+    Number.isFinite(s)
+    ?
+    clamp(
+      s,
+      0,
+      100
+    )
+    :
+    null
+  );
+
+}
+
+
+
+function isLive(m){
+
+  if(isHalfTime(m)){
+    return true;
+  }
+
+
+  const raw=
+  m?.status;
+
+
+  if(
+    typeof raw==="string"
+  ){
+
+    const t=
+    raw.toLowerCase();
+
+
+    if(
+      t.includes("live")||
+      t.includes("1st")||
+      t.includes("2nd")
+    ){
+      return true;
+    }
+
+  }
+
+
+  const s=
+  Number(raw);
+
+
+  return(
+    Number.isFinite(s)&&
+    s>0
+  );
+
+}
+
+
+
+function isHalfTime(m){
+
+  const ss=
+  Number(
+    m?.scoreStatus
+  );
+
+
+  if(ss===4){
+    return true;
+  }
+
+
+  const raw=
+  m?.status;
+
+
+  if(
+    typeof raw==="string"
+  ){
+
+    const t=
+    raw
+    .toLowerCase()
+    .replace(/\s+/g,"");
+
+
+    if(
+      t==="ht"||
+      t.includes("halftime")||
+      t.includes("half-time")||
+      t.includes("devre")
+    ){
+      return true;
+    }
+
+  }
+
+
+  return(
+    Number(raw)===2
+  );
+
+}
+
+
+
+function isSecondHalf(m){
+
+  const raw=
+  m?.status;
+
+
+  if(
+    typeof raw==="string"
+  ){
+
+    const t=
+    raw.toLowerCase();
+
+
+    if(
+      t.includes("2nd")||
+      t.includes("secondhalf")
+    ){
+      return true;
+    }
+
+  }
+
+
+  return(
+    Number(raw)===3
+  );
+
+}
+
+
+
+function isFinished(m){
+
+  const raw=
+  m?.status;
+
+
+  if(
+    typeof raw==="string"
+  ){
+
+    const t=
+    raw.toLowerCase();
+
+
+    if(
+      t==="ft"||
+      t.includes("finished")||
+      t.includes("fulltime")
+    ){
+      return true;
+    }
+
+  }
+
+
+  return(
+    Number(raw)===-1
+  );
+
+}
+
+
+
+function explicitMinute(m){
+
+  const vals=[
+
+    m?.minute,
+    m?.matchMinute,
+    m?.liveMinute,
+    m?.min
+
+  ];
+
+
+  for(const v of vals){
+
+    const n=
+    Number(v);
+
+
+    if(
+      Number.isFinite(n)&&
+      n>=0 &&
+      n<=130
+    ){
+
+      return n;
+
+    }
+
+  }
+
+
+  return null;
+
+}
+
+
+
+function estimateMinute(m){
+
+  const ex=
+  explicitMinute(m);
+
+
+  if(ex!=null){
+
+    return Math.round(ex);
+
+  }
+
+
+  if(
+    !isLive(m)||
+    isHalfTime(m)
+  ){
+
+    return 0;
+
+  }
+
+
+  const d=
+  new Date(
+    m.start||""
+  );
+
+
+  if(
+    !Number.isFinite(
+      d.getTime()
+    )
+  ){
+
+    return 0;
+
+  }
+
+
+  let elapsed=
+  Math.floor(
+    (
+      Date.now()-
+      d.getTime()
+    )/60000
+  );
+
+
+  if(elapsed<0){
+    return 0;
+  }
+
+
+  const st=
+  Number(
+    m.status
+  );
+
+
+  if(st===1){
+
+    return clamp(
+      elapsed,
+      1,
+      45
+    );
+
+  }
+
+
+  if(st===3){
+
+    return clamp(
+      elapsed-15,
+      46,
+      90
+    );
+
+  }
+
+
+  return clamp(
+    elapsed,
+    1,
+    90
+  );
+
+}
+
+
+
+function minuteIsEstimated(m){
+
+  return(
+    explicitMinute(m)==null &&
+    isLive(m) &&
+    !isHalfTime(m)
+  );
+
+}
+
+
+
+function matchClockLabel(m){
+
+  if(isHalfTime(m)){
+    return "D.A";
+  }
+
+
+  if(isFinished(m)){
+    return "MS";
+  }
+
+
+  if(isLive(m)){
+
+    const min=
+    estimateMinute(m);
+
+
+    if(min>0){
+
+      return(
+        `🔴 ${
+          minuteIsEstimated(m)
+          ?"~"
+          :""
+        }${min}'`
+      );
+
+    }
+
+
+    return "🔴 CANLI";
+  }
+
+
+  return fmtStart(
+    m.start
+  );
+
+}
+
+
+
+function competitionLabel(m){
+
+  const idx=
+  m?.leagueIndex;
+
+
+  const embedded=
+  (
+    latest &&
+    latest.leagues &&
+    idx!=null
+  )
+  ?
+  (
+    latest.leagues[String(idx)]
+    ||
+    latest.leagues[idx]
+  )
+  :
+  null;
+
+
+  const mapped=
+  (
+    leagueMapCache &&
+    idx!=null
+  )
+  ?
+  (
+    leagueMapCache[String(idx)]
+    ||
+    leagueMapCache[idx]
+  )
+  :
+  null;
+
+
+  const country=
+
+  m?.countryName
+  ||
+  m?.country
+  ||
+  m?.regionName
+  ||
+  embedded?.countryName
+  ||
+  embedded?.country
+  ||
+  mapped?.countryName
+  ||
+  mapped?.country
+  ||
+  "";
+
+
+  const league=
+
+  m?.leagueName
+  ||
+  m?.league
+  ||
+  m?.competitionName
+  ||
+  m?.tournamentName
+  ||
+  embedded?.leagueName
+  ||
+  embedded?.name
+  ||
+  mapped?.leagueName
+  ||
+  mapped?.league
+  ||
+  mapped?.name
+  ||
+  "";
+
+
+  if(
+    country &&
+    league
+  ){
+
+    return(
+      `${country} • ${league}`
+    );
+
+  }
+
+
+  if(league){
+    return league;
+  }
+
+
+  if(
+    country &&
+    idx!=null
+  ){
+
+    return(
+      `${country} • Lig #${idx}`
+    );
+
+  }
+
+
+  if(country){
+    return country;
+  }
+
+
+  return(
+    idx!=null
+    ?
+    `Goaloo • Lig #${idx}`
+    :
+    "Lig bilgisi bekleniyor"
+  );
+
+}
+
+
+
+function scoreNums(m){
+
+  return{
+
+    h:
+    Number(
+      m?.score?.home
+    )||0,
+
+    a:
+    Number(
+      m?.score?.away
+    )||0
+
+  };
+
+}
+
+
+
+function liveSupport(
+  m,
+  fav
+){
+
+  if(!isLive(m)){
+    return null;
+  }
+
+
+  const c=
+  m.corners;
+
+  const r=
+  m.red;
+
+
+  if(!c&&!r){
+    return null;
+  }
+
+
+  let s=50;
+
+
+  if(
+    c?.home!=null &&
+    c?.away!=null
+  ){
+
+    s+=
+    clamp(
+      (
+        +c.home-
+        +c.away
+      )*4,
+      -20,
+      20
+    )
+    *
+    (
+      fav==="HOME"
+      ?1
+      :
+      fav==="AWAY"
+      ?-1
+      :0
+    );
+
+  }
+
+
+  if(
+    r?.home!=null &&
+    r?.away!=null
+  ){
+
+    s+=
+    clamp(
+      (
+        +r.away-
+        +r.home
+      )*18,
+      -25,
+      25
+    )
+    *
+    (
+      fav==="HOME"
+      ?1
+      :
+      fav==="AWAY"
+      ?-1
+      :0
+    );
+
+  }
+
+
+  return clamp(
+    s,
+    0,
+    100
+  );
+
+}
+
+
+
+function liveStatsText(m){
+
+  const a=[];
+
+
+  if(
+    m.corners?.home!=null &&
+    m.corners?.away!=null
+  ){
+
+    a.push(
+      `<span class="pill">
+        K ${m.corners.home}-${m.corners.away}
+      </span>`
+    );
+
+  }
+
+
+  if(
+    m.red?.home!=null &&
+    m.red?.away!=null &&
+    (
+      m.red.home||
+      m.red.away
+    )
+  ){
+
+    a.push(
+      `<span class="pill r">
+        🟥 ${m.red.home}-${m.red.away}
+      </span>`
+    );
+
+  }
+
+
+  return a.join("");
+
+}
+
+
+
+function liveStatsShort(m){
+
+  const a=[];
+
+
+  if(
+    m.corners?.home!=null &&
+    m.corners?.away!=null
+  ){
+
+    a.push(
+      `K ${m.corners.home}-${m.corners.away}`
+    );
+
+  }
+
+
+  if(
+    m.red?.home!=null &&
+    m.red?.away!=null
+  ){
+
+    a.push(
+      `R ${m.red.home}-${m.red.away}`
+    );
+
+  }
+
+
+  return(
+    a.join(" • ")||
+    "-"
+  );
+
+}
+
+
+
+function stableScoreSegment(rows){
+
+  if(!rows.length){
+
+    return{
+      rows:[],
+      changedRecently:false
+    };
+
+  }
+
+
+  let start=0;
+
+  let lastKey=
+  scoreKey(
+    rows[0]
+  );
+
+
+  for(
+    let i=1;
+    i<rows.length;
+    i++
+  ){
+
+    const key=
+    scoreKey(
+      rows[i]
+    );
+
+
+    if(key!==lastKey){
+
+      start=i;
+      lastKey=key;
+
+    }
+
+  }
+
+
+  return{
+
+    rows:
+    rows.slice(start),
+
+    changedRecently:
+    start>0
+
+  };
+
+}
+
+
+
+function scoreKey(x){
+
+  const h=
+  x?.score?.home;
+
+  const a=
+  x?.score?.away;
+
+
+  return(
+    `${h??"?"}-${a??"?"}`
+  );
+
+}
+
+
+
+function before(rows,t){
+
+  let x=null;
+
+
+  for(const r of rows){
+
+    if(r.time<=t){
+      x=r;
+    }
+    else{
+      break;
+    }
+
+  }
+
+
+  return x;
+
+}
+
+
+
+function dedupe(rows){
+
+  const out=[];
+
+
+  for(const r of rows){
+
+    const last=
+    out.at(-1);
+
+
+    const key=[
+
+      r.one?.home,
+      r.one?.draw,
+      r.one?.away,
+
+      r.ah?.line,
+      r.ah?.home,
+      r.ah?.away,
+
+      r.ou?.line,
+      r.ou?.over,
+      r.ou?.under,
+
+      scoreKey(r)
+
+    ].join("|");
+
+
+    const lastKey=
+    last
+    ?
+    [
+
+      last.one?.home,
+      last.one?.draw,
+      last.one?.away,
+
+      last.ah?.line,
+      last.ah?.home,
+      last.ah?.away,
+
+      last.ou?.line,
+      last.ou?.over,
+      last.ou?.under,
+
+      scoreKey(last)
+
+    ].join("|")
+    :
+    "";
+
+
+    if(
+      last &&
+      Math.abs(
+        last.time-
+        r.time
+      )<15000 &&
+      key===lastKey
+    ){
+
+      continue;
+
+    }
+
+
+    out.push(r);
+
+  }
+
+
+  return out;
+
+}
+
+
+
+function sameMatch(a,b){
+
+  if(
+    a.goalooId!=null &&
+    b.goalooId!=null
+  ){
+
+    return(
+      String(a.goalooId)
+      ===
+      String(b.goalooId)
+    );
+
+  }
+
+
+  return(
+    norm(a.home)
+    ===
+    norm(b.home)
+    &&
+    norm(a.away)
+    ===
+    norm(b.away)
+  );
+
+}
+
+
+
+function parseAsianLine(v){
+
+  if(v==null){
+    return null;
+  }
+
+
+  const s=
+  String(v)
+  .trim()
+  .replace(
+    ",",
+    "."
+  );
+
+
+  if(s.includes("/")){
+
+    const z=
+    s
+    .split("/")
+    .map(Number)
+    .filter(
+      Number.isFinite
+    );
+
+
+    return(
+      z.length
+      ?
+      z.reduce(
+        (a,b)=>a+b,
+        0
+      )/z.length
+      :
+      null
+    );
+
+  }
+
+
+  const n=
+  Number(s);
+
+
+  return(
+    Number.isFinite(n)
+    ?n
+    :null
+  );
+
+}
+
+
+
+function validOdd(x){
+
+  const n=
+  Number(x);
+
+
+  return(
+    Number.isFinite(n)&&
+    n>1 &&
+    n<100
+  );
+
+}
+
+
+
+function scoreText(m){
+
+  return(
+    m?.score?.home!=null &&
+    m?.score?.away!=null
+  )
+  ?
+  `${m.score.home}-${m.score.away}`
+  :
+  "-";
+
+}
+
+
+
+function fmtTime(x){
+
+  const d=
+  new Date(
+    x||""
+  );
+
+
+  return(
+    Number.isFinite(
+      d.getTime()
+    )
+    ?
+    d.toLocaleTimeString(
+      "tr-TR",
+      {
+        hour:"2-digit",
+        minute:"2-digit"
+      }
+    )
+    :
+    "-"
+  );
+
+}
+
+
+
+function fmtStart(x){
+
+  const d=
+  new Date(
+    x||""
+  );
+
+
+  return(
+    Number.isFinite(
+      d.getTime()
+    )
+    ?
+    d.toLocaleString(
+      "tr-TR",
+      {
+        day:"2-digit",
+        month:"2-digit",
+        hour:"2-digit",
+        minute:"2-digit"
+      }
+    )
+    :
+    "Maç önü"
+  );
+
+}
+
+
+
+function ageText(x){
+
+  const d=
+  new Date(
+    x||""
+  );
+
+
+  if(
+    !Number.isFinite(
+      d.getTime()
+    )
+  ){
+    return "-";
+  }
+
+
+  const sec=
+  Math.max(
+    0,
+    Math.floor(
+      (
+        Date.now()-
+        d.getTime()
+      )/1000
+    )
+  );
+
+
+  if(sec<60){
+    return `${sec} sn önce`;
+  }
+
+
+  const min=
+  Math.floor(
+    sec/60
+  );
+
+
+  if(min<60){
+    return `${min} dk önce`;
+  }
+
+
+  return(
+    `${Math.floor(min/60)} sa önce`
+  );
+
+}
+
+
+
+function f2(x){
+
+  return(
+    validOdd(x)
+    ?
+    Number(x)
+    .toFixed(2)
+    :
+    "-"
+  );
+
+}
+
+
+
+function pct(x){
+
+  return(
+    Number.isFinite(
+      Number(x)
+    )
+    ?
+    `%${Math.round(
+      Number(x)*100
+    )}`
+    :
+    "-"
+  );
+
+}
+
+
+
+function signed(x){
+
+  if(
+    !Number.isFinite(
+      Number(x)
+    )
+  ){
+    return "-";
+  }
+
+
+  const n=
+  Number(x);
+
+
+  return(
+    `${n>=0?"+":""}${n.toFixed(2)}`
+  );
+
+}
+
+
+
+function clamp(x,a,b){
+
+  return(
+    Math.min(
+      b,
+      Math.max(
+        a,
+        Number(x)
+      )
+    )
+  );
+
+}
+
+
+
+function sq(x){
+  return x*x;
+}
+
+
+
+function norm(x){
+
+  return(
+    String(x||"")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(
+      /[\u0300-\u036f]/g,
+      ""
+    )
+    .replace(
+      /[^a-z0-9]/g,
+      ""
+    )
+  );
+
+}
+
+
+
+function escapeHtml(x){
+
+  return(
+    String(x??"")
+    .replace(/&/g,"&amp;")
+    .replace(/</g,"&lt;")
+    .replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;")
+    .replace(/'/g,"&#039;")
+  );
+
+}
+
+</script>
+
+</body>
+</html>
