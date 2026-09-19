@@ -1,0 +1,104 @@
+name: Kurt Side Recorder
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kurt-side-recorder
+  cancel-in-progress: false
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Repo al
+        uses: actions/checkout@v4
+
+      - name: Goaloo Bet365 verisini kaydet
+        run: |
+          mkdir -p data
+
+          python3 <<'PY'
+          import json
+          import urllib.request
+          import datetime
+          from pathlib import Path
+
+          URL = "https://avci-recorder-goaloo.veyselduman754.workers.dev/api/goaloo-probe"
+
+          req = urllib.request.Request(
+              URL,
+              headers={"User-Agent": "Kurt-Side-GitHub/1.0"}
+          )
+
+          with urllib.request.urlopen(req, timeout=30) as r:
+              payload = json.load(r)
+
+          now = datetime.datetime.now(
+              datetime.timezone.utc
+          ).isoformat()
+
+          matches = []
+
+          for m in payload.get("matches", []):
+              bet = m.get("bet365") or {}
+
+              matches.append({
+                  "goalooId": m.get("goalooId"),
+                  "home": m.get("home"),
+                  "away": m.get("away"),
+                  "start": m.get("start"),
+                  "status": m.get("status"),
+                  "score": m.get("score"),
+                  "halfScore": m.get("halfScore"),
+                  "corners": m.get("corners"),
+                  "red": m.get("red"),
+                  "yellow": m.get("yellow"),
+                  "bet365": {
+                      "oneXTwo": bet.get("oneXTwo"),
+                      "overUnder": bet.get("overUnder"),
+                      "handicap": bet.get("handicap")
+                  }
+              })
+
+          snapshot = {
+              "capturedAt": now,
+              "source": "GOALOO",
+              "bookmaker": "BET365",
+              "ok": payload.get("ok", False),
+              "count": len(matches),
+              "matches": matches
+          }
+
+          Path("data/latest.json").write_text(
+              json.dumps(snapshot, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+
+          with open("data/archive.jsonl", "a", encoding="utf-8") as f:
+              f.write(
+                  json.dumps(
+                      snapshot,
+                      ensure_ascii=False,
+                      separators=(",", ":")
+                  ) + "\n"
+              )
+
+          print("Kaydedilen maç:", len(matches))
+          PY
+
+      - name: Arsivi GitHub'a yaz
+        run: |
+          git config user.name "kurt-side-bot"
+          git config user.email "kurt-side-bot@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "Yeni veri yok"
