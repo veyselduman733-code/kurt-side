@@ -1,7 +1,7 @@
 {
   "ok": true,
   "http": 200,
-  "capturedAt": "2026-09-21T11:39:48.269Z",
+  "capturedAt": "2026-09-21T11:52:48.002Z",
   "company": {
     "id": 8,
     "name": "Bet365"
@@ -102,9 +102,9 @@
           "marketId": "157369144"
         },
         "overUnder": {
-          "line": "1.75",
-          "over": 0.75,
-          "under": 1.05,
+          "line": "2",
+          "over": 1.05,
+          "under": 0.75,
           "marketId": "20371893"
         },
         "marketState": {
@@ -497,7 +497,7 @@
       "start": "2026-09-21 10:00:00",
       "status": 3,
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "red": {
@@ -505,7 +505,7 @@
         "away": 0
       },
       "yellow": {
-        "home": 1,
+        "home": 3,
         "away": 2
       },
       "rawIndex": 11,
@@ -514,20 +514,20 @@
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 1.1,
-          "away": 0.7,
+          "home": 1.05,
+          "away": 0.75,
           "marketId": "17712374"
         },
         "oneXTwo": {
-          "home": 1.22,
-          "draw": 4.33,
-          "away": 17,
+          "home": 1.01,
+          "draw": 51,
+          "away": 81,
           "marketId": "157996368"
         },
         "overUnder": {
-          "line": "1.5",
-          "over": 1.03,
-          "under": 0.78,
+          "line": "2.5",
+          "over": 7.75,
+          "under": 0.08,
           "marketId": "20472879"
         },
         "marketState": {
@@ -770,8 +770,8 @@
         },
         "oneXTwo": {
           "home": 2.1,
-          "draw": 3.6,
-          "away": 2.8,
+          "draw": 3.7,
+          "away": 2.7,
           "marketId": "157994846"
         },
         "overUnder": {
@@ -814,8 +814,8 @@
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 0.88,
-          "away": 0.93,
+          "home": 0.85,
+          "away": 0.95,
           "marketId": "17683196"
         },
         "oneXTwo": {
@@ -914,8 +914,8 @@
         "companyId": 8,
         "handicap": {
           "line": "-1",
-          "home": 0.88,
-          "away": 0.93,
+          "home": 0.85,
+          "away": 0.95,
           "marketId": "17715398"
         },
         "oneXTwo": {
@@ -926,8 +926,8 @@
         },
         "overUnder": {
           "line": "2.5",
-          "over": 0.9,
-          "under": 0.9,
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20477037"
         },
         "marketState": {
@@ -947,7 +947,7 @@
       "start": "2026-09-21 10:30:00",
       "status": 3,
       "score": {
-        "home": 2,
+        "home": 4,
         "away": 0
       },
       "red": {
@@ -958,17 +958,7 @@
         "home": 0,
         "away": 1
       },
-      "rawIndex": 20,
-      "halfScore": {
-        "home": 2,
-        "away": 0
-      },
-      "goalooServerTime": "2026-09-21 11:35:58",
-      "corners": {
-        "home": 5,
-        "away": 0
-      },
-      "periodFlag": "1"
+      "rawIndex": 20
     },
     {
       "goalooId": "3088005",
@@ -992,33 +982,23 @@
         "away": 0
       },
       "rawIndex": 21,
-      "halfScore": {
-        "home": 0,
-        "away": 0
-      },
-      "goalooServerTime": "2026-09-21 11:30:30",
-      "corners": {
-        "home": 2,
-        "away": 4
-      },
-      "periodFlag": "1",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 0.7,
-          "away": 1.1,
+          "home": 0.68,
+          "away": 1.15,
           "marketId": "17713473"
         },
         "oneXTwo": {
-          "home": 3.2,
-          "draw": 1.9,
-          "away": 4,
+          "home": 3.6,
+          "draw": 1.66,
+          "away": 4.5,
           "marketId": "158004231"
         },
         "overUnder": {
-          "line": "0.75",
+          "line": "0.5",
           "over": 0.95,
           "under": 0.85,
           "marketId": "20474369"
@@ -1062,9 +1042,9 @@
           "marketId": "17684696"
         },
         "oneXTwo": {
-          "home": 4.1,
-          "draw": 3.5,
-          "away": 1.85,
+          "home": 4.2,
+          "draw": 3.6,
+          "away": 1.8,
           "marketId": "157752261"
         },
         "overUnder": {
@@ -1112,9 +1092,9 @@
           "marketId": "17683453"
         },
         "oneXTwo": {
-          "home": 3.7,
-          "draw": 3.25,
-          "away": 2,
+          "home": 3.6,
+          "draw": 3.2,
+          "away": 2.05,
           "marketId": "157749021"
         },
         "overUnder": {
@@ -1262,9 +1242,9 @@
           "marketId": "17685160"
         },
         "oneXTwo": {
-          "home": 1.48,
-          "draw": 3.75,
-          "away": 5.5,
+          "home": 1.5,
+          "draw": 3.7,
+          "away": 5.25,
           "marketId": "157763920"
         },
         "overUnder": {
@@ -1808,9 +1788,9 @@
           "marketId": "17714958"
         },
         "oneXTwo": {
-          "home": 2.6,
+          "home": 2.7,
           "draw": 3.1,
-          "away": 2.45,
+          "away": 2.38,
           "marketId": "158016056"
         },
         "overUnder": {
@@ -2022,20 +2002,20 @@
         "companyId": 8,
         "handicap": {
           "line": "0.25",
-          "home": 1,
-          "away": 0.8,
+          "home": 0.9,
+          "away": 0.9,
           "marketId": "17679834"
         },
         "oneXTwo": {
-          "home": 2.3,
+          "home": 2.2,
           "draw": 2.88,
-          "away": 3.25,
+          "away": 3.5,
           "marketId": "157717050"
         },
         "overUnder": {
           "line": "1.75",
-          "over": 0.83,
-          "under": 0.98,
+          "over": 0.8,
+          "under": 1,
           "marketId": "20425163"
         },
         "marketState": {
@@ -2118,8 +2098,8 @@
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 0.95,
-          "away": 0.85,
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17692681"
         },
         "oneXTwo": {
@@ -2386,10 +2366,10 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "",
-          "home": null,
-          "away": null,
-          "marketId": ""
+          "line": "-1",
+          "home": 1,
+          "away": 0.8,
+          "marketId": "17715431"
         },
         "oneXTwo": {
           "home": 4.1,
@@ -2398,10 +2378,10 @@
           "marketId": "158018311"
         },
         "overUnder": {
-          "line": "",
-          "over": null,
-          "under": null,
-          "marketId": ""
+          "line": "3.75",
+          "over": 0.8,
+          "under": 1,
+          "marketId": "20477077"
         },
         "marketState": {
           "handicap": "0",
@@ -2536,9 +2516,9 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "2",
-          "home": 0.95,
-          "away": 0.85,
+          "line": "1.75",
+          "home": 0.8,
+          "away": 1,
           "marketId": "17712327"
         },
         "oneXTwo": {
@@ -2548,9 +2528,9 @@
           "marketId": "157997611"
         },
         "overUnder": {
-          "line": "3",
-          "over": 0.98,
-          "under": 0.83,
+          "line": "2.75",
+          "over": 0.78,
+          "under": 1.03,
           "marketId": "20472822"
         },
         "marketState": {
@@ -2636,9 +2616,9 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.5",
-          "home": 1.03,
-          "away": 0.78,
+          "line": "0.25",
+          "home": 0.78,
+          "away": 1.03,
           "marketId": "17712378"
         },
         "oneXTwo": {
@@ -2649,8 +2629,8 @@
         },
         "overUnder": {
           "line": "2.25",
-          "over": 0.83,
-          "under": 0.98,
+          "over": 0.8,
+          "under": 1,
           "marketId": "20472883"
         },
         "marketState": {
@@ -2687,8 +2667,8 @@
         "companyId": 8,
         "handicap": {
           "line": "0.25",
-          "home": 0.83,
-          "away": 0.98,
+          "home": 0.9,
+          "away": 0.9,
           "marketId": "17712377"
         },
         "oneXTwo": {
@@ -2816,7 +2796,7 @@
       "start": "2026-09-21 11:30:00",
       "status": 1,
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "red": {
@@ -2911,9 +2891,9 @@
           "marketId": "17715156"
         },
         "oneXTwo": {
-          "home": 2.25,
+          "home": 2.4,
           "draw": 3.2,
-          "away": 2.75,
+          "away": 2.55,
           "marketId": "158016420"
         },
         "overUnder": {
@@ -2955,10 +2935,10 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "",
-          "home": null,
-          "away": null,
-          "marketId": ""
+          "line": "0.75",
+          "home": 0.83,
+          "away": 0.98,
+          "marketId": "17715432"
         },
         "oneXTwo": {
           "home": 1.67,
@@ -2967,10 +2947,10 @@
           "marketId": "158018243"
         },
         "overUnder": {
-          "line": "",
-          "over": null,
-          "under": null,
-          "marketId": ""
+          "line": "4.25",
+          "over": 1,
+          "under": 0.8,
+          "marketId": "20477079"
         },
         "marketState": {
           "handicap": "0",
@@ -2987,7 +2967,7 @@
       "home": "Sonderjyske Reserve",
       "away": "Silkeborg IF Reserve",
       "start": "2026-09-21 10:00:00",
-      "status": 3,
+      "status": -1,
       "score": {
         "home": 0,
         "away": 0
@@ -3010,7 +2990,7 @@
       "home": "FC Lochin",
       "away": "Respublika FA",
       "start": "2026-09-21 11:00:00",
-      "status": 1,
+      "status": 2,
       "score": {
         "home": 0,
         "away": 2
@@ -3034,9 +3014,9 @@
           "marketId": "17712591"
         },
         "oneXTwo": {
-          "home": 7.5,
-          "draw": 5.5,
-          "away": 1.3,
+          "home": 8.5,
+          "draw": 6,
+          "away": 1.22,
           "marketId": "157992547"
         },
         "overUnder": {
@@ -3060,7 +3040,7 @@
       "home": "Pakhtakor II",
       "away": "Shurtan Guzor",
       "start": "2026-09-21 11:00:00",
-      "status": 1,
+      "status": 2,
       "score": {
         "home": 0,
         "away": 2
@@ -3071,7 +3051,7 @@
       },
       "yellow": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "rawIndex": 70,
       "bet365": {
@@ -3084,9 +3064,9 @@
           "marketId": "17712592"
         },
         "oneXTwo": {
-          "home": 26,
-          "draw": 15,
-          "away": 1.03,
+          "home": 29,
+          "draw": 19,
+          "away": 1.02,
           "marketId": "157992548"
         },
         "overUnder": {
@@ -3207,9 +3187,9 @@
           "marketId": "17715422"
         },
         "oneXTwo": {
-          "home": 5.5,
-          "draw": 4.75,
-          "away": 1.4,
+          "home": 4.33,
+          "draw": 4.33,
+          "away": 1.55,
           "marketId": "158017617"
         },
         "overUnder": {
@@ -3676,9 +3656,9 @@
           "marketId": "17714947"
         },
         "oneXTwo": {
-          "home": 3.1,
-          "draw": 2.8,
-          "away": 2.35,
+          "home": 3.75,
+          "draw": 2.88,
+          "away": 2.05,
           "marketId": "158015271"
         },
         "overUnder": {
@@ -3776,9 +3756,9 @@
           "marketId": ""
         },
         "oneXTwo": {
-          "home": 3.1,
-          "draw": 2.8,
-          "away": 2.3,
+          "home": 3.2,
+          "draw": 2.88,
+          "away": 2.2,
           "marketId": "158018826"
         },
         "overUnder": {
@@ -3970,15 +3950,15 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.75",
-          "home": 1,
-          "away": 0.8,
+          "line": "0.5",
+          "home": 0.93,
+          "away": 0.88,
           "marketId": "17712876"
         },
         "oneXTwo": {
-          "home": 1.73,
-          "draw": 3.5,
-          "away": 4,
+          "home": 1.85,
+          "draw": 3.4,
+          "away": 3.5,
           "marketId": "158001641"
         },
         "overUnder": {
@@ -4449,9 +4429,9 @@
           "marketId": "17715382"
         },
         "oneXTwo": {
-          "home": 4.33,
-          "draw": 3.5,
-          "away": 1.67,
+          "home": 4.2,
+          "draw": 3.4,
+          "away": 1.7,
           "marketId": "158016885"
         },
         "overUnder": {
@@ -4525,9 +4505,9 @@
       "home": "Sportivo San Lorenzo Reserve",
       "away": "Olimpia Asuncion Reserves",
       "start": "2026-09-21 11:00:00",
-      "status": 1,
+      "status": 2,
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "red": {
@@ -4543,21 +4523,21 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-1.5",
-          "home": 0.95,
-          "away": 0.85,
+          "line": "-1.25",
+          "home": 1,
+          "away": 0.8,
           "marketId": "17713711"
         },
         "oneXTwo": {
-          "home": 17,
-          "draw": 9.5,
-          "away": 1.07,
+          "home": 8,
+          "draw": 4.5,
+          "away": 1.33,
           "marketId": "158006905"
         },
         "overUnder": {
-          "line": "3.75",
-          "over": 0.9,
-          "under": 0.9,
+          "line": "4.25",
+          "over": 0.8,
+          "under": 1,
           "marketId": "20474694"
         },
         "marketState": {
@@ -4675,7 +4655,7 @@
       "home": "ZFK Milutinac (W)",
       "away": "ZFK TSC (W)",
       "start": "2026-09-21 11:00:00",
-      "status": 1,
+      "status": 2,
       "score": {
         "home": 0,
         "away": 2
@@ -4689,23 +4669,13 @@
         "away": 1
       },
       "rawIndex": 105,
-      "halfScore": {
-        "home": null,
-        "away": null
-      },
-      "goalooServerTime": "2026-09-21 10:58:59",
-      "corners": {
-        "home": 0,
-        "away": 3
-      },
-      "periodFlag": "1",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-2.5",
-          "home": 0.85,
-          "away": 0.95,
+          "line": "-2.25",
+          "home": 0.78,
+          "away": 1.03,
           "marketId": "17713712"
         },
         "oneXTwo": {
@@ -4715,9 +4685,9 @@
           "marketId": "158006907"
         },
         "overUnder": {
-          "line": "4.75",
-          "over": 0.83,
-          "under": 0.98,
+          "line": "4.5",
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20474696"
         },
         "marketState": {
@@ -4959,9 +4929,9 @@
           "marketId": "17713625"
         },
         "oneXTwo": {
-          "home": 1.95,
+          "home": 1.9,
           "draw": 4.1,
-          "away": 2.8,
+          "away": 2.9,
           "marketId": "158006334"
         },
         "overUnder": {
@@ -5359,9 +5329,9 @@
           "marketId": "17715417"
         },
         "oneXTwo": {
-          "home": 3.9,
-          "draw": 4.1,
-          "away": 1.67,
+          "home": 3.8,
+          "draw": 4,
+          "away": 1.7,
           "marketId": "158017952"
         },
         "overUnder": {
@@ -5548,7 +5518,34 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 122
+      "rawIndex": 122,
+      "bet365": {
+        "company": "Bet365",
+        "companyId": 8,
+        "handicap": {
+          "line": "",
+          "home": null,
+          "away": null,
+          "marketId": ""
+        },
+        "oneXTwo": {
+          "home": 1.57,
+          "draw": 3.5,
+          "away": 5.25,
+          "marketId": "158019714"
+        },
+        "overUnder": {
+          "line": "",
+          "over": null,
+          "under": null,
+          "marketId": ""
+        },
+        "marketState": {
+          "handicap": "0",
+          "oneXTwo": "0",
+          "overUnder": "0"
+        }
+      }
     },
     {
       "goalooId": "3044276",
@@ -5772,10 +5769,10 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "",
-          "home": null,
-          "away": null,
-          "marketId": ""
+          "line": "0.5",
+          "home": 1,
+          "away": 0.8,
+          "marketId": "17715433"
         },
         "oneXTwo": {
           "home": 1.91,
@@ -5784,10 +5781,10 @@
           "marketId": "158019235"
         },
         "overUnder": {
-          "line": "",
-          "over": null,
-          "under": null,
-          "marketId": ""
+          "line": "2.75",
+          "over": 0.9,
+          "under": 0.9,
+          "marketId": "20477081"
         },
         "marketState": {
           "handicap": "0",
@@ -6068,16 +6065,6 @@
         "away": 0
       },
       "rawIndex": 134,
-      "halfScore": {
-        "home": null,
-        "away": null
-      },
-      "goalooServerTime": "2026-09-21 14:00:00",
-      "corners": {
-        "home": 0,
-        "away": 0
-      },
-      "periodFlag": "0",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6167,7 +6154,7 @@
       "status": 1,
       "score": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
       "red": {
         "home": 0,
@@ -6177,7 +6164,17 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 136
+      "rawIndex": 136,
+      "halfScore": {
+        "home": null,
+        "away": null
+      },
+      "goalooServerTime": "2026-09-21 11:29:50",
+      "corners": {
+        "home": 0,
+        "away": 0
+      },
+      "periodFlag": "0"
     },
     {
       "goalooId": "3093719",
@@ -6247,7 +6244,7 @@
         "away": 0
       },
       "yellow": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
       "rawIndex": 138,
@@ -6255,21 +6252,21 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.25",
-          "home": 0.83,
-          "away": 0.98,
+          "line": "0",
+          "home": 1.1,
+          "away": 0.7,
           "marketId": "17713702"
         },
         "oneXTwo": {
-          "home": 3.2,
-          "draw": 3,
-          "away": 2.25,
+          "home": 3.25,
+          "draw": 2.4,
+          "away": 2.62,
           "marketId": "158006892"
         },
         "overUnder": {
-          "line": "3.75",
-          "over": 0.9,
-          "under": 0.9,
+          "line": "3.25",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20474683"
         },
         "marketState": {
@@ -7174,15 +7171,15 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.5",
-          "home": 0.9,
-          "away": 0.9,
+          "line": "-0.75",
+          "home": 0.95,
+          "away": 0.85,
           "marketId": "17683256"
         },
         "oneXTwo": {
-          "home": 4.75,
-          "draw": 4.1,
-          "away": 1.53,
+          "home": 4.2,
+          "draw": 3.9,
+          "away": 1.65,
           "marketId": "157746020"
         },
         "overUnder": {
@@ -7275,14 +7272,14 @@
         "companyId": 8,
         "handicap": {
           "line": "0.25",
-          "home": 0.85,
-          "away": 0.95,
+          "home": 0.78,
+          "away": 1.03,
           "marketId": "17711634"
         },
         "oneXTwo": {
-          "home": 2,
+          "home": 2.05,
           "draw": 3.3,
-          "away": 3.2,
+          "away": 3.1,
           "marketId": "157992411"
         },
         "overUnder": {
@@ -7380,7 +7377,7 @@
           "marketId": "17711898"
         },
         "oneXTwo": {
-          "home": 3.9,
+          "home": 3.75,
           "draw": 4.5,
           "away": 1.57,
           "marketId": "157994136"
@@ -7808,9 +7805,9 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-2",
-          "home": 0.83,
-          "away": 0.98,
+          "line": "-2.5",
+          "home": 0.85,
+          "away": 0.95,
           "marketId": "17712151"
         },
         "oneXTwo": {
@@ -7820,7 +7817,7 @@
           "marketId": "157995947"
         },
         "overUnder": {
-          "line": "4.5",
+          "line": "4.75",
           "over": 0.83,
           "under": 0.98,
           "marketId": "20472536"
@@ -7899,7 +7896,34 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 178
+      "rawIndex": 178,
+      "bet365": {
+        "company": "Bet365",
+        "companyId": 8,
+        "handicap": {
+          "line": "",
+          "home": null,
+          "away": null,
+          "marketId": ""
+        },
+        "oneXTwo": {
+          "home": 1.7,
+          "draw": 3.4,
+          "away": 4.1,
+          "marketId": "158019781"
+        },
+        "overUnder": {
+          "line": "",
+          "over": null,
+          "under": null,
+          "marketId": ""
+        },
+        "marketState": {
+          "handicap": "0",
+          "oneXTwo": "0",
+          "overUnder": "0"
+        }
+      }
     },
     {
       "goalooId": "3093659",
@@ -8263,8 +8287,8 @@
         },
         "overUnder": {
           "line": "3.5",
-          "over": 0.95,
-          "under": 0.85,
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20474706"
         },
         "marketState": {
@@ -8306,9 +8330,9 @@
           "marketId": ""
         },
         "oneXTwo": {
-          "home": 1.13,
-          "draw": 8.5,
-          "away": 15,
+          "home": 1.3,
+          "draw": 6,
+          "away": 7.5,
           "marketId": "158019489"
         },
         "overUnder": {
@@ -8350,21 +8374,21 @@
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "1.5",
-          "home": 0.83,
-          "away": 0.98,
+          "line": "1",
+          "home": 0.8,
+          "away": 1,
           "marketId": "17714572"
         },
         "oneXTwo": {
-          "home": 1.28,
-          "draw": 5,
-          "away": 8.5,
+          "home": 1.4,
+          "draw": 4,
+          "away": 7.5,
           "marketId": "158014468"
         },
         "overUnder": {
-          "line": "2.75",
-          "over": 0.93,
-          "under": 0.88,
+          "line": "2.25",
+          "over": 0.9,
+          "under": 0.9,
           "marketId": "20475974"
         },
         "marketState": {
@@ -8382,7 +8406,7 @@
       "home": "Guangdong Guangzhou Power U21",
       "away": "Shandong Taishan U21",
       "start": "2026-09-21 11:30:00",
-      "status": 1,
+      "status": -13,
       "score": {
         "home": 0,
         "away": 0
@@ -8396,6 +8420,16 @@
         "away": 0
       },
       "rawIndex": 189,
+      "halfScore": {
+        "home": null,
+        "away": null
+      },
+      "goalooServerTime": "2026-09-21 11:29:06",
+      "corners": {
+        "home": 0,
+        "away": 0
+      },
+      "periodFlag": "0",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
