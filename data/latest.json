@@ -1,7 +1,7 @@
 {
   "ok": true,
   "http": 200,
-  "capturedAt": "2026-09-24T16:59:35.867Z",
+  "capturedAt": "2026-09-24T17:18:18.277Z",
   "company": {
     "id": 8,
     "name": "Bet365"
@@ -12,7 +12,7 @@
     "odds": true,
     "oddsChanges": true
   },
-  "count": 231,
+  "count": 203,
   "matches": [
     {
       "goalooId": "3088940",
@@ -91,8 +91,8 @@
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 1.03,
-          "away": 0.83,
+          "home": 1.05,
+          "away": 0.8,
           "marketId": "17674260"
         },
         "oneXTwo": {
@@ -103,8 +103,8 @@
         },
         "overUnder": {
           "line": "3.25",
-          "over": 0.85,
-          "under": 1,
+          "over": 0.83,
+          "under": 1.03,
           "marketId": "20417138"
         },
         "marketState": {
@@ -202,9 +202,9 @@
           "marketId": "157648393"
         },
         "overUnder": {
-          "line": "3.5",
-          "over": 0.83,
-          "under": 1.03,
+          "line": "3.75",
+          "over": 1,
+          "under": 0.85,
           "marketId": "20414837"
         },
         "marketState": {
@@ -246,9 +246,9 @@
           "marketId": "17674057"
         },
         "oneXTwo": {
-          "home": 1.57,
-          "draw": 4.33,
-          "away": 5,
+          "home": 1.75,
+          "draw": 4,
+          "away": 4.1,
           "marketId": "157662267"
         },
         "overUnder": {
@@ -291,14 +291,14 @@
         "companyId": 8,
         "handicap": {
           "line": "1.25",
-          "home": 0.95,
-          "away": 0.85,
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17674161"
         },
         "oneXTwo": {
-          "home": 1.45,
-          "draw": 4.5,
-          "away": 6.25,
+          "home": 1.48,
+          "draw": 4.33,
+          "away": 6,
           "marketId": "157654278"
         },
         "overUnder": {
@@ -353,8 +353,8 @@
         },
         "overUnder": {
           "line": "2",
-          "over": 0.8,
-          "under": 1,
+          "over": 0.83,
+          "under": 0.98,
           "marketId": "20416898"
         },
         "marketState": {
@@ -391,8 +391,8 @@
         "companyId": 8,
         "handicap": {
           "line": "-1.5",
-          "home": 0.98,
-          "away": 0.83,
+          "home": 0.83,
+          "away": 0.98,
           "marketId": "17714787"
         },
         "oneXTwo": {
@@ -402,9 +402,9 @@
           "marketId": "158016156"
         },
         "overUnder": {
-          "line": "2",
-          "over": 0.78,
-          "under": 1.03,
+          "line": "2.25",
+          "over": 1.05,
+          "under": 0.75,
           "marketId": "20476263"
         },
         "marketState": {
@@ -465,56 +465,6 @@
       }
     },
     {
-      "goalooId": "3001068",
-      "leagueIndex": 3,
-      "homeTeamId": 4494,
-      "awayTeamId": 806,
-      "home": "Namibia",
-      "away": "Republic of the Congo",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 1
-      },
-      "rawIndex": 11,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.78,
-          "away": 1.03,
-          "marketId": "17721349"
-        },
-        "oneXTwo": {
-          "home": 2.05,
-          "draw": 3,
-          "away": 3.5,
-          "marketId": "158062747"
-        },
-        "overUnder": {
-          "line": "2",
-          "over": 0.8,
-          "under": 1,
-          "marketId": "20484730"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3001045",
       "leagueIndex": 3,
       "homeTeamId": 811,
@@ -522,7 +472,7 @@
       "home": "Democratic Rep Congo",
       "away": "Equatorial Guinea",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 1,
         "away": 0
@@ -532,17 +482,17 @@
         "away": 0
       },
       "yellow": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "rawIndex": 12,
+      "rawIndex": 11,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "1",
-          "home": 1.08,
-          "away": 0.73,
+          "line": "0.75",
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17721300"
         },
         "oneXTwo": {
@@ -552,9 +502,9 @@
           "marketId": "158062595"
         },
         "overUnder": {
-          "line": "2.25",
-          "over": 0.8,
-          "under": 1,
+          "line": "2",
+          "over": 0.73,
+          "under": 1.08,
           "marketId": "20484664"
         },
         "marketState": {
@@ -572,10 +522,10 @@
       "home": "Mauritania",
       "away": "Central African Republic",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
       "red": {
         "home": 0,
@@ -585,26 +535,26 @@
         "home": 1,
         "away": 3
       },
-      "rawIndex": 13,
+      "rawIndex": 12,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.5",
-          "home": 1.05,
-          "away": 0.75,
+          "line": "0.25",
+          "home": 0.8,
+          "away": 1,
           "marketId": "17721370"
         },
         "oneXTwo": {
-          "home": 1.16,
-          "draw": 6,
-          "away": 15,
+          "home": 2.3,
+          "draw": 2.05,
+          "away": 7,
           "marketId": "158062807"
         },
         "overUnder": {
-          "line": "2.25",
-          "over": 0.98,
-          "under": 0.83,
+          "line": "2.75",
+          "over": 0.8,
+          "under": 1,
           "marketId": "20484766"
         },
         "marketState": {
@@ -622,7 +572,7 @@
       "home": "Libya",
       "away": "Botswana",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
         "away": 2
@@ -635,26 +585,26 @@
         "home": 0,
         "away": 1
       },
-      "rawIndex": 14,
+      "rawIndex": 13,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0.75",
-          "home": 0.9,
-          "away": 0.9,
+          "home": 1,
+          "away": 0.8,
           "marketId": "17721371"
         },
         "oneXTwo": {
-          "home": 8.5,
-          "draw": 5,
-          "away": 1.3,
+          "home": 9.5,
+          "draw": 5.5,
+          "away": 1.25,
           "marketId": "158062808"
         },
         "overUnder": {
           "line": "3.25",
-          "over": 0.9,
-          "under": 0.9,
+          "over": 1.05,
+          "under": 0.75,
           "marketId": "20484767"
         },
         "marketState": {
@@ -685,26 +635,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 15,
+      "rawIndex": 14,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.75",
-          "home": 0.75,
-          "away": 1.05,
+          "line": "1",
+          "home": 1.03,
+          "away": 0.78,
           "marketId": "17716580"
         },
         "oneXTwo": {
-          "home": 1.53,
-          "draw": 3.7,
-          "away": 6.25,
+          "home": 1.57,
+          "draw": 3.6,
+          "away": 5.75,
           "marketId": "158028551"
         },
         "overUnder": {
           "line": "2",
-          "over": 0.75,
-          "under": 1.05,
+          "over": 0.78,
+          "under": 1.03,
           "marketId": "20478425"
         },
         "marketState": {
@@ -735,7 +685,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 16,
+      "rawIndex": 15,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -785,7 +735,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 17,
+      "rawIndex": 16,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -835,7 +785,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 18,
+      "rawIndex": 17,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -885,7 +835,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 19,
+      "rawIndex": 18,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -935,7 +885,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 20,
+      "rawIndex": 19,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -985,7 +935,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 21,
+      "rawIndex": 20,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -996,7 +946,7 @@
           "marketId": "17723855"
         },
         "oneXTwo": {
-          "home": 41,
+          "home": 51,
           "draw": 23,
           "away": 1.02,
           "marketId": "158079502"
@@ -1035,7 +985,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 22,
+      "rawIndex": 21,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1085,7 +1035,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 23,
+      "rawIndex": 22,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1135,7 +1085,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 24,
+      "rawIndex": 23,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1185,7 +1135,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 25,
+      "rawIndex": 24,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1235,7 +1185,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 26,
+      "rawIndex": 25,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1246,9 +1196,9 @@
           "marketId": "17724770"
         },
         "oneXTwo": {
-          "home": 1.17,
-          "draw": 8.5,
-          "away": 11,
+          "home": 1.14,
+          "draw": 9,
+          "away": 12,
           "marketId": "158086501"
         },
         "overUnder": {
@@ -1285,7 +1235,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 27,
+      "rawIndex": 26,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1335,7 +1285,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 28,
+      "rawIndex": 27,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1385,7 +1335,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 29,
+      "rawIndex": 28,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1435,7 +1385,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 30,
+      "rawIndex": 29,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1485,7 +1435,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 31,
+      "rawIndex": 30,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1535,7 +1485,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 32,
+      "rawIndex": 31,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1585,7 +1535,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 33,
+      "rawIndex": 32,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1622,9 +1572,9 @@
       "home": "United Arab Emirates(N)",
       "away": "Yemen",
       "start": "2026-09-24 15:55:00",
-      "status": 2,
+      "status": 3,
       "score": {
-        "home": 3,
+        "home": 4,
         "away": 0
       },
       "red": {
@@ -1635,14 +1585,24 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 34,
+      "rawIndex": 33,
+      "halfScore": {
+        "home": 3,
+        "away": 0
+      },
+      "goalooServerTime": "2026-09-24 17:03:58",
+      "corners": {
+        "home": 0,
+        "away": 1
+      },
+      "periodFlag": "1",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0.75",
-          "home": 0.75,
-          "away": 1.05,
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17721817"
         },
         "oneXTwo": {
@@ -1652,13 +1612,13 @@
           "marketId": "158064113"
         },
         "overUnder": {
-          "line": "4.25",
-          "over": 0.75,
-          "under": 1.05,
+          "line": "5",
+          "over": 0.7,
+          "under": 1.1,
           "marketId": "20485321"
         },
         "marketState": {
-          "handicap": "0",
+          "handicap": "1",
           "oneXTwo": "0",
           "overUnder": "0"
         }
@@ -1685,7 +1645,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 35,
+      "rawIndex": 34,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1735,7 +1695,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 36,
+      "rawIndex": 35,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1785,7 +1745,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 37,
+      "rawIndex": 36,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1835,14 +1795,14 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 38,
+      "rawIndex": 37,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "4",
-          "home": 0.85,
-          "away": 0.95,
+          "home": 0.9,
+          "away": 0.9,
           "marketId": "17725506"
         },
         "oneXTwo": {
@@ -1885,7 +1845,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 39,
+      "rawIndex": 38,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -1935,14 +1895,14 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 40,
+      "rawIndex": 39,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "5.5",
-          "home": 0.9,
-          "away": 0.9,
+          "home": 0.88,
+          "away": 0.93,
           "marketId": "17724751"
         },
         "oneXTwo": {
@@ -1953,8 +1913,8 @@
         },
         "overUnder": {
           "line": "5.75",
-          "over": 0.85,
-          "under": 0.95,
+          "over": 0.83,
+          "under": 0.98,
           "marketId": "20489423"
         },
         "marketState": {
@@ -1985,20 +1945,20 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 41,
+      "rawIndex": 40,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "3",
-          "home": 0.95,
-          "away": 0.85,
+          "home": 0.9,
+          "away": 0.9,
           "marketId": "17724734"
         },
         "oneXTwo": {
-          "home": 1.09,
-          "draw": 10,
-          "away": 23,
+          "home": 1.07,
+          "draw": 11,
+          "away": 26,
           "marketId": "158086178"
         },
         "overUnder": {
@@ -2035,26 +1995,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 42,
+      "rawIndex": 41,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0.75",
-          "home": 0.85,
-          "away": 0.95,
+          "home": 0.88,
+          "away": 0.93,
           "marketId": "17716013"
         },
         "oneXTwo": {
-          "home": 1.7,
-          "draw": 3.7,
-          "away": 4.75,
+          "home": 1.67,
+          "draw": 3.8,
+          "away": 5,
           "marketId": "158024307"
         },
         "overUnder": {
           "line": "2.75",
-          "over": 0.85,
-          "under": 0.95,
+          "over": 0.9,
+          "under": 0.9,
           "marketId": "20477745"
         },
         "marketState": {
@@ -2085,7 +2045,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 43
+      "rawIndex": 42
     },
     {
       "goalooId": "3076971",
@@ -2108,7 +2068,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 44,
+      "rawIndex": 43,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2158,7 +2118,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 45,
+      "rawIndex": 44,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2208,7 +2168,7 @@
         "home": 1,
         "away": 4
       },
-      "rawIndex": 46,
+      "rawIndex": 45,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2245,39 +2205,39 @@
       "home": "Hapoel Acre FC",
       "away": "Hapoel Afula",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "red": {
         "home": 0,
         "away": 0
       },
       "yellow": {
-        "home": 1,
-        "away": 3
+        "home": 2,
+        "away": 4
       },
-      "rawIndex": 47,
+      "rawIndex": 46,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "-0.25",
-          "home": 0.95,
-          "away": 0.85,
+          "home": 0.8,
+          "away": 1,
           "marketId": "17721299"
         },
         "oneXTwo": {
-          "home": 11,
-          "draw": 5,
-          "away": 1.25,
+          "home": 29,
+          "draw": 15,
+          "away": 1.03,
           "marketId": "158062561"
         },
         "overUnder": {
-          "line": "2.5",
-          "over": 0.95,
-          "under": 0.85,
+          "line": "3",
+          "over": 0.73,
+          "under": 1.08,
           "marketId": "20484663"
         },
         "marketState": {
@@ -2295,7 +2255,7 @@
       "home": "Hapoel Rishon Lezion",
       "away": "Maccabi Ahi Nazareth",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
         "away": 0
@@ -2308,26 +2268,26 @@
         "home": 2,
         "away": 2
       },
-      "rawIndex": 48,
+      "rawIndex": 47,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.75",
-          "home": 0.9,
-          "away": 0.9,
+          "line": "0.5",
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17721298"
         },
         "oneXTwo": {
-          "home": 1.66,
-          "draw": 3.2,
+          "home": 1.95,
+          "draw": 2.5,
           "away": 6.5,
           "marketId": "158062519"
         },
         "overUnder": {
-          "line": "1.5",
-          "over": 0.78,
-          "under": 1.03,
+          "line": "1",
+          "over": 0.7,
+          "under": 1.1,
           "marketId": "20484662"
         },
         "marketState": {
@@ -2345,39 +2305,39 @@
       "home": "Ironi Modiin",
       "away": "Ashdod MS",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
-        "away": 1
+        "away": 3
       },
       "red": {
         "home": 0,
         "away": 0
       },
       "yellow": {
-        "home": 1,
+        "home": 2,
         "away": 1
       },
-      "rawIndex": 49,
+      "rawIndex": 48,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.75",
-          "home": 0.85,
-          "away": 0.95,
+          "line": "-0.5",
+          "home": 0.93,
+          "away": 0.88,
           "marketId": "17722033"
         },
         "oneXTwo": {
-          "home": 17,
-          "draw": 7.5,
-          "away": 1.11,
+          "home": 67,
+          "draw": 51,
+          "away": 1.01,
           "marketId": "158065457"
         },
         "overUnder": {
-          "line": "2.5",
-          "over": 0.78,
-          "under": 1.03,
+          "line": "4.25",
+          "over": 0.85,
+          "under": 0.95,
           "marketId": "20485608"
         },
         "marketState": {
@@ -2395,7 +2355,7 @@
       "home": "Maccabi Herzliya",
       "away": "Kiryat Yam SC",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 1,
         "away": 1
@@ -2405,80 +2365,30 @@
         "away": 0
       },
       "yellow": {
-        "home": 1,
-        "away": 2
+        "home": 2,
+        "away": 3
       },
-      "rawIndex": 50,
+      "rawIndex": 49,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.25",
-          "home": 0.7,
-          "away": 1.1,
+          "line": "0",
+          "home": 1,
+          "away": 0.8,
           "marketId": "17721260"
         },
         "oneXTwo": {
-          "home": 3.2,
-          "draw": 2.75,
-          "away": 2.6,
+          "home": 3.4,
+          "draw": 2.2,
+          "away": 3.1,
           "marketId": "158062389"
         },
         "overUnder": {
-          "line": "3.5",
-          "over": 0.95,
-          "under": 0.85,
-          "marketId": "20484616"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3095101",
-      "leagueIndex": 20,
-      "homeTeamId": 3107,
-      "awayTeamId": 1075,
-      "home": "TSV Hartberg",
-      "away": "Kapfenberg",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 5,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 51,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "1.25",
-          "home": 0.9,
-          "away": 0.9,
-          "marketId": "17725642"
-        },
-        "oneXTwo": {
-          "home": 1.42,
-          "draw": 4.5,
-          "away": 5.25,
-          "marketId": "158092020"
-        },
-        "overUnder": {
-          "line": "3.25",
+          "line": "3",
           "over": 0.9,
           "under": 0.9,
-          "marketId": "20490650"
+          "marketId": "20484616"
         },
         "marketState": {
           "handicap": "0",
@@ -2508,7 +2418,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 52
+      "rawIndex": 50
     },
     {
       "goalooId": "3094711",
@@ -2518,7 +2428,7 @@
       "home": "Siegen Sportfreunde",
       "away": "Borussia Monchengladbach",
       "start": "2026-09-24 16:30:00",
-      "status": 1,
+      "status": 2,
       "score": {
         "home": 0,
         "away": 1
@@ -2531,26 +2441,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 53,
+      "rawIndex": 51,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-1.5",
-          "home": 0.85,
-          "away": 0.95,
+          "line": "-1.25",
+          "home": 0.8,
+          "away": 1,
           "marketId": "17721744"
         },
         "oneXTwo": {
           "home": 19,
-          "draw": 9.5,
-          "away": 1.06,
+          "draw": 8.5,
+          "away": 1.07,
           "marketId": "158063661"
         },
         "overUnder": {
-          "line": "3.75",
-          "over": 0.95,
-          "under": 0.85,
+          "line": "3.25",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20485215"
         },
         "marketState": {
@@ -2568,9 +2478,9 @@
       "home": "Rot-Weiss Oberhausen",
       "away": "Schalke 04",
       "start": "2026-09-24 17:00:00",
-      "status": 0,
+      "status": 1,
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 0
       },
       "red": {
@@ -2581,26 +2491,36 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 54,
+      "rawIndex": 52,
+      "halfScore": {
+        "home": null,
+        "away": null
+      },
+      "goalooServerTime": "2026-09-24 16:59:21",
+      "corners": {
+        "home": 1,
+        "away": 2
+      },
+      "periodFlag": "1",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-1.5",
-          "home": 0.9,
-          "away": 0.9,
+          "line": "-1",
+          "home": 1,
+          "away": 0.8,
           "marketId": "17721745"
         },
         "oneXTwo": {
-          "home": 6.5,
+          "home": 1.61,
           "draw": 4.5,
-          "away": 1.36,
+          "away": 4.33,
           "marketId": "158063662"
         },
         "overUnder": {
-          "line": "3.25",
-          "over": 0.83,
-          "under": 0.98,
+          "line": "5",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20485216"
         },
         "marketState": {
@@ -2631,7 +2551,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 55,
+      "rawIndex": 53,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2681,7 +2601,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 56
+      "rawIndex": 54
     },
     {
       "goalooId": "3095110",
@@ -2704,7 +2624,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 57,
+      "rawIndex": 55,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2754,7 +2674,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 58,
+      "rawIndex": 56,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2784,108 +2704,8 @@
       }
     },
     {
-      "goalooId": "3092199",
-      "leagueIndex": 22,
-      "homeTeamId": 44510,
-      "awayTeamId": 4861,
-      "home": "FK Podkonice",
-      "away": "Ruzomberok B",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 4,
-        "away": 4
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 3,
-        "away": 1
-      },
-      "rawIndex": 59,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.8,
-          "away": 1,
-          "marketId": "17722164"
-        },
-        "oneXTwo": {
-          "home": 2,
-          "draw": 3.75,
-          "away": 2.9,
-          "marketId": "158067406"
-        },
-        "overUnder": {
-          "line": "3",
-          "over": 0.93,
-          "under": 0.88,
-          "marketId": "20485833"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3071528",
-      "leagueIndex": 23,
-      "homeTeamId": 17702,
-      "awayTeamId": 63040,
-      "home": "Mogila",
-      "away": "KF Arsimi",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 0,
-        "away": 12
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 60,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "-3.25",
-          "home": 0.93,
-          "away": 0.88,
-          "marketId": "17721350"
-        },
-        "oneXTwo": {
-          "home": 23,
-          "draw": 12,
-          "away": 1.06,
-          "marketId": "158062759"
-        },
-        "overUnder": {
-          "line": "4.25",
-          "over": 0.9,
-          "under": 0.9,
-          "marketId": "20484734"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3071529",
-      "leagueIndex": 23,
+      "leagueIndex": 22,
       "homeTeamId": 80183,
       "awayTeamId": 15344,
       "home": "Krosu Sport Bitola",
@@ -2904,7 +2724,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 61
+      "rawIndex": 57
     },
     {
       "goalooId": "3086926",
@@ -2927,7 +2747,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 62,
+      "rawIndex": 58,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -2977,26 +2797,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 63,
+      "rawIndex": 59,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.5",
-          "home": 0.8,
-          "away": 1,
+          "line": "-0.25",
+          "home": 0.9,
+          "away": 0.9,
           "marketId": "17723286"
         },
         "oneXTwo": {
-          "home": 3,
+          "home": 2.8,
           "draw": 3.6,
-          "away": 2,
+          "away": 2.1,
           "marketId": "158075119"
         },
         "overUnder": {
           "line": "2.75",
-          "over": 0.93,
-          "under": 0.88,
+          "over": 0.95,
+          "under": 0.85,
           "marketId": "20487372"
         },
         "marketState": {
@@ -3007,58 +2827,8 @@
       }
     },
     {
-      "goalooId": "3074632",
-      "leagueIndex": 24,
-      "homeTeamId": 35115,
-      "awayTeamId": 51705,
-      "home": "Maccabi Nujeidat Ahmed",
-      "away": "Hapoel Ironi Arraba",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 4,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 1,
-        "away": 5
-      },
-      "rawIndex": 64,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.9,
-          "away": 0.9,
-          "marketId": "17721943"
-        },
-        "oneXTwo": {
-          "home": 2.1,
-          "draw": 3.4,
-          "away": 2.9,
-          "marketId": "158063965"
-        },
-        "overUnder": {
-          "line": "2.5",
-          "over": 0.85,
-          "under": 0.95,
-          "marketId": "20485483"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3074630",
-      "leagueIndex": 24,
+      "leagueIndex": 23,
       "homeTeamId": 20598,
       "awayTeamId": 10066,
       "home": "Hapoel Migdal HaEmek",
@@ -3066,7 +2836,7 @@
       "start": "2026-09-24 16:30:00",
       "status": 1,
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "red": {
@@ -3077,26 +2847,26 @@
         "home": 0,
         "away": 2
       },
-      "rawIndex": 65,
+      "rawIndex": 60,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 1.03,
-          "away": 0.78,
+          "home": 0.95,
+          "away": 0.85,
           "marketId": "17721944"
         },
         "oneXTwo": {
-          "home": 11,
-          "draw": 7.5,
-          "away": 1.12,
+          "home": 6.5,
+          "draw": 4,
+          "away": 1.44,
           "marketId": "158063966"
         },
         "overUnder": {
-          "line": "4.25",
-          "over": 0.95,
-          "under": 0.85,
+          "line": "4.75",
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20485484"
         },
         "marketState": {
@@ -3108,13 +2878,13 @@
     },
     {
       "goalooId": "3074941",
-      "leagueIndex": 25,
+      "leagueIndex": 24,
       "homeTeamId": 51689,
       "awayTeamId": 12689,
       "home": "MS Jerusalem",
       "away": "Maccabi Yavne",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 1,
         "away": 0
@@ -3127,7 +2897,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 66,
+      "rawIndex": 61,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -3158,7 +2928,7 @@
     },
     {
       "goalooId": "3074940",
-      "leagueIndex": 25,
+      "leagueIndex": 24,
       "homeTeamId": 30527,
       "awayTeamId": 71673,
       "home": "Hapoel Holon Yaniv",
@@ -3174,29 +2944,29 @@
         "away": 0
       },
       "yellow": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "rawIndex": 67,
+      "rawIndex": 62,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.5",
+          "line": "-0.25",
           "home": 0.85,
           "away": 0.95,
           "marketId": "17722253"
         },
         "oneXTwo": {
-          "home": 4,
-          "draw": 3.2,
-          "away": 1.9,
+          "home": 3.5,
+          "draw": 2.75,
+          "away": 2.25,
           "marketId": "158067735"
         },
         "overUnder": {
-          "line": "2",
-          "over": 0.8,
-          "under": 1,
+          "line": "1.5",
+          "over": 0.83,
+          "under": 0.98,
           "marketId": "20485942"
         },
         "marketState": {
@@ -3208,13 +2978,13 @@
     },
     {
       "goalooId": "3074937",
-      "leagueIndex": 25,
+      "leagueIndex": 24,
       "homeTeamId": 12687,
       "awayTeamId": 29880,
       "home": "Hapoel Hadera",
       "away": "SC Maccabi Ashdod",
       "start": "2026-09-24 17:15:00",
-      "status": 0,
+      "status": 1,
       "score": {
         "home": 0,
         "away": 0
@@ -3227,7 +2997,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 68,
+      "rawIndex": 63,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -3239,14 +3009,14 @@
         },
         "oneXTwo": {
           "home": 1.8,
-          "draw": 3.5,
-          "away": 3.6,
+          "draw": 3.6,
+          "away": 3.75,
           "marketId": "158085271"
         },
         "overUnder": {
           "line": "2.5",
-          "over": 0.85,
-          "under": 0.95,
+          "over": 0.88,
+          "under": 0.93,
           "marketId": "20489179"
         },
         "marketState": {
@@ -3258,7 +3028,7 @@
     },
     {
       "goalooId": "3058710",
-      "leagueIndex": 26,
+      "leagueIndex": 25,
       "homeTeamId": 13966,
       "awayTeamId": 14316,
       "home": "Silkeborg U19",
@@ -3277,11 +3047,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 69
+      "rawIndex": 64
     },
     {
       "goalooId": "3024462",
-      "leagueIndex": 27,
+      "leagueIndex": 26,
       "homeTeamId": 21730,
       "awayTeamId": 62277,
       "home": "Alebrijes de Oaxaca",
@@ -3300,7 +3070,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 70,
+      "rawIndex": 65,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -3331,7 +3101,7 @@
     },
     {
       "goalooId": "3024465",
-      "leagueIndex": 27,
+      "leagueIndex": 26,
       "homeTeamId": 23242,
       "awayTeamId": 79322,
       "home": "Mineros de Zacatecas",
@@ -3350,7 +3120,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 71,
+      "rawIndex": 66,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -3380,158 +3150,8 @@
       }
     },
     {
-      "goalooId": "3093774",
-      "leagueIndex": 28,
-      "homeTeamId": 13012,
-      "awayTeamId": 8792,
-      "home": "Maccabi Hadera (W)",
-      "away": "Maccabi Holon FC (W)",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 3,
-        "away": 3
-      },
-      "rawIndex": 72,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.5",
-          "home": 0.98,
-          "away": 0.83,
-          "marketId": "17721738"
-        },
-        "oneXTwo": {
-          "home": 1.91,
-          "draw": 3.6,
-          "away": 3.2,
-          "marketId": "158063655"
-        },
-        "overUnder": {
-          "line": "3",
-          "over": 0.85,
-          "under": 0.95,
-          "marketId": "20485209"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3093775",
-      "leagueIndex": 28,
-      "homeTeamId": 63790,
-      "awayTeamId": 22331,
-      "home": "Hapoel Jerusalem (W)",
-      "away": "Maccabi Kiryat Gat (W)",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 4,
-        "away": 2
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 4,
-        "away": 5
-      },
-      "rawIndex": 73,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 1.03,
-          "away": 0.78,
-          "marketId": "17721739"
-        },
-        "oneXTwo": {
-          "home": 2.25,
-          "draw": 3.5,
-          "away": 2.63,
-          "marketId": "158063656"
-        },
-        "overUnder": {
-          "line": "3",
-          "over": 0.85,
-          "under": 0.95,
-          "marketId": "20485210"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3093776",
-      "leagueIndex": 28,
-      "homeTeamId": 69196,
-      "awayTeamId": 35905,
-      "home": "Hapoel Tel Aviv (W)",
-      "away": "Hapoel Raanana (W)",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 2
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 0
-      },
-      "rawIndex": 74,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.5",
-          "home": 0.98,
-          "away": 0.83,
-          "marketId": "17721740"
-        },
-        "oneXTwo": {
-          "home": 1.91,
-          "draw": 3.25,
-          "away": 3.5,
-          "marketId": "158063657"
-        },
-        "overUnder": {
-          "line": "2.75",
-          "over": 0.95,
-          "under": 0.85,
-          "marketId": "20485211"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3093773",
-      "leagueIndex": 28,
+      "leagueIndex": 27,
       "homeTeamId": 12859,
       "awayTeamId": 30972,
       "home": "AS Tel Aviv University (W)",
@@ -3550,7 +3170,7 @@
         "home": 1,
         "away": 0
       },
-      "rawIndex": 75
+      "rawIndex": 67
     },
     {
       "goalooId": "3081622",
@@ -3560,9 +3180,9 @@
       "home": "Rivers United",
       "away": "Kun Khalifat FC",
       "start": "2026-09-24 15:10:00",
-      "status": 3,
+      "status": -1,
       "score": {
-        "home": 4,
+        "home": 5,
         "away": 0
       },
       "red": {
@@ -3570,10 +3190,10 @@
         "away": 0
       },
       "yellow": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "rawIndex": 76,
+      "rawIndex": 68,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -3584,9 +3204,9 @@
           "marketId": "17719820"
         },
         "oneXTwo": {
-          "home": 1.22,
-          "draw": 6,
-          "away": 9,
+          "home": 1.3,
+          "draw": 4.33,
+          "away": 8.5,
           "marketId": "158052260"
         },
         "overUnder": {
@@ -3603,31 +3223,8 @@
       }
     },
     {
-      "goalooId": "3093448",
-      "leagueIndex": 29,
-      "homeTeamId": 21665,
-      "awayTeamId": 27816,
-      "home": "SV Lippstadt",
-      "away": "ASC 09 Dortmund",
-      "start": "2026-09-24 13:00:00",
-      "status": -14,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 77
-    },
-    {
       "goalooId": "3053518",
-      "leagueIndex": 30,
+      "leagueIndex": 28,
       "homeTeamId": 13910,
       "awayTeamId": 14170,
       "home": "Pecsi MFC (W)",
@@ -3646,7 +3243,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 78,
+      "rawIndex": 69,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -3677,13 +3274,13 @@
     },
     {
       "goalooId": "3086060",
-      "leagueIndex": 31,
+      "leagueIndex": 29,
       "homeTeamId": 6493,
       "awayTeamId": 42290,
       "home": "Al-Ahly",
       "away": "Maan",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
         "away": 1
@@ -3694,28 +3291,28 @@
       },
       "yellow": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
-      "rawIndex": 79,
+      "rawIndex": 70,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 0.8,
-          "away": 1,
+          "home": 0.75,
+          "away": 1.05,
           "marketId": "17721860"
         },
         "oneXTwo": {
-          "home": 7.5,
+          "home": 8.5,
           "draw": 4,
-          "away": 1.44,
+          "away": 1.36,
           "marketId": "158064211"
         },
         "overUnder": {
-          "line": "2.25",
-          "over": 0.88,
-          "under": 0.93,
+          "line": "2",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20485375"
         },
         "marketState": {
@@ -3727,13 +3324,13 @@
     },
     {
       "goalooId": "3086061",
-      "leagueIndex": 31,
+      "leagueIndex": 29,
       "homeTeamId": 76417,
       "awayTeamId": 80139,
       "home": "Sahl Horan",
       "away": "Hay Al‑Amir Hasan",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
         "away": 0
@@ -3746,26 +3343,26 @@
         "home": 0,
         "away": 1
       },
-      "rawIndex": 80,
+      "rawIndex": 71,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0.25",
-          "home": 0.95,
-          "away": 0.85,
+          "home": 1.08,
+          "away": 0.73,
           "marketId": "17721843"
         },
         "oneXTwo": {
-          "home": 2.3,
-          "draw": 2.4,
-          "away": 4,
+          "home": 2.6,
+          "draw": 2.05,
+          "away": 4.75,
           "marketId": "158064150"
         },
         "overUnder": {
-          "line": "1.25",
-          "over": 1.05,
-          "under": 0.75,
+          "line": "0.75",
+          "over": 0.75,
+          "under": 1.05,
           "marketId": "20485352"
         },
         "marketState": {
@@ -3776,313 +3373,13 @@
       }
     },
     {
-      "goalooId": "3092200",
-      "leagueIndex": 32,
-      "homeTeamId": 14141,
-      "awayTeamId": 18560,
-      "home": "Al Nasr Cairo",
-      "away": "El Sekka El Hadid",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 1
-      },
-      "rawIndex": 81,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.9,
-          "away": 0.9,
-          "marketId": "17721733"
-        },
-        "oneXTwo": {
-          "home": 2.2,
-          "draw": 2.8,
-          "away": 3.25,
-          "marketId": "158063650"
-        },
-        "overUnder": {
-          "line": "1.75",
-          "over": 0.78,
-          "under": 1.03,
-          "marketId": "20485204"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3092201",
-      "leagueIndex": 32,
-      "homeTeamId": 18733,
-      "awayTeamId": 31505,
-      "home": "Kahraba Ismailia",
-      "away": "Pharco",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 3,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 1,
-        "away": 0
-      },
-      "rawIndex": 82,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.93,
-          "away": 0.88,
-          "marketId": "17721735"
-        },
-        "oneXTwo": {
-          "home": 2.2,
-          "draw": 2.8,
-          "away": 3.25,
-          "marketId": "158063652"
-        },
-        "overUnder": {
-          "line": "2",
-          "over": 1.03,
-          "under": 0.78,
-          "marketId": "20485206"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3092202",
-      "leagueIndex": 32,
-      "homeTeamId": 68853,
-      "awayTeamId": 5572,
-      "home": "Maleyat Kafr El Zayat",
-      "away": "El Mansoura",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 2,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 3,
-        "away": 3
-      },
-      "rawIndex": 83,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.75,
-          "away": 1.05,
-          "marketId": "17721734"
-        },
-        "oneXTwo": {
-          "home": 2,
-          "draw": 2.88,
-          "away": 3.8,
-          "marketId": "158063651"
-        },
-        "overUnder": {
-          "line": "1.75",
-          "over": 0.88,
-          "under": 0.93,
-          "marketId": "20485205"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3092203",
-      "leagueIndex": 32,
-      "homeTeamId": 72163,
-      "awayTeamId": 64116,
-      "home": "FC Masar",
-      "away": "Proxy SC",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 84,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "1",
-          "home": 0.95,
-          "away": 0.85,
-          "marketId": "17721737"
-        },
-        "oneXTwo": {
-          "home": 1.5,
-          "draw": 3.4,
-          "away": 6.5,
-          "marketId": "158063654"
-        },
-        "overUnder": {
-          "line": "2.25",
-          "over": 1.05,
-          "under": 0.75,
-          "marketId": "20485208"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3092204",
-      "leagueIndex": 32,
-      "homeTeamId": 68424,
-      "awayTeamId": 9398,
-      "home": "Team FC Cairo",
-      "away": "El Daklyeh",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 2
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 2
-      },
-      "rawIndex": 85,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.83,
-          "away": 0.98,
-          "marketId": "17721736"
-        },
-        "oneXTwo": {
-          "home": 2.1,
-          "draw": 2.8,
-          "away": 3.5,
-          "marketId": "158063653"
-        },
-        "overUnder": {
-          "line": "2",
-          "over": 1,
-          "under": 0.8,
-          "marketId": "20485207"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3089666",
-      "leagueIndex": 33,
-      "homeTeamId": 13659,
-      "awayTeamId": 1710,
-      "home": "Algeria U20",
-      "away": "Tunisia U20",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 3,
-        "away": 2
-      },
-      "rawIndex": 86,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0",
-          "home": 1,
-          "away": 0.8,
-          "marketId": "17721741"
-        },
-        "oneXTwo": {
-          "home": 2.8,
-          "draw": 2.8,
-          "away": 2.5,
-          "marketId": "158063658"
-        },
-        "overUnder": {
-          "line": "2",
-          "over": 1,
-          "under": 0.8,
-          "marketId": "20485212"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3089667",
-      "leagueIndex": 33,
-      "homeTeamId": 1824,
-      "awayTeamId": 10659,
-      "home": "Egypt U20",
-      "away": "Libya U20",
-      "start": "2026-09-24 17:00:00",
+      "goalooId": "3086180",
+      "leagueIndex": 30,
+      "homeTeamId": 15499,
+      "awayTeamId": 64821,
+      "home": "Persiba Balikpapan",
+      "away": "Dejan FC",
+      "start": "2026-09-25 12:00:00",
       "status": 0,
       "score": {
         "home": 0,
@@ -4096,26 +3393,86 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 87,
+      "rawIndex": 72,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "3.5",
-          "home": 0.98,
-          "away": 0.83,
+          "line": "-0.25",
+          "home": 0.83,
+          "away": 0.98,
+          "marketId": "17725487"
+        },
+        "oneXTwo": {
+          "home": 2.88,
+          "draw": 3.2,
+          "away": 2.2,
+          "marketId": "158091235"
+        },
+        "overUnder": {
+          "line": "2.25",
+          "over": 0.8,
+          "under": 1,
+          "marketId": "20490400"
+        },
+        "marketState": {
+          "handicap": "0",
+          "oneXTwo": "0",
+          "overUnder": "0"
+        }
+      }
+    },
+    {
+      "goalooId": "3089667",
+      "leagueIndex": 31,
+      "homeTeamId": 1824,
+      "awayTeamId": 10659,
+      "home": "Egypt U20",
+      "away": "Libya U20",
+      "start": "2026-09-24 17:00:00",
+      "status": 1,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "red": {
+        "home": 1,
+        "away": 0
+      },
+      "yellow": {
+        "home": 1,
+        "away": 2
+      },
+      "rawIndex": 73,
+      "halfScore": {
+        "home": null,
+        "away": null
+      },
+      "goalooServerTime": "2026-09-24 16:59:01",
+      "corners": {
+        "home": 0,
+        "away": 1
+      },
+      "periodFlag": "1",
+      "bet365": {
+        "company": "Bet365",
+        "companyId": 8,
+        "handicap": {
+          "line": "1",
+          "home": 0.88,
+          "away": 0.93,
           "marketId": "17721746"
         },
         "oneXTwo": {
-          "home": 1.05,
-          "draw": 12,
-          "away": 34,
+          "home": 1.57,
+          "draw": 3.75,
+          "away": 5.5,
           "marketId": "158063663"
         },
         "overUnder": {
-          "line": "4",
-          "over": 0.95,
-          "under": 0.85,
+          "line": "3",
+          "over": 1.03,
+          "under": 0.78,
           "marketId": "20485217"
         },
         "marketState": {
@@ -4127,7 +3484,7 @@
     },
     {
       "goalooId": "3095079",
-      "leagueIndex": 33,
+      "leagueIndex": 31,
       "homeTeamId": 1955,
       "awayTeamId": 5059,
       "home": "South Africa U20(N)",
@@ -4146,14 +3503,14 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 88,
+      "rawIndex": 74,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0.75",
-          "home": 0.98,
-          "away": 0.83,
+          "home": 1,
+          "away": 0.8,
           "marketId": "17726538"
         },
         "oneXTwo": {
@@ -4164,8 +3521,8 @@
         },
         "overUnder": {
           "line": "2.5",
-          "over": 0.88,
-          "under": 0.93,
+          "over": 0.9,
+          "under": 0.9,
           "marketId": "20492031"
         },
         "marketState": {
@@ -4177,7 +3534,7 @@
     },
     {
       "goalooId": "3064935",
-      "leagueIndex": 34,
+      "leagueIndex": 32,
       "homeTeamId": 3739,
       "awayTeamId": 3733,
       "home": "Oman Club",
@@ -4196,7 +3553,7 @@
         "home": 4,
         "away": 4
       },
-      "rawIndex": 89,
+      "rawIndex": 75,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4227,7 +3584,7 @@
     },
     {
       "goalooId": "3064947",
-      "leagueIndex": 34,
+      "leagueIndex": 32,
       "homeTeamId": 9064,
       "awayTeamId": 3731,
       "home": "Sohar Club",
@@ -4246,7 +3603,7 @@
         "home": 2,
         "away": 4
       },
-      "rawIndex": 90,
+      "rawIndex": 76,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4276,14 +3633,14 @@
       }
     },
     {
-      "goalooId": "3085658",
-      "leagueIndex": 35,
-      "homeTeamId": 22614,
-      "awayTeamId": 2941,
-      "home": "Rayon Sports FC",
-      "away": "Al Merreikh",
-      "start": "2026-09-24 13:00:00",
-      "status": -14,
+      "goalooId": "3093002",
+      "leagueIndex": 33,
+      "homeTeamId": 26968,
+      "awayTeamId": 47760,
+      "home": "Thimphu FC",
+      "away": "Tensung FC",
+      "start": "2026-09-25 12:00:00",
+      "status": 0,
       "score": {
         "home": 0,
         "away": 0
@@ -4296,34 +3653,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 91
-    },
-    {
-      "goalooId": "3085659",
-      "leagueIndex": 35,
-      "homeTeamId": 27074,
-      "awayTeamId": 15495,
-      "home": "Bugesera",
-      "away": "Al-Hilal Omdurman",
-      "start": "2026-09-24 13:00:00",
-      "status": -14,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 92
+      "rawIndex": 77
     },
     {
       "goalooId": "3095129",
-      "leagueIndex": 36,
+      "leagueIndex": 34,
       "homeTeamId": 76262,
       "awayTeamId": 80691,
       "home": "Rydzyniak Rydzyna",
@@ -4342,7 +3676,7 @@
         "home": 1,
         "away": 2
       },
-      "rawIndex": 93,
+      "rawIndex": 78,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4373,13 +3707,13 @@
     },
     {
       "goalooId": "3095124",
-      "leagueIndex": 37,
+      "leagueIndex": 35,
       "homeTeamId": 60882,
       "awayTeamId": 47708,
       "home": "FC Diarra",
       "away": "AS Korofina",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
         "away": 0
@@ -4392,26 +3726,26 @@
         "home": 2,
         "away": 2
       },
-      "rawIndex": 94,
+      "rawIndex": 79,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 0.7,
-          "away": 1.1,
+          "home": 0.73,
+          "away": 1.08,
           "marketId": "17726092"
         },
         "oneXTwo": {
-          "home": 2.75,
-          "draw": 2.25,
-          "away": 3.5,
+          "home": 3.1,
+          "draw": 2.05,
+          "away": 3.75,
           "marketId": "158094671"
         },
         "overUnder": {
-          "line": "1",
-          "over": 0.75,
-          "under": 1.05,
+          "line": "0.75",
+          "over": 0.73,
+          "under": 1.08,
           "marketId": "20491432"
         },
         "marketState": {
@@ -4423,13 +3757,13 @@
     },
     {
       "goalooId": "3094706",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 5773,
       "awayTeamId": 66035,
       "home": "JyTy",
       "away": "ACF",
       "start": "2026-09-24 15:15:00",
-      "status": 3,
+      "status": -1,
       "score": {
         "home": 2,
         "away": 1
@@ -4440,28 +3774,28 @@
       },
       "yellow": {
         "home": 0,
-        "away": 5
+        "away": 3
       },
-      "rawIndex": 95,
+      "rawIndex": 80,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.25",
-          "home": 1.6,
-          "away": 0.48,
+          "line": "0.75",
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17721743"
         },
         "oneXTwo": {
-          "home": 1.05,
-          "draw": 11,
-          "away": 41,
+          "home": 1.73,
+          "draw": 4.2,
+          "away": 3.4,
           "marketId": "158063660"
         },
         "overUnder": {
           "line": "3.5",
-          "over": 1.75,
-          "under": 0.43,
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20485214"
         },
         "marketState": {
@@ -4473,13 +3807,13 @@
     },
     {
       "goalooId": "3094745",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 28674,
       "awayTeamId": 32597,
       "home": "EIF Academy",
       "away": "HooGee",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 2,
         "away": 1
@@ -4492,26 +3826,26 @@
         "home": 1,
         "away": 1
       },
-      "rawIndex": 96,
+      "rawIndex": 81,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "1.25",
-          "home": 0.93,
-          "away": 0.88,
+          "line": "0.75",
+          "home": 0.83,
+          "away": 0.98,
           "marketId": "17721854"
         },
         "oneXTwo": {
-          "home": 1.1,
-          "draw": 8,
-          "away": 15,
+          "home": 1.12,
+          "draw": 7,
+          "away": 12,
           "marketId": "158064188"
         },
         "overUnder": {
-          "line": "5.5",
-          "over": 0.93,
-          "under": 0.88,
+          "line": "5",
+          "over": 1.03,
+          "under": 0.78,
           "marketId": "20485369"
         },
         "marketState": {
@@ -4523,45 +3857,55 @@
     },
     {
       "goalooId": "3094746",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 2487,
       "awayTeamId": 2398,
       "home": "FC Kontu",
       "away": "LPS Helsinki",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
-        "away": 0
+        "away": 2
       },
       "red": {
         "home": 0,
         "away": 0
       },
       "yellow": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "rawIndex": 97,
+      "rawIndex": 82,
+      "halfScore": {
+        "home": 0,
+        "away": 0
+      },
+      "goalooServerTime": "2026-09-24 17:01:11",
+      "corners": {
+        "home": 3,
+        "away": 4
+      },
+      "periodFlag": "1",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.75",
+          "line": "-0.5",
           "home": 0.95,
           "away": 0.85,
           "marketId": "17721844"
         },
         "oneXTwo": {
-          "home": 4.75,
-          "draw": 3.75,
-          "away": 1.66,
+          "home": 26,
+          "draw": 15,
+          "away": 1.03,
           "marketId": "158064151"
         },
         "overUnder": {
-          "line": "2.25",
-          "over": 0.98,
-          "under": 0.83,
+          "line": "3.75",
+          "over": 0.95,
+          "under": 0.75,
           "marketId": "20485353"
         },
         "marketState": {
@@ -4573,13 +3917,13 @@
     },
     {
       "goalooId": "3094748",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 78911,
       "awayTeamId": 4346,
       "home": "LAUTP II",
       "away": "Kultsu Lappeenranta",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 1,
         "away": 0
@@ -4592,26 +3936,26 @@
         "home": 0,
         "away": 2
       },
-      "rawIndex": 98,
+      "rawIndex": 83,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-1.25",
-          "home": 0.93,
-          "away": 0.88,
+          "line": "-1",
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17721845"
         },
         "oneXTwo": {
-          "home": 3,
-          "draw": 3.75,
-          "away": 2.05,
+          "home": 2.62,
+          "draw": 3.2,
+          "away": 2.5,
           "marketId": "158064152"
         },
         "overUnder": {
-          "line": "3.5",
-          "over": 0.93,
-          "under": 0.88,
+          "line": "2.75",
+          "over": 0.83,
+          "under": 0.98,
           "marketId": "20485354"
         },
         "marketState": {
@@ -4623,16 +3967,16 @@
     },
     {
       "goalooId": "3094744",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 69855,
       "awayTeamId": 78577,
       "home": "PPJ/Lauttasaari",
       "away": "PPS",
       "start": "2026-09-24 17:00:00",
-      "status": 0,
+      "status": 1,
       "score": {
         "home": 0,
-        "away": 0
+        "away": 3
       },
       "red": {
         "home": 0,
@@ -4642,26 +3986,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 99,
+      "rawIndex": 84,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "3.5",
-          "home": 0.95,
-          "away": 0.85,
+          "line": "2",
+          "home": 0.78,
+          "away": 0.93,
           "marketId": "17721846"
         },
         "oneXTwo": {
-          "home": 1.08,
-          "draw": 12,
-          "away": 17,
+          "home": 3.25,
+          "draw": 5.5,
+          "away": 1.66,
           "marketId": "158064153"
         },
         "overUnder": {
-          "line": "5.25",
-          "over": 0.95,
-          "under": 0.85,
+          "line": "7.5",
+          "over": 0.9,
+          "under": 0.9,
           "marketId": "20485355"
         },
         "marketState": {
@@ -4673,16 +4017,16 @@
     },
     {
       "goalooId": "3094747",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 66036,
       "awayTeamId": 2394,
       "home": "Fish United",
       "away": "Saaksjarven Loiske",
       "start": "2026-09-24 17:00:00",
-      "status": 0,
+      "status": 1,
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "red": {
         "home": 0,
@@ -4692,24 +4036,24 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 100,
+      "rawIndex": 85,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.25",
-          "home": 1.03,
-          "away": 0.78,
+          "line": "0",
+          "home": 0.88,
+          "away": 0.93,
           "marketId": "17721855"
         },
         "oneXTwo": {
-          "home": 2.2,
-          "draw": 3.8,
-          "away": 2.5,
+          "home": 2.37,
+          "draw": 4,
+          "away": 2.4,
           "marketId": "158064189"
         },
         "overUnder": {
-          "line": "3.75",
+          "line": "5.25",
           "over": 0.85,
           "under": 0.95,
           "marketId": "20485370"
@@ -4723,7 +4067,7 @@
     },
     {
       "goalooId": "3094749",
-      "leagueIndex": 38,
+      "leagueIndex": 36,
       "homeTeamId": 10522,
       "awayTeamId": 10521,
       "home": "MPS Helsinki",
@@ -4742,7 +4086,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 101,
+      "rawIndex": 86,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4792,7 +4136,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 102
+      "rawIndex": 87
     },
     {
       "goalooId": "3091799",
@@ -4815,11 +4159,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 103
+      "rawIndex": 88
     },
     {
       "goalooId": "3092981",
-      "leagueIndex": 39,
+      "leagueIndex": 37,
       "homeTeamId": 29083,
       "awayTeamId": 36932,
       "home": "Wisla Krakow II",
@@ -4838,7 +4182,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 104,
+      "rawIndex": 89,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4869,7 +4213,7 @@
     },
     {
       "goalooId": "3094869",
-      "leagueIndex": 40,
+      "leagueIndex": 38,
       "homeTeamId": 44836,
       "awayTeamId": 67473,
       "home": "Alianza FC San Salvador Reserves",
@@ -4888,7 +4232,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 105,
+      "rawIndex": 90,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4919,7 +4263,7 @@
     },
     {
       "goalooId": "3092205",
-      "leagueIndex": 41,
+      "leagueIndex": 39,
       "homeTeamId": 23214,
       "awayTeamId": 75368,
       "home": "AD Cariari Pococi",
@@ -4938,7 +4282,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 106,
+      "rawIndex": 91,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -4969,7 +4313,7 @@
     },
     {
       "goalooId": "3094897",
-      "leagueIndex": 42,
+      "leagueIndex": 40,
       "homeTeamId": 29452,
       "awayTeamId": 28877,
       "home": "Nangkiew Irat",
@@ -4988,7 +4332,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 107,
+      "rawIndex": 92,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5018,158 +4362,8 @@
       }
     },
     {
-      "goalooId": "3094822",
-      "leagueIndex": 43,
-      "homeTeamId": 30046,
-      "awayTeamId": 30365,
-      "home": "Deportivo Moron Reserves",
-      "away": "CA San Telmo Reserves",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 1,
-        "away": 2
-      },
-      "rawIndex": 108,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 1,
-          "away": 0.8,
-          "marketId": "17723777"
-        },
-        "oneXTwo": {
-          "home": 2.25,
-          "draw": 3.1,
-          "away": 2.9,
-          "marketId": "158076088"
-        },
-        "overUnder": {
-          "line": "2",
-          "over": 0.83,
-          "under": 0.98,
-          "marketId": "20488053"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3094862",
-      "leagueIndex": 43,
-      "homeTeamId": 30054,
-      "awayTeamId": 70223,
-      "home": "Deportivo Espanol Reserves",
-      "away": "Centro Espanyol Reserves",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 2,
-        "away": 0
-      },
-      "red": {
-        "home": 1,
-        "away": 1
-      },
-      "yellow": {
-        "home": 1,
-        "away": 3
-      },
-      "rawIndex": 109,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "1.5",
-          "home": 0.98,
-          "away": 0.83,
-          "marketId": "17724685"
-        },
-        "oneXTwo": {
-          "home": 1.33,
-          "draw": 5,
-          "away": 6,
-          "marketId": "158086085"
-        },
-        "overUnder": {
-          "line": "3",
-          "over": 0.9,
-          "under": 0.9,
-          "marketId": "20489350"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3094860",
-      "leagueIndex": 43,
-      "homeTeamId": 69936,
-      "awayTeamId": 40459,
-      "home": "Deportivo Muniz Reserves",
-      "away": "JJ Urquiza Reserves",
-      "start": "2026-09-24 13:10:00",
-      "status": -1,
-      "score": {
-        "home": 0,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 1
-      },
-      "rawIndex": 110,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "-0.75",
-          "home": 0.83,
-          "away": 0.98,
-          "marketId": "17724678"
-        },
-        "oneXTwo": {
-          "home": 4,
-          "draw": 3.5,
-          "away": 1.73,
-          "marketId": "158086090"
-        },
-        "overUnder": {
-          "line": "3",
-          "over": 0.8,
-          "under": 1,
-          "marketId": "20489343"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3094854",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 30042,
       "awayTeamId": 35426,
       "home": "Talleres Remedios Reserves",
@@ -5188,7 +4382,7 @@
         "home": 2,
         "away": 1
       },
-      "rawIndex": 111,
+      "rawIndex": 93,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5219,7 +4413,7 @@
     },
     {
       "goalooId": "3094855",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 45152,
       "awayTeamId": 45153,
       "home": "Real Pilar Reserves",
@@ -5238,7 +4432,7 @@
         "home": 4,
         "away": 2
       },
-      "rawIndex": 112,
+      "rawIndex": 94,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5269,13 +4463,13 @@
     },
     {
       "goalooId": "3094696",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 30006,
       "awayTeamId": 30047,
       "home": "Almagro Reserves",
       "away": "Almirante Brown Reserves",
       "start": "2026-09-24 15:00:00",
-      "status": 3,
+      "status": -1,
       "score": {
         "home": 1,
         "away": 2
@@ -5286,28 +4480,28 @@
       },
       "yellow": {
         "home": 1,
-        "away": 0
+        "away": 1
       },
-      "rawIndex": 113,
+      "rawIndex": 95,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0",
-          "home": 0.65,
-          "away": 1.2,
+          "line": "0.5",
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17720590"
         },
         "oneXTwo": {
-          "home": 41,
-          "draw": 8,
-          "away": 1.08,
+          "home": 1.9,
+          "draw": 3,
+          "away": 4,
           "marketId": "158058316"
         },
         "overUnder": {
-          "line": "3.5",
-          "over": 3.25,
-          "under": 0.21,
+          "line": "2",
+          "over": 0.75,
+          "under": 1.05,
           "marketId": "20483738"
         },
         "marketState": {
@@ -5319,7 +4513,7 @@
     },
     {
       "goalooId": "3094825",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 30007,
       "awayTeamId": 30051,
       "home": "CA Atlanta Reserves",
@@ -5338,7 +4532,7 @@
         "home": 1,
         "away": 3
       },
-      "rawIndex": 114,
+      "rawIndex": 96,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5369,7 +4563,7 @@
     },
     {
       "goalooId": "3094857",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 40689,
       "awayTeamId": 30049,
       "home": "Agropecuario Reserves",
@@ -5388,7 +4582,7 @@
         "home": 1,
         "away": 2
       },
-      "rawIndex": 115,
+      "rawIndex": 97,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5419,7 +4613,7 @@
     },
     {
       "goalooId": "3094859",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 35915,
       "awayTeamId": 52280,
       "home": "Deportivo Laferrere Reserves",
@@ -5438,7 +4632,7 @@
         "home": 3,
         "away": 5
       },
-      "rawIndex": 116,
+      "rawIndex": 98,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5469,7 +4663,7 @@
     },
     {
       "goalooId": "3094861",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 36381,
       "awayTeamId": 59980,
       "home": "Nueva Chicago Reserves",
@@ -5488,7 +4682,7 @@
         "home": 0,
         "away": 4
       },
-      "rawIndex": 117,
+      "rawIndex": 99,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5519,13 +4713,13 @@
     },
     {
       "goalooId": "3094856",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 73949,
       "awayTeamId": 69938,
       "home": "Estrella del Sur Reserves",
       "away": "Defensores de Cambaceres Reserves",
       "start": "2026-09-24 15:15:00",
-      "status": 3,
+      "status": -1,
       "score": {
         "home": 0,
         "away": 1
@@ -5535,29 +4729,29 @@
         "away": 0
       },
       "yellow": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
-      "rawIndex": 118,
+      "rawIndex": 100,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.25",
-          "home": 0.53,
-          "away": 1.43,
+          "line": "0",
+          "home": 0.8,
+          "away": 1,
           "marketId": "17724683"
         },
         "oneXTwo": {
-          "home": 41,
-          "draw": 10,
-          "away": 1.06,
+          "home": 2.35,
+          "draw": 3.3,
+          "away": 2.6,
           "marketId": "158086089"
         },
         "overUnder": {
-          "line": "1.5",
-          "over": 1.6,
-          "under": 0.48,
+          "line": "2.5",
+          "over": 0.95,
+          "under": 0.85,
           "marketId": "20489348"
         },
         "marketState": {
@@ -5569,7 +4763,7 @@
     },
     {
       "goalooId": "3092207",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 36291,
       "awayTeamId": 30076,
       "home": "Argentinos Jrs Reserves",
@@ -5588,7 +4782,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 119,
+      "rawIndex": 101,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5619,7 +4813,7 @@
     },
     {
       "goalooId": "3092208",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 30039,
       "awayTeamId": 30040,
       "home": "Deportivo Riestra Reserves",
@@ -5638,7 +4832,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 120,
+      "rawIndex": 102,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5669,7 +4863,7 @@
     },
     {
       "goalooId": "3092210",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 40688,
       "awayTeamId": 52281,
       "home": "Instituto AC Cordoba Reserves",
@@ -5688,7 +4882,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 121,
+      "rawIndex": 103,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5719,7 +4913,7 @@
     },
     {
       "goalooId": "3092211",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 30457,
       "awayTeamId": 30130,
       "home": "Newell's Reserves",
@@ -5738,7 +4932,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 122,
+      "rawIndex": 104,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5769,7 +4963,7 @@
     },
     {
       "goalooId": "3094858",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 35810,
       "awayTeamId": 41476,
       "home": "Sacachispas Reserves",
@@ -5788,7 +4982,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 123,
+      "rawIndex": 105,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5819,7 +5013,7 @@
     },
     {
       "goalooId": "3094863",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 29576,
       "awayTeamId": 41050,
       "home": "Temperley Reserves",
@@ -5838,7 +5032,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 124,
+      "rawIndex": 106,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5869,7 +5063,7 @@
     },
     {
       "goalooId": "3094864",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 41153,
       "awayTeamId": 40460,
       "home": "Argentino Quilmes Reserves",
@@ -5888,7 +5082,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 125,
+      "rawIndex": 107,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5919,7 +5113,7 @@
     },
     {
       "goalooId": "3092209",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 52283,
       "awayTeamId": 52284,
       "home": "Independiente Rivadavia Reserves",
@@ -5938,7 +5132,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 126,
+      "rawIndex": 108,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5969,7 +5163,7 @@
     },
     {
       "goalooId": "3092212",
-      "leagueIndex": 43,
+      "leagueIndex": 41,
       "homeTeamId": 32605,
       "awayTeamId": 33850,
       "home": "Racing Club Reserves",
@@ -5988,7 +5182,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 127,
+      "rawIndex": 109,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -5999,9 +5193,9 @@
           "marketId": "17723942"
         },
         "oneXTwo": {
-          "home": 2.4,
-          "draw": 3.5,
-          "away": 2.4,
+          "home": 2.45,
+          "draw": 3.25,
+          "away": 2.45,
           "marketId": "158080295"
         },
         "overUnder": {
@@ -6019,7 +5213,7 @@
     },
     {
       "goalooId": "3044284",
-      "leagueIndex": 44,
+      "leagueIndex": 42,
       "homeTeamId": 75484,
       "awayTeamId": 79658,
       "home": "Karbon Cherkasy",
@@ -6038,11 +5232,34 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 128
+      "rawIndex": 110
+    },
+    {
+      "goalooId": "3044277",
+      "leagueIndex": 42,
+      "homeTeamId": 71217,
+      "awayTeamId": 19016,
+      "home": "Nyva Ternopil B",
+      "away": "Podillya Khmelnytskyi",
+      "start": "2026-09-25 12:00:00",
+      "status": 0,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "red": {
+        "home": 0,
+        "away": 0
+      },
+      "yellow": {
+        "home": 0,
+        "away": 0
+      },
+      "rawIndex": 111
     },
     {
       "goalooId": "3095127",
-      "leagueIndex": 45,
+      "leagueIndex": 43,
       "homeTeamId": 30408,
       "awayTeamId": 40204,
       "home": "Rutgers (W)",
@@ -6061,7 +5278,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 129,
+      "rawIndex": 112,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6092,7 +5309,7 @@
     },
     {
       "goalooId": "3094892",
-      "leagueIndex": 46,
+      "leagueIndex": 44,
       "homeTeamId": 72456,
       "awayTeamId": 28854,
       "home": "Kanan FC",
@@ -6111,7 +5328,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 130,
+      "rawIndex": 113,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6142,7 +5359,7 @@
     },
     {
       "goalooId": "3094736",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 58630,
       "awayTeamId": 35904,
       "home": "SC Ramla",
@@ -6150,7 +5367,7 @@
       "start": "2026-09-24 15:30:00",
       "status": 3,
       "score": {
-        "home": 2,
+        "home": 5,
         "away": 1
       },
       "red": {
@@ -6161,26 +5378,36 @@
         "home": 1,
         "away": 3
       },
-      "rawIndex": 131,
+      "rawIndex": 114,
+      "halfScore": {
+        "home": 1,
+        "away": 1
+      },
+      "goalooServerTime": "2026-09-24 16:33:53",
+      "corners": {
+        "home": 3,
+        "away": 0
+      },
+      "periodFlag": "1",
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.5",
-          "home": 1,
-          "away": 0.8,
+          "line": "0.25",
+          "home": 2.1,
+          "away": 0.35,
           "marketId": "17721281"
         },
         "oneXTwo": {
-          "home": 1.09,
-          "draw": 7.5,
-          "away": 21,
+          "home": 1.01,
+          "draw": 26,
+          "away": 41,
           "marketId": "158062441"
         },
         "overUnder": {
-          "line": "4",
-          "over": 0.9,
-          "under": 0.9,
+          "line": "5.5",
+          "over": 2.55,
+          "under": 0.28,
           "marketId": "20484647"
         },
         "marketState": {
@@ -6192,7 +5419,7 @@
     },
     {
       "goalooId": "3094886",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 64180,
       "awayTeamId": 71674,
       "home": "Tzofi Haifa",
@@ -6200,7 +5427,7 @@
       "start": "2026-09-24 15:30:00",
       "status": 3,
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 2
       },
       "red": {
@@ -6208,29 +5435,29 @@
         "away": 0
       },
       "yellow": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "rawIndex": 132,
+      "rawIndex": 115,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.25",
-          "home": 0.68,
-          "away": 1.15,
+          "line": "0",
+          "home": 1.43,
+          "away": 0.53,
           "marketId": "17724758"
         },
         "oneXTwo": {
-          "home": 34,
-          "draw": 19,
-          "away": 1.02,
+          "home": 51,
+          "draw": 11,
+          "away": 1.05,
           "marketId": "158086483"
         },
         "overUnder": {
-          "line": "2.75",
-          "over": 0.95,
-          "under": 0.85,
+          "line": "3.5",
+          "over": 3.1,
+          "under": 0.23,
           "marketId": "20489432"
         },
         "marketState": {
@@ -6242,7 +5469,7 @@
     },
     {
       "goalooId": "3095130",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 2831,
       "awayTeamId": 34869,
       "home": "Hapoel Ashkelon",
@@ -6250,7 +5477,7 @@
       "start": "2026-09-24 16:30:00",
       "status": 1,
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "red": {
@@ -6258,39 +5485,29 @@
         "away": 0
       },
       "yellow": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 2
       },
-      "rawIndex": 133,
-      "halfScore": {
-        "home": null,
-        "away": null
-      },
-      "goalooServerTime": "2026-09-24 16:29:47",
-      "corners": {
-        "home": 3,
-        "away": 0
-      },
-      "periodFlag": "1",
+      "rawIndex": 116,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "1.75",
+          "line": "1.25",
           "home": 0.8,
           "away": 1,
           "marketId": "17726535"
         },
         "oneXTwo": {
-          "home": 1.04,
-          "draw": 13,
-          "away": 26,
+          "home": 1.01,
+          "draw": 29,
+          "away": 34,
           "marketId": "158096640"
         },
         "overUnder": {
-          "line": "3.5",
-          "over": 0.8,
-          "under": 1,
+          "line": "4",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20492028"
         },
         "marketState": {
@@ -6302,13 +5519,13 @@
     },
     {
       "goalooId": "3094700",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 23775,
       "awayTeamId": 15942,
       "home": "SC Shicun Hamizrah",
       "away": "Bnei Eilat",
       "start": "2026-09-24 17:00:00",
-      "status": 0,
+      "status": 1,
       "score": {
         "home": 0,
         "away": 0
@@ -6319,28 +5536,28 @@
       },
       "yellow": {
         "home": 0,
-        "away": 0
+        "away": 1
       },
-      "rawIndex": 134,
+      "rawIndex": 117,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "-0.25",
-          "home": 1,
-          "away": 0.8,
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17721019"
         },
         "oneXTwo": {
-          "home": 2.9,
-          "draw": 3.8,
-          "away": 2,
+          "home": 3,
+          "draw": 3.75,
+          "away": 2.05,
           "marketId": "158061173"
         },
         "overUnder": {
-          "line": "3",
-          "over": 0.85,
-          "under": 0.95,
+          "line": "2.75",
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20484294"
         },
         "marketState": {
@@ -6352,7 +5569,7 @@
     },
     {
       "goalooId": "3094698",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 30397,
       "awayTeamId": 30434,
       "home": "Hapoel Ihud Bnei Gat",
@@ -6371,7 +5588,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 135,
+      "rawIndex": 118,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6402,7 +5619,7 @@
     },
     {
       "goalooId": "3094737",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 22962,
       "awayTeamId": 30707,
       "home": "Hapoel Hod HaSharon",
@@ -6421,7 +5638,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 136,
+      "rawIndex": 119,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6452,7 +5669,7 @@
     },
     {
       "goalooId": "3095131",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 12692,
       "awayTeamId": 29868,
       "home": "Maccabi Lroni Amishav Petah Tikva",
@@ -6471,26 +5688,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 137,
+      "rawIndex": 120,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "1",
-          "home": 1,
-          "away": 0.8,
+          "line": "1.25",
+          "home": 0.95,
+          "away": 0.85,
           "marketId": "17726536"
         },
         "oneXTwo": {
-          "home": 1.57,
-          "draw": 4,
-          "away": 4.33,
+          "home": 1.6,
+          "draw": 4.1,
+          "away": 4.2,
           "marketId": "158096641"
         },
         "overUnder": {
-          "line": "2.75",
-          "over": 0.9,
-          "under": 0.9,
+          "line": "3",
+          "over": 0.95,
+          "under": 0.85,
           "marketId": "20492029"
         },
         "marketState": {
@@ -6502,7 +5719,7 @@
     },
     {
       "goalooId": "3094701",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 30350,
       "awayTeamId": 76070,
       "home": "Beitar Haifa Yakov",
@@ -6521,7 +5738,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 138,
+      "rawIndex": 121,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6552,7 +5769,7 @@
     },
     {
       "goalooId": "3094702",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 12681,
       "awayTeamId": 15941,
       "home": "Maccabi lroni Kfar Yona",
@@ -6571,7 +5788,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 139,
+      "rawIndex": 122,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6602,7 +5819,7 @@
     },
     {
       "goalooId": "3094735",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 35811,
       "awayTeamId": 75881,
       "home": "FC Hapoel Bnei Ashdod",
@@ -6621,7 +5838,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 140,
+      "rawIndex": 123,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6652,7 +5869,7 @@
     },
     {
       "goalooId": "3094759",
-      "leagueIndex": 47,
+      "leagueIndex": 45,
       "homeTeamId": 2897,
       "awayTeamId": 80680,
       "home": "Maccabi Beer Sheva",
@@ -6671,7 +5888,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 141,
+      "rawIndex": 124,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6702,13 +5919,13 @@
     },
     {
       "goalooId": "3094804",
-      "leagueIndex": 48,
+      "leagueIndex": 46,
       "homeTeamId": 72499,
       "awayTeamId": 32762,
       "home": "Nashama Al-Mustaqbal（W）",
       "away": "Al Orthodoxi (W)",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 2,
         "away": 0
@@ -6719,28 +5936,28 @@
       },
       "yellow": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
-      "rawIndex": 142,
+      "rawIndex": 125,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "-0.25",
-          "home": 0.75,
-          "away": 1.05,
+          "home": 0.65,
+          "away": 1.2,
           "marketId": "17722645"
         },
         "oneXTwo": {
-          "home": 1.12,
-          "draw": 7.5,
-          "away": 12,
+          "home": 1.07,
+          "draw": 9,
+          "away": 19,
           "marketId": "158070748"
         },
         "overUnder": {
-          "line": "3.5",
-          "over": 1.05,
-          "under": 0.75,
+          "line": "3",
+          "over": 0.95,
+          "under": 0.85,
           "marketId": "20486502"
         },
         "marketState": {
@@ -6752,7 +5969,7 @@
     },
     {
       "goalooId": "3091963",
-      "leagueIndex": 49,
+      "leagueIndex": 47,
       "homeTeamId": 28598,
       "awayTeamId": 77773,
       "home": "Abahani Limited",
@@ -6771,11 +5988,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 143
+      "rawIndex": 126
     },
     {
       "goalooId": "3092448",
-      "leagueIndex": 50,
+      "leagueIndex": 48,
       "homeTeamId": 7492,
       "awayTeamId": 8029,
       "home": "Puerto Rico",
@@ -6794,7 +6011,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 144,
+      "rawIndex": 127,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6812,8 +6029,8 @@
         },
         "overUnder": {
           "line": "2.5",
-          "over": 0.83,
-          "under": 0.98,
+          "over": 0.85,
+          "under": 0.95,
           "marketId": "20487598"
         },
         "marketState": {
@@ -6825,7 +6042,7 @@
     },
     {
       "goalooId": "3092424",
-      "leagueIndex": 50,
+      "leagueIndex": 48,
       "homeTeamId": 7538,
       "awayTeamId": 5091,
       "home": "Dominican Republic",
@@ -6844,7 +6061,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 145,
+      "rawIndex": 128,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6862,8 +6079,8 @@
         },
         "overUnder": {
           "line": "2.5",
-          "over": 0.95,
-          "under": 0.85,
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20486921"
         },
         "marketState": {
@@ -6875,7 +6092,7 @@
     },
     {
       "goalooId": "3092449",
-      "leagueIndex": 50,
+      "leagueIndex": 48,
       "homeTeamId": 7306,
       "awayTeamId": 7293,
       "home": "Cayman Islands",
@@ -6894,7 +6111,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 146,
+      "rawIndex": 129,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6925,7 +6142,7 @@
     },
     {
       "goalooId": "3092425",
-      "leagueIndex": 50,
+      "leagueIndex": 48,
       "homeTeamId": 909,
       "awayTeamId": 912,
       "home": "Haiti",
@@ -6944,7 +6161,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 147,
+      "rawIndex": 130,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -6975,7 +6192,7 @@
     },
     {
       "goalooId": "3092426",
-      "leagueIndex": 50,
+      "leagueIndex": 48,
       "homeTeamId": 914,
       "awayTeamId": 17976,
       "home": "Costa Rica",
@@ -6994,7 +6211,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 148,
+      "rawIndex": 131,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7025,7 +6242,7 @@
     },
     {
       "goalooId": "3091339",
-      "leagueIndex": 51,
+      "leagueIndex": 49,
       "homeTeamId": 45011,
       "awayTeamId": 14579,
       "home": "Atletico Tembetary(N)",
@@ -7044,7 +6261,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 149,
+      "rawIndex": 132,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7055,9 +6272,9 @@
           "marketId": "17724301"
         },
         "oneXTwo": {
-          "home": 1.44,
-          "draw": 4.33,
-          "away": 6,
+          "home": 1.33,
+          "draw": 4.75,
+          "away": 7.5,
           "marketId": "158082892"
         },
         "overUnder": {
@@ -7075,7 +6292,7 @@
     },
     {
       "goalooId": "3091340",
-      "leagueIndex": 51,
+      "leagueIndex": 49,
       "homeTeamId": 56919,
       "awayTeamId": 32277,
       "home": "Deportivo Recoleta(N)",
@@ -7094,7 +6311,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 150,
+      "rawIndex": 133,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7125,7 +6342,7 @@
     },
     {
       "goalooId": "3094846",
-      "leagueIndex": 52,
+      "leagueIndex": 50,
       "homeTeamId": 34039,
       "awayTeamId": 21883,
       "home": "CD Audaz",
@@ -7144,7 +6361,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 151,
+      "rawIndex": 134,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7175,7 +6392,7 @@
     },
     {
       "goalooId": "3068923",
-      "leagueIndex": 53,
+      "leagueIndex": 51,
       "homeTeamId": 24893,
       "awayTeamId": 13322,
       "home": "Gualaceo SC(N)",
@@ -7194,7 +6411,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 152,
+      "rawIndex": 135,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7225,7 +6442,7 @@
     },
     {
       "goalooId": "3094707",
-      "leagueIndex": 54,
+      "leagueIndex": 52,
       "homeTeamId": 7413,
       "awayTeamId": 38271,
       "home": "Koprivnica",
@@ -7244,7 +6461,7 @@
         "home": 1,
         "away": 3
       },
-      "rawIndex": 153,
+      "rawIndex": 136,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7275,7 +6492,7 @@
     },
     {
       "goalooId": "3094899",
-      "leagueIndex": 55,
+      "leagueIndex": 53,
       "homeTeamId": 68907,
       "awayTeamId": 59490,
       "home": "Bangalore City",
@@ -7294,7 +6511,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 154,
+      "rawIndex": 137,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7325,7 +6542,7 @@
     },
     {
       "goalooId": "3094893",
-      "leagueIndex": 55,
+      "leagueIndex": 53,
       "homeTeamId": 64013,
       "awayTeamId": 77185,
       "home": "SC Bengaluru",
@@ -7344,7 +6561,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 155,
+      "rawIndex": 138,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7375,7 +6592,7 @@
     },
     {
       "goalooId": "3094694",
-      "leagueIndex": 56,
+      "leagueIndex": 54,
       "homeTeamId": 17152,
       "awayTeamId": 52660,
       "home": "Desamparados",
@@ -7394,7 +6611,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 156,
+      "rawIndex": 139,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7425,7 +6642,7 @@
     },
     {
       "goalooId": "3094705",
-      "leagueIndex": 56,
+      "leagueIndex": 54,
       "homeTeamId": 61574,
       "awayTeamId": 18066,
       "home": "CS Sarmiento de Zonda",
@@ -7444,7 +6661,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 157,
+      "rawIndex": 140,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7475,7 +6692,7 @@
     },
     {
       "goalooId": "3094827",
-      "leagueIndex": 57,
+      "leagueIndex": 55,
       "homeTeamId": 53626,
       "awayTeamId": 28282,
       "home": "Herrera FC Reserves",
@@ -7494,7 +6711,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 158,
+      "rawIndex": 141,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7525,7 +6742,7 @@
     },
     {
       "goalooId": "3094871",
-      "leagueIndex": 57,
+      "leagueIndex": 55,
       "homeTeamId": 28454,
       "awayTeamId": 30828,
       "home": "Tauro Reserves",
@@ -7544,7 +6761,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 159,
+      "rawIndex": 142,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7575,7 +6792,7 @@
     },
     {
       "goalooId": "3094826",
-      "leagueIndex": 57,
+      "leagueIndex": 55,
       "homeTeamId": 45760,
       "awayTeamId": 42351,
       "home": "Champions FC Academy",
@@ -7594,7 +6811,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 160,
+      "rawIndex": 143,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7625,7 +6842,7 @@
     },
     {
       "goalooId": "3094829",
-      "leagueIndex": 57,
+      "leagueIndex": 55,
       "homeTeamId": 52963,
       "awayTeamId": 52488,
       "home": "Veraguas FC Reserves",
@@ -7644,7 +6861,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 161,
+      "rawIndex": 144,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7675,7 +6892,7 @@
     },
     {
       "goalooId": "3094865",
-      "leagueIndex": 58,
+      "leagueIndex": 56,
       "homeTeamId": 61290,
       "awayTeamId": 59300,
       "home": "Caguas Sporting",
@@ -7694,7 +6911,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 162,
+      "rawIndex": 145,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7724,108 +6941,8 @@
       }
     },
     {
-      "goalooId": "3094806",
-      "leagueIndex": 59,
-      "homeTeamId": 59866,
-      "awayTeamId": 80683,
-      "home": "Uhamiaji FC",
-      "away": "Raskazone FC",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 4,
-        "away": 3
-      },
-      "rawIndex": 163,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "1",
-          "home": 0.85,
-          "away": 0.95,
-          "marketId": "17723033"
-        },
-        "oneXTwo": {
-          "home": 1.5,
-          "draw": 3.75,
-          "away": 5.75,
-          "marketId": "158073396"
-        },
-        "overUnder": {
-          "line": "2.25",
-          "over": 0.8,
-          "under": 1,
-          "marketId": "20487016"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3095100",
-      "leagueIndex": 60,
-      "homeTeamId": 73869,
-      "awayTeamId": 12481,
-      "home": "FN Rangers",
-      "away": "Hanover Park",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 1,
-        "away": 3
-      },
-      "rawIndex": 164,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "-0.5",
-          "home": 0.93,
-          "away": 0.88,
-          "marketId": "17725782"
-        },
-        "oneXTwo": {
-          "home": 3.75,
-          "draw": 3.3,
-          "away": 1.83,
-          "marketId": "158093813"
-        },
-        "overUnder": {
-          "line": "2.75",
-          "over": 1,
-          "under": 0.8,
-          "marketId": "20490964"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3092215",
-      "leagueIndex": 61,
+      "leagueIndex": 57,
       "homeTeamId": 9549,
       "awayTeamId": 9495,
       "home": "Portuguesa (Youth)",
@@ -7844,7 +6961,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 165,
+      "rawIndex": 146,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7875,7 +6992,7 @@
     },
     {
       "goalooId": "3071711",
-      "leagueIndex": 62,
+      "leagueIndex": 58,
       "homeTeamId": 24000,
       "awayTeamId": 73633,
       "home": "Pottu Via Ho",
@@ -7894,11 +7011,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 166
+      "rawIndex": 147
     },
     {
       "goalooId": "3071679",
-      "leagueIndex": 63,
+      "leagueIndex": 59,
       "homeTeamId": 78223,
       "awayTeamId": 74374,
       "home": "Atletico Futbol Club",
@@ -7917,7 +7034,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 167,
+      "rawIndex": 148,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -7948,7 +7065,7 @@
     },
     {
       "goalooId": "3071680",
-      "leagueIndex": 63,
+      "leagueIndex": 59,
       "homeTeamId": 42438,
       "awayTeamId": 60385,
       "home": "CD Independiente Juniors",
@@ -7967,20 +7084,20 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 168,
+      "rawIndex": 149,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "0",
-          "home": 0.75,
-          "away": 1.05,
+          "home": 0.78,
+          "away": 1.03,
           "marketId": "17725858"
         },
         "oneXTwo": {
-          "home": 2.3,
-          "draw": 2.9,
-          "away": 3,
+          "home": 2.55,
+          "draw": 2.88,
+          "away": 2.7,
           "marketId": "158092567"
         },
         "overUnder": {
@@ -7997,54 +7114,8 @@
       }
     },
     {
-      "goalooId": "3092820",
-      "leagueIndex": 64,
-      "homeTeamId": 11370,
-      "awayTeamId": 20867,
-      "home": "Brazil U18",
-      "away": "Canada U18",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 6,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 1
-      },
-      "yellow": {
-        "home": 1,
-        "away": 5
-      },
-      "rawIndex": 169
-    },
-    {
-      "goalooId": "3092824",
-      "leagueIndex": 64,
-      "homeTeamId": 4283,
-      "awayTeamId": 2314,
-      "home": "Sweden U19",
-      "away": "Ukraine U19",
-      "start": "2026-09-24 13:00:00",
-      "status": -1,
-      "score": {
-        "home": 2,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 170
-    },
-    {
       "goalooId": "3092821",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 9215,
       "awayTeamId": 2904,
       "home": "PanamaU17",
@@ -8063,11 +7134,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 171
+      "rawIndex": 150
     },
     {
       "goalooId": "3092822",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4821,
       "awayTeamId": 4274,
       "home": "Serbia U19",
@@ -8086,7 +7157,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 172,
+      "rawIndex": 151,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8117,7 +7188,7 @@
     },
     {
       "goalooId": "3092823",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4807,
       "awayTeamId": 1541,
       "home": "Romania U19",
@@ -8136,7 +7207,7 @@
         "home": 2,
         "away": 4
       },
-      "rawIndex": 173,
+      "rawIndex": 152,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8167,7 +7238,7 @@
     },
     {
       "goalooId": "3093165",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 875,
       "awayTeamId": 783,
       "home": "Uzbekistan",
@@ -8186,7 +7257,7 @@
         "home": 3,
         "away": 3
       },
-      "rawIndex": 174,
+      "rawIndex": 153,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8217,7 +7288,7 @@
     },
     {
       "goalooId": "3094853",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 6168,
       "awayTeamId": 10043,
       "home": "Tunisia U17",
@@ -8236,11 +7307,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 175
+      "rawIndex": 154
     },
     {
       "goalooId": "3093728",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4275,
       "awayTeamId": 2316,
       "home": "Belarus U19",
@@ -8259,19 +7330,19 @@
         "home": 3,
         "away": 2
       },
-      "rawIndex": 176
+      "rawIndex": 155
     },
     {
       "goalooId": "3092825",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 10263,
       "awayTeamId": 22408,
       "home": "England U18",
       "away": "Colombia U18",
       "start": "2026-09-24 16:00:00",
-      "status": 2,
+      "status": 3,
       "score": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "red": {
@@ -8282,11 +7353,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 177
+      "rawIndex": 156
     },
     {
       "goalooId": "3094108",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4802,
       "awayTeamId": 4778,
       "home": "Finland U17",
@@ -8305,11 +7376,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 178
+      "rawIndex": 157
     },
     {
       "goalooId": "3093030",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4801,
       "awayTeamId": 5277,
       "home": "Poland U17",
@@ -8328,11 +7399,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 179
+      "rawIndex": 158
     },
     {
       "goalooId": "3093031",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4728,
       "awayTeamId": 4733,
       "home": "Sweden U17",
@@ -8351,11 +7422,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 180
+      "rawIndex": 159
     },
     {
       "goalooId": "3094762",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 2211,
       "awayTeamId": 5379,
       "home": "Belarus U17",
@@ -8374,11 +7445,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 181
+      "rawIndex": 160
     },
     {
       "goalooId": "3093032",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 4410,
       "awayTeamId": 4281,
       "home": "Poland U19",
@@ -8397,14 +7468,14 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 182,
+      "rawIndex": 161,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.25",
-          "home": 1.03,
-          "away": 0.78,
+          "line": "0",
+          "home": 0.78,
+          "away": 1.03,
           "marketId": "17726097"
         },
         "oneXTwo": {
@@ -8428,7 +7499,7 @@
     },
     {
       "goalooId": "3091495",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 913,
       "awayTeamId": 778,
       "home": "Australia",
@@ -8447,7 +7518,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 183,
+      "rawIndex": 162,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8478,7 +7549,7 @@
     },
     {
       "goalooId": "3094922",
-      "leagueIndex": 64,
+      "leagueIndex": 60,
       "homeTeamId": 2332,
       "awayTeamId": 20391,
       "home": "Greece U19",
@@ -8497,11 +7568,61 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 184
+      "rawIndex": 163
+    },
+    {
+      "goalooId": "3059198",
+      "leagueIndex": 61,
+      "homeTeamId": 20308,
+      "awayTeamId": 20313,
+      "home": "Barnsley U21",
+      "away": "Sheffield Utd U21",
+      "start": "2026-09-25 12:00:00",
+      "status": 0,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "red": {
+        "home": 0,
+        "away": 0
+      },
+      "yellow": {
+        "home": 0,
+        "away": 0
+      },
+      "rawIndex": 164,
+      "bet365": {
+        "company": "Bet365",
+        "companyId": 8,
+        "handicap": {
+          "line": "-0.25",
+          "home": 0.93,
+          "away": 0.88,
+          "marketId": "17726838"
+        },
+        "oneXTwo": {
+          "home": 2.63,
+          "draw": 4.2,
+          "away": 2,
+          "marketId": "158097626"
+        },
+        "overUnder": {
+          "line": "3.5",
+          "over": 0.9,
+          "under": 0.9,
+          "marketId": "20492451"
+        },
+        "marketState": {
+          "handicap": "0",
+          "oneXTwo": "0",
+          "overUnder": "0"
+        }
+      }
     },
     {
       "goalooId": "3008842",
-      "leagueIndex": 65,
+      "leagueIndex": 62,
       "homeTeamId": 10527,
       "awayTeamId": 11055,
       "home": "Sparta Praha U19",
@@ -8520,7 +7641,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 185,
+      "rawIndex": 165,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8551,7 +7672,7 @@
     },
     {
       "goalooId": "3008835",
-      "leagueIndex": 65,
+      "leagueIndex": 62,
       "homeTeamId": 10491,
       "awayTeamId": 10473,
       "home": "Brno U19",
@@ -8570,11 +7691,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 186
+      "rawIndex": 166
     },
     {
       "goalooId": "3085351",
-      "leagueIndex": 66,
+      "leagueIndex": 63,
       "homeTeamId": 37722,
       "awayTeamId": 47093,
       "home": "Ho Chi Minh City",
@@ -8593,7 +7714,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 187,
+      "rawIndex": 167,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8623,277 +7744,8 @@
       }
     },
     {
-      "goalooId": "3005658",
-      "leagueIndex": 67,
-      "homeTeamId": 63039,
-      "awayTeamId": 15340,
-      "home": "Detonit Plachkovica",
-      "away": "FK Ohrid 2004",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 0,
-        "away": 2
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 1
-      },
-      "rawIndex": 188,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "-0.25",
-          "home": 0.8,
-          "away": 1,
-          "marketId": "17721297"
-        },
-        "oneXTwo": {
-          "home": 2.8,
-          "draw": 3.2,
-          "away": 2.25,
-          "marketId": "158062507"
-        },
-        "overUnder": {
-          "line": "2.25",
-          "over": 0.93,
-          "under": 0.88,
-          "marketId": "20484661"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3005664",
-      "leagueIndex": 67,
-      "homeTeamId": 10929,
-      "awayTeamId": 2557,
-      "home": "FK Teteks Tetovo",
-      "away": "Rabotnicki Skopje",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 0,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 2
-      },
-      "rawIndex": 189,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "-0.5",
-          "home": 0.95,
-          "away": 0.85,
-          "marketId": "17719462"
-        },
-        "oneXTwo": {
-          "home": 4,
-          "draw": 3.25,
-          "away": 1.8,
-          "marketId": "158048866"
-        },
-        "overUnder": {
-          "line": "2.25",
-          "over": 0.93,
-          "under": 0.88,
-          "marketId": "20482248"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3092826",
-      "leagueIndex": 68,
-      "homeTeamId": 26232,
-      "awayTeamId": 80427,
-      "home": "Al-Sharjah U21",
-      "away": "Madenat FC U21",
-      "start": "2026-09-24 13:25:00",
-      "status": -1,
-      "score": {
-        "home": 13,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 0
-      },
-      "rawIndex": 190
-    },
-    {
-      "goalooId": "3092828",
-      "leagueIndex": 68,
-      "homeTeamId": 41354,
-      "awayTeamId": 31268,
-      "home": "Al Arabi Umm Al Quwain U21",
-      "away": "Baniyas SC U21",
-      "start": "2026-09-24 13:25:00",
-      "status": -1,
-      "score": {
-        "home": 0,
-        "away": 7
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 1
-      },
-      "rawIndex": 191
-    },
-    {
-      "goalooId": "3092829",
-      "leagueIndex": 68,
-      "homeTeamId": 80587,
-      "awayTeamId": 26194,
-      "home": "Al-Thaid U21",
-      "away": "Shabab Dubai U21",
-      "start": "2026-09-24 13:25:00",
-      "status": -1,
-      "score": {
-        "home": 2,
-        "away": 1
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 3,
-        "away": 2
-      },
-      "rawIndex": 192,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "-0.75",
-          "home": 0.95,
-          "away": 0.85,
-          "marketId": "17722650"
-        },
-        "oneXTwo": {
-          "home": 3.4,
-          "draw": 4.5,
-          "away": 1.67,
-          "marketId": "158070755"
-        },
-        "overUnder": {
-          "line": "3.5",
-          "over": 1,
-          "under": 0.8,
-          "marketId": "20486509"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3092830",
-      "leagueIndex": 68,
-      "homeTeamId": 26195,
-      "awayTeamId": 26197,
-      "home": "Wasl Dubai U21",
-      "away": "Al Fujairah U21",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 3,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 1,
-        "away": 1
-      },
-      "rawIndex": 193
-    },
-    {
-      "goalooId": "3092831",
-      "leagueIndex": 68,
-      "homeTeamId": 26233,
-      "awayTeamId": 41355,
-      "home": "Al-Jazira(UAE) U21",
-      "away": "AL Orooba U21",
-      "start": "2026-09-24 13:30:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 3
-      },
-      "rawIndex": 194,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "1.25",
-          "home": 0.95,
-          "away": 0.85,
-          "marketId": "17722595"
-        },
-        "oneXTwo": {
-          "home": 1.48,
-          "draw": 4.33,
-          "away": 4.75,
-          "marketId": "158070382"
-        },
-        "overUnder": {
-          "line": "3.5",
-          "over": 0.8,
-          "under": 1,
-          "marketId": "20486445"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
       "goalooId": "3092827",
-      "leagueIndex": 68,
+      "leagueIndex": 64,
       "homeTeamId": 80429,
       "awayTeamId": 80586,
       "home": "Al Shahama U21",
@@ -8912,11 +7764,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 195
+      "rawIndex": 168
     },
     {
       "goalooId": "3094866",
-      "leagueIndex": 69,
+      "leagueIndex": 65,
       "homeTeamId": 61246,
       "awayTeamId": 53664,
       "home": "CD Marathon Reserves",
@@ -8935,7 +7787,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 196,
+      "rawIndex": 169,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -8966,7 +7818,7 @@
     },
     {
       "goalooId": "3094828",
-      "leagueIndex": 69,
+      "leagueIndex": 65,
       "homeTeamId": 80296,
       "awayTeamId": 75247,
       "home": "Estrella Roja Reserves",
@@ -8985,7 +7837,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 197,
+      "rawIndex": 170,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9016,7 +7868,7 @@
     },
     {
       "goalooId": "3093039",
-      "leagueIndex": 70,
+      "leagueIndex": 66,
       "homeTeamId": 5042,
       "awayTeamId": 70421,
       "home": "Armed Forces FC",
@@ -9035,7 +7887,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 198,
+      "rawIndex": 171,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9065,8 +7917,31 @@
       }
     },
     {
+      "goalooId": "3093040",
+      "leagueIndex": 66,
+      "homeTeamId": 75206,
+      "awayTeamId": 75268,
+      "home": "Kelantan WTS FC",
+      "away": "Kedah FA",
+      "start": "2026-09-25 12:45:00",
+      "status": 0,
+      "score": {
+        "home": 0,
+        "away": 0
+      },
+      "red": {
+        "home": 0,
+        "away": 0
+      },
+      "yellow": {
+        "home": 0,
+        "away": 0
+      },
+      "rawIndex": 172
+    },
+    {
       "goalooId": "3071634",
-      "leagueIndex": 71,
+      "leagueIndex": 67,
       "homeTeamId": 1984,
       "awayTeamId": 1890,
       "home": "Danubio FC",
@@ -9085,7 +7960,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 199,
+      "rawIndex": 173,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9096,9 +7971,9 @@
           "marketId": "17723809"
         },
         "oneXTwo": {
-          "home": 2.38,
+          "home": 2.6,
           "draw": 3.1,
-          "away": 2.75,
+          "away": 2.5,
           "marketId": "158079119"
         },
         "overUnder": {
@@ -9116,7 +7991,7 @@
     },
     {
       "goalooId": "3071635",
-      "leagueIndex": 71,
+      "leagueIndex": 67,
       "homeTeamId": 27000,
       "awayTeamId": 11168,
       "home": "Montevideo City Torque",
@@ -9135,7 +8010,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 200,
+      "rawIndex": 174,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9166,7 +8041,7 @@
     },
     {
       "goalooId": "3095114",
-      "leagueIndex": 72,
+      "leagueIndex": 68,
       "homeTeamId": 74775,
       "awayTeamId": 69772,
       "home": "Jiangxi Lushan U21",
@@ -9185,7 +8060,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 201,
+      "rawIndex": 175,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9216,7 +8091,7 @@
     },
     {
       "goalooId": "3095115",
-      "leagueIndex": 72,
+      "leagueIndex": 68,
       "homeTeamId": 62133,
       "awayTeamId": 78649,
       "home": "Qingdao Hainiu U21",
@@ -9235,7 +8110,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 202,
+      "rawIndex": 176,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9266,7 +8141,7 @@
     },
     {
       "goalooId": "3095116",
-      "leagueIndex": 72,
+      "leagueIndex": 68,
       "homeTeamId": 74772,
       "awayTeamId": 78677,
       "home": "Yunnan Yukun U21",
@@ -9285,7 +8160,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 203,
+      "rawIndex": 177,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9316,7 +8191,7 @@
     },
     {
       "goalooId": "3095117",
-      "leagueIndex": 72,
+      "leagueIndex": 68,
       "homeTeamId": 62161,
       "awayTeamId": 74773,
       "home": "Nantong Zhiyun U21",
@@ -9335,7 +8210,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 204,
+      "rawIndex": 178,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9366,7 +8241,7 @@
     },
     {
       "goalooId": "3095118",
-      "leagueIndex": 72,
+      "leagueIndex": 68,
       "homeTeamId": 78676,
       "awayTeamId": 74774,
       "home": "Wenzhou Yincai U21",
@@ -9385,7 +8260,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 205,
+      "rawIndex": 179,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9416,7 +8291,7 @@
     },
     {
       "goalooId": "3094890",
-      "leagueIndex": 73,
+      "leagueIndex": 69,
       "homeTeamId": 17404,
       "awayTeamId": 56084,
       "home": "FC Bole",
@@ -9435,7 +8310,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 206,
+      "rawIndex": 180,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9466,7 +8341,7 @@
     },
     {
       "goalooId": "3094891",
-      "leagueIndex": 73,
+      "leagueIndex": 69,
       "homeTeamId": 67549,
       "awayTeamId": 74004,
       "home": "FC Saint-Blaise",
@@ -9485,7 +8360,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 207,
+      "rawIndex": 181,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9516,7 +8391,7 @@
     },
     {
       "goalooId": "3071530",
-      "leagueIndex": 74,
+      "leagueIndex": 70,
       "homeTeamId": 2355,
       "awayTeamId": 1438,
       "home": "Italy U20",
@@ -9535,7 +8410,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 208,
+      "rawIndex": 182,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9566,7 +8441,7 @@
     },
     {
       "goalooId": "3094867",
-      "leagueIndex": 75,
+      "leagueIndex": 71,
       "homeTeamId": 59797,
       "awayTeamId": 13506,
       "home": "Picuiense",
@@ -9585,7 +8460,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 209,
+      "rawIndex": 183,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9616,7 +8491,7 @@
     },
     {
       "goalooId": "3094905",
-      "leagueIndex": 75,
+      "leagueIndex": 71,
       "homeTeamId": 22753,
       "awayTeamId": 31652,
       "home": "Santa Rita",
@@ -9635,7 +8510,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 210,
+      "rawIndex": 184,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9666,7 +8541,7 @@
     },
     {
       "goalooId": "3094870",
-      "leagueIndex": 76,
+      "leagueIndex": 72,
       "homeTeamId": 59571,
       "awayTeamId": 9476,
       "home": "Miguelense FC U20",
@@ -9685,7 +8560,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 211,
+      "rawIndex": 185,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9716,7 +8591,7 @@
     },
     {
       "goalooId": "3082586",
-      "leagueIndex": 77,
+      "leagueIndex": 73,
       "homeTeamId": 7573,
       "awayTeamId": 78331,
       "home": "Dinamo Barnaul",
@@ -9735,11 +8610,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 212
+      "rawIndex": 186
     },
     {
       "goalooId": "3094844",
-      "leagueIndex": 78,
+      "leagueIndex": 74,
       "homeTeamId": 76613,
       "awayTeamId": 76490,
       "home": "CR Belouizdad U20",
@@ -9758,14 +8633,14 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 213,
+      "rawIndex": 187,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "1",
-          "home": 1,
-          "away": 0.8,
+          "home": 0.85,
+          "away": 0.95,
           "marketId": "17724592"
         },
         "oneXTwo": {
@@ -9789,7 +8664,7 @@
     },
     {
       "goalooId": "3094894",
-      "leagueIndex": 78,
+      "leagueIndex": 74,
       "homeTeamId": 76485,
       "awayTeamId": 76512,
       "home": "JS Kabylie U20",
@@ -9808,14 +8683,14 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 214,
+      "rawIndex": 188,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "1",
-          "home": 0.85,
-          "away": 0.95,
+          "line": "1.25",
+          "home": 0.98,
+          "away": 0.83,
           "marketId": "17724806"
         },
         "oneXTwo": {
@@ -9825,9 +8700,9 @@
           "marketId": "158086577"
         },
         "overUnder": {
-          "line": "2.75",
-          "over": 0.78,
-          "under": 1.03,
+          "line": "3",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20489484"
         },
         "marketState": {
@@ -9839,7 +8714,7 @@
     },
     {
       "goalooId": "3094895",
-      "leagueIndex": 78,
+      "leagueIndex": 74,
       "homeTeamId": 76486,
       "awayTeamId": 76489,
       "home": "Olympique Akbou U20",
@@ -9858,20 +8733,20 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 215,
+      "rawIndex": 189,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "-0.5",
-          "home": 0.85,
-          "away": 0.95,
+          "line": "-0.25",
+          "home": 0.95,
+          "away": 0.85,
           "marketId": "17724901"
         },
         "oneXTwo": {
-          "home": 3.6,
-          "draw": 3.25,
-          "away": 1.91,
+          "home": 3.1,
+          "draw": 3.2,
+          "away": 2.1,
           "marketId": "158087759"
         },
         "overUnder": {
@@ -9889,7 +8764,7 @@
     },
     {
       "goalooId": "3094896",
-      "leagueIndex": 78,
+      "leagueIndex": 74,
       "homeTeamId": 76492,
       "awayTeamId": 76491,
       "home": "JS El Biar U20",
@@ -9908,7 +8783,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 216,
+      "rawIndex": 190,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9939,7 +8814,7 @@
     },
     {
       "goalooId": "3094898",
-      "leagueIndex": 78,
+      "leagueIndex": 74,
       "homeTeamId": 76493,
       "awayTeamId": 76612,
       "home": "MC Alger U20",
@@ -9958,7 +8833,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 217,
+      "rawIndex": 191,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
@@ -9989,7 +8864,7 @@
     },
     {
       "goalooId": "3045544",
-      "leagueIndex": 79,
+      "leagueIndex": 75,
       "homeTeamId": 76606,
       "awayTeamId": 76597,
       "home": "Xiangtan Football Team",
@@ -10008,11 +8883,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 218
+      "rawIndex": 192
     },
     {
       "goalooId": "3045545",
-      "leagueIndex": 79,
+      "leagueIndex": 75,
       "homeTeamId": 76604,
       "awayTeamId": 76600,
       "home": "Shaoyang Football Team",
@@ -10031,11 +8906,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 219
+      "rawIndex": 193
     },
     {
       "goalooId": "3094760",
-      "leagueIndex": 80,
+      "leagueIndex": 76,
       "homeTeamId": 80681,
       "awayTeamId": 79756,
       "home": "Toukolan Teras U21",
@@ -10043,8 +8918,8 @@
       "start": "2026-09-24 17:00:00",
       "status": 1,
       "score": {
-        "home": 0,
-        "away": 0
+        "home": 1,
+        "away": 1
       },
       "red": {
         "home": 0,
@@ -10054,26 +8929,26 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 220,
+      "rawIndex": 194,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "1",
-          "home": 0.83,
-          "away": 0.98,
+          "home": 1.03,
+          "away": 0.78,
           "marketId": "17721850"
         },
         "oneXTwo": {
-          "home": 1.57,
-          "draw": 4.75,
-          "away": 4.33,
+          "home": 1.61,
+          "draw": 4.5,
+          "away": 3.75,
           "marketId": "158064170"
         },
         "overUnder": {
-          "line": "3.75",
-          "over": 0.85,
-          "under": 0.95,
+          "line": "5.5",
+          "over": 0.98,
+          "under": 0.83,
           "marketId": "20485364"
         },
         "marketState": {
@@ -10085,7 +8960,7 @@
     },
     {
       "goalooId": "3089933",
-      "leagueIndex": 81,
+      "leagueIndex": 77,
       "homeTeamId": 78269,
       "awayTeamId": 80560,
       "home": "Liangping",
@@ -10104,11 +8979,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 221
+      "rawIndex": 195
     },
     {
       "goalooId": "3089934",
-      "leagueIndex": 81,
+      "leagueIndex": 77,
       "homeTeamId": 80536,
       "awayTeamId": 80553,
       "home": "Wushan Red Leaf",
@@ -10127,11 +9002,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 222
+      "rawIndex": 196
     },
     {
       "goalooId": "3089935",
-      "leagueIndex": 82,
+      "leagueIndex": 78,
       "homeTeamId": 78265,
       "awayTeamId": 80562,
       "home": "Jiangjin",
@@ -10150,11 +9025,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 223
+      "rawIndex": 197
     },
     {
       "goalooId": "3089936",
-      "leagueIndex": 83,
+      "leagueIndex": 79,
       "homeTeamId": 80537,
       "awayTeamId": 80539,
       "home": "Wanzhou Pegasus",
@@ -10173,147 +9048,47 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 224
-    },
-    {
-      "goalooId": "3094872",
-      "leagueIndex": 84,
-      "homeTeamId": 80684,
-      "awayTeamId": 66299,
-      "home": "Al-Arabi Doha U20",
-      "away": "Al Duhail U20",
-      "start": "2026-09-24 13:45:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 3
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 0,
-        "away": 5
-      },
-      "rawIndex": 225,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.75",
-          "home": 0.8,
-          "away": 1,
-          "marketId": "17724750"
-        },
-        "oneXTwo": {
-          "home": 1.62,
-          "draw": 4.5,
-          "away": 3.6,
-          "marketId": "158086443"
-        },
-        "overUnder": {
-          "line": "3.25",
-          "over": 0.9,
-          "under": 0.9,
-          "marketId": "20489422"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
-    },
-    {
-      "goalooId": "3094904",
-      "leagueIndex": 84,
-      "homeTeamId": 80686,
-      "awayTeamId": 80415,
-      "home": "Umm Salal U20",
-      "away": "Al Markhiya U20",
-      "start": "2026-09-24 13:45:00",
-      "status": -1,
-      "score": {
-        "home": 1,
-        "away": 0
-      },
-      "red": {
-        "home": 0,
-        "away": 0
-      },
-      "yellow": {
-        "home": 2,
-        "away": 1
-      },
-      "rawIndex": 226,
-      "bet365": {
-        "company": "Bet365",
-        "companyId": 8,
-        "handicap": {
-          "line": "0.25",
-          "home": 0.93,
-          "away": 0.88,
-          "marketId": "17724799"
-        },
-        "oneXTwo": {
-          "home": 2.1,
-          "draw": 3.75,
-          "away": 2.7,
-          "marketId": "158086570"
-        },
-        "overUnder": {
-          "line": "3",
-          "over": 0.9,
-          "under": 0.9,
-          "marketId": "20489477"
-        },
-        "marketState": {
-          "handicap": "0",
-          "oneXTwo": "0",
-          "overUnder": "0"
-        }
-      }
+      "rawIndex": 198
     },
     {
       "goalooId": "3094797",
-      "leagueIndex": 84,
+      "leagueIndex": 80,
       "homeTeamId": 80412,
       "awayTeamId": 80416,
       "home": "Al-Sadd SC U20",
       "away": "Al Mesaimeer SC U20",
       "start": "2026-09-24 15:55:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 2,
-        "away": 1
+        "away": 2
       },
       "red": {
         "home": 0,
         "away": 0
       },
       "yellow": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
-      "rawIndex": 227,
+      "rawIndex": 199,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.75",
+          "line": "0.5",
           "home": 1.03,
           "away": 0.78,
           "marketId": "17722168"
         },
         "oneXTwo": {
-          "home": 1.16,
-          "draw": 6,
-          "away": 11,
+          "home": 2,
+          "draw": 2.62,
+          "away": 4.75,
           "marketId": "158067412"
         },
         "overUnder": {
-          "line": "4.75",
+          "line": "5.25",
           "over": 0.8,
           "under": 1,
           "marketId": "20485838"
@@ -10327,13 +9102,13 @@
     },
     {
       "goalooId": "3094803",
-      "leagueIndex": 84,
+      "leagueIndex": 80,
       "homeTeamId": 80682,
       "awayTeamId": 80414,
       "home": "Al Gharafa U20",
       "away": "Al-Khor SC U20",
       "start": "2026-09-24 15:55:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 1,
         "away": 0
@@ -10346,26 +9121,26 @@
         "home": 0,
         "away": 1
       },
-      "rawIndex": 228,
+      "rawIndex": 200,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
-          "line": "0.5",
-          "home": 1.03,
-          "away": 0.78,
+          "line": "0.25",
+          "home": 0.88,
+          "away": 0.93,
           "marketId": "17722167"
         },
         "oneXTwo": {
-          "home": 1.14,
-          "draw": 6,
-          "away": 13,
+          "home": 1.12,
+          "draw": 6.5,
+          "away": 17,
           "marketId": "158067411"
         },
         "overUnder": {
-          "line": "2.25",
-          "over": 0.9,
-          "under": 0.9,
+          "line": "1.75",
+          "over": 0.75,
+          "under": 1.05,
           "marketId": "20485836"
         },
         "marketState": {
@@ -10377,13 +9152,13 @@
     },
     {
       "goalooId": "3094903",
-      "leagueIndex": 84,
+      "leagueIndex": 80,
       "homeTeamId": 80685,
       "awayTeamId": 66300,
       "home": "Al-Wakrah SC U20",
       "away": "Qatar SC Doha U20",
       "start": "2026-09-24 15:55:00",
-      "status": 2,
+      "status": 3,
       "score": {
         "home": 0,
         "away": 1
@@ -10393,29 +9168,29 @@
         "away": 0
       },
       "yellow": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
-      "rawIndex": 229,
+      "rawIndex": 201,
       "bet365": {
         "company": "Bet365",
         "companyId": 8,
         "handicap": {
           "line": "-0.25",
-          "home": 0.88,
-          "away": 0.93,
+          "home": 0.73,
+          "away": 1.08,
           "marketId": "17724798"
         },
         "oneXTwo": {
-          "home": 10,
+          "home": 12,
           "draw": 5,
-          "away": 1.25,
+          "away": 1.2,
           "marketId": "158086569"
         },
         "overUnder": {
-          "line": "2.25",
-          "over": 0.8,
-          "under": 1,
+          "line": "2",
+          "over": 1,
+          "under": 0.8,
           "marketId": "20489476"
         },
         "marketState": {
@@ -10427,7 +9202,7 @@
     },
     {
       "goalooId": "3094834",
-      "leagueIndex": 85,
+      "leagueIndex": 81,
       "homeTeamId": 74954,
       "awayTeamId": 80658,
       "home": "Shenzhen 2028 Yushi U15",
@@ -10446,11 +9221,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 230
+      "rawIndex": 202
     },
     {
       "goalooId": "3094835",
-      "leagueIndex": 85,
+      "leagueIndex": 81,
       "homeTeamId": 75003,
       "awayTeamId": 80667,
       "home": "ZhengZhou NO.2 Middle School U15",
@@ -10469,11 +9244,11 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 231
+      "rawIndex": 203
     },
     {
       "goalooId": "3094833",
-      "leagueIndex": 85,
+      "leagueIndex": 81,
       "homeTeamId": 80659,
       "awayTeamId": 80657,
       "home": "Jiangsu U15",
@@ -10492,7 +9267,7 @@
         "home": 0,
         "away": 0
       },
-      "rawIndex": 232
+      "rawIndex": 204
     }
   ]
 }
